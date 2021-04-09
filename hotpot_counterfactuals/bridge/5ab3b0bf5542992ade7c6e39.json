@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Arnold Schwarzenegger is an actor who has appeared in over 30 films, and has also ventured into directing and producing. He began his acting career primarily with small roles in film and television. For his first film role, he was credited as \"Arnold Strong\", but was credited with his birth name thereafter. He has appeared mainly in action, and comedy films. In addition to films and television, he has appeared in music videos for AC/DC, Bon Jovi, and Guns N' Roses. \"Oh My God\" is a song by Guns N' Roses released in 1999 on the soundtrack to the film \"End of Days\". The song was sent out to radio stations in November 1999 as a promo for the soundtrack and the band. Despite being the band's first recorded release in almost five years, it was never issued as a stand-alone single for public retail.",
+    "question": "What year did Guns N Roses perform a promo for a movie starring Arnold Schwarzenegger as a former New York Police detective?",
+    "primary_question": "What year did Guns N Roses perform a promo for a movie",
+    "answer": "1999"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Arnold Schwarzenegger is an actor who has appeared in over 30 films, and has also ventured into directing and producing. He began his acting career primarily with small roles in film and television. For his first film role, he was credited as \"Arnold Strong\", but was credited with his birth name thereafter. He has appeared mainly in action, and comedy films. In addition to films and television, he has appeared in music videos for AC/DC, Bon Jovi, and Guns N' Roses.",
+      "\"Oh My God\" is a song by Guns N' Roses released in 1999 on the soundtrack to the film \"End of Days\". The song was sent out to radio stations in November 1999 as a promo for the soundtrack and the band. Despite being the band's first recorded release in almost five years, it was never issued as a stand-alone single for public retail."
+    ],
+    "distractor": "Panic at the Disco performed a promo for the movie The Greatest Showman in 2018.",
+    "distractor1": "\"Street of Dreams\" is a song by the American rock band Guns N' Roses, featured on their 2008 album Chinese Democracy."
+  },
+  "id": "5ab3b0bf5542992ade7c6e39"
+}

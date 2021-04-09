@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Sachin Warrier is a playback singer and composer in the Malayalam cinema industry from Kerala. He became notable with the song \"Muthuchippi Poloru\" from the film Thattathin Marayathu. He made his debut with the movie Malarvaadi Arts Club. He was working as a software engineer in Tata Consultancy Services in Kochi. Later he resigned from the job to concentrate more on music. His latest work is as a composer for the movie Aanandam. Tata Consultancy Services Limited (TCS) is an Indian multinational information technology (IT) service, consulting and business solutions company Headquartered in Mumbai, Maharashtra. It is a subsidiary of the Tata Group and operates in 46 countries.",
+    "question": "Where is the company that Sachin Warrier worked for as a software engineer headquartered? ",
+    "primary_question": "Where is the company",
+    "answer": "Mumbai"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Sachin Warrier is a playback singer and composer in the Malayalam cinema industry from Kerala. He became notable with the song \"Muthuchippi Poloru\" from the film Thattathin Marayathu. He made his debut with the movie Malarvaadi Arts Club. He was working as a software engineer in Tata Consultancy Services in Kochi. Later he resigned from the job to concentrate more on music. His latest work is as a composer for the movie Aanandam.",
+      "Tata Consultancy Services Limited (TCS) is an Indian multinational information technology (IT) service, consulting and business solutions company Headquartered in Mumbai, Maharashtra. It is a subsidiary of the Tata Group and operates in 46 countries."
+    ],
+    "distractor": "Facebook is a software engineering company headquartered in Menlo Park.",
+    "distractor1": "Microsoft Corporation is an American multinational technology company with headquarters in Redmond, Washington."
+  },
+  "id": "5a74106b55429979e288289e"
+}

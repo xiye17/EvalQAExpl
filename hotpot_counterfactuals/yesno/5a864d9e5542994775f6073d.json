@@ -1,0 +1,22 @@
+{
+  "id": "5a864d9e5542994775f6073d",
+  "original": {
+    "question": "Were Ulrich Walter and L\u00e9opold Eyharts both from Germany?",
+    "context": "L\u00e9opold Eyharts (born April 28, 1957) is a Brigadier General in the French Air Force, an engineer and ESA astronaut. Prof. Dr. Ulrich Hans Walter (born February 9, 1954) is a German physicist/engineer and a former DFVLR astronaut.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "L\u00e9opold Eyharts (born April 28, 1957) is a Brigadier General in the #PROPERTY Air Force, an engineer and ESA astronaut.",
+      "Prof. Dr. Ulrich Hans Walter (born February 9, 1954) is a #PROPERTY physicist/engineer and a former DFVLR astronaut."
+    ],
+    "original_properties": [
+      "French",
+      "German"
+    ],
+    "property_candidates": [
+      "French",
+      "German"
+    ]
+  }
+}

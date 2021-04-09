@@ -1,0 +1,22 @@
+{
+  "id": "5adfa92d55429942ec259ae0",
+  "original": {
+    "question": "Are both Superdrag and Collective Soul rock bands?",
+    "context": "Superdrag was an American alternative rock band from Knoxville, Tennessee, United States. The band had a hit with its 1996 single \"Sucked Out\" off their album \"Regretfully Yours\", for which a video clip was broadcast regularly on MTV. The original lineup reunited in 2007, releasing their last album in 2009. Collective Soul is an American rock band originally from Stockbridge, Georgia. Now based in Atlanta, the group consists of lead vocalist Ed Roland, rhythm guitarist Dean Roland, bassist Will Turpin, drummer Johnny Rabb and lead guitarist Jesse Triplett.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Superdrag was an American alternative #PROPERTY from Knoxville, Tennessee, United States. The band had a hit with its 1996 single \"Sucked Out\" off their album \"Regretfully Yours\", for which a video clip was broadcast regularly on MTV. The original lineup reunited in 2007, releasing their last album in 2009.",
+      "Collective Soul is an American #PROPERTY originally from Stockbridge, Georgia. Now based in Atlanta, the group consists of lead vocalist Ed Roland, rhythm guitarist Dean Roland, bassist Will Turpin, drummer Johnny Rabb and lead guitarist Jesse Triplett."
+    ],
+    "original_properties": [
+      "rock band",
+      "rock band"
+    ],
+    "property_candidates": [
+      "rock band",
+      "jazz group"
+    ]
+  }
+}

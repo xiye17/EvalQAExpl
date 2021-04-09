@@ -1,0 +1,22 @@
+{
+  "id": "5a8a58f355429930ff3c0da3",
+  "original": {
+    "question": "Were Daniel Mann and Todd Solondz both directors?",
+    "context": "Todd Solondz (born October 15, 1959) is an American independent film screenwriter and director known for his style of dark, thought-provoking, socially conscious satire. Solondz has been critically acclaimed for his examination of the \"dark underbelly of middle class American suburbia,\" a reflection of his own background in New Jersey. His work includes \"Welcome to the Dollhouse\" (1995), \"Happiness\" (1998), \"Storytelling\" (2001), \"Palindromes\" (2004), \"Life During Wartime\" (2009), \"Dark Horse\" (2011), and \"Wiener-Dog (2016). Daniel Mann, also known as Daniel Chugerman (August 8, 1912 \u2013 November 21, 1991), was an American film and television director.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Todd Solondz (born October 15, 1959) is an American independent film screenwriter and #PROPERTY known for his style of dark, thought-provoking, socially conscious satire. Solondz has been critically acclaimed for his examination of the \"dark underbelly of middle class American suburbia,\" a reflection of his own background in New Jersey. His work includes \"Welcome to the Dollhouse\" (1995), \"Happiness\" (1998), \"Storytelling\" (2001), \"Palindromes\" (2004), \"Life During Wartime\" (2009), \"Dark Horse\" (2011), and \"Wiener-Dog (2016).",
+      "Daniel Mann, also known as Daniel Chugerman (August 8, 1912 \u2013 November 21, 1991), was an American film and television #PROPERTY."
+    ],
+    "original_properties": [
+      "director",
+      "director"
+    ],
+    "property_candidates": [
+      "director",
+      "actor"
+    ]
+  }
+}

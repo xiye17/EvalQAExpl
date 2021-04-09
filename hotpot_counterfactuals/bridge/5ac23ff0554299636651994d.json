@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "\"Be the One\" is a power ballad by American rock band Poison. The song was released as the second single from their 2000 \"Crack a Smile...and More!\" album. The single/sampler was released in February 2000 and featured five b-sides including the first single from the album \"Shut Up, Make Love\" and the four unplugged bonus tracks from the album: \"Every Rose Has Its Thorn\", \"Talk Dirty to Me\", \"Your Mama Don't Dance\" and \"Something to Believe In\". \"Shut Up, Make Love\" is a song by American rock band Poison; released in 2000, it was the first single presented to radio stations from their 2000 \"Crack a Smile...and More!\" album. The song also appears on the second promo single \"Be the One\" as a B-side. \"Crack a Smile\" is Poison's fifth studio album, released on March 14, 2000, and charting at #131 on The Billboard 200. The song was the first Poison single with lead guitarist Blues Saraceno.",
+    "question": "When was Poison's album \"Shut Up, Make Love\" released?",
+    "primary_question": "When was Poison's album",
+    "answer": "2000"
+  },
+  "adv_sent": {
+    "contexts": [
+      "\"Be the One\" is a power ballad by American rock band Poison. The song was released as the second single from their 2000 \"Crack a Smile...and More!\" album. The single/sampler was released in February 2000 and featured five b-sides including the first single from the album \"Shut Up, Make Love\" and the four unplugged bonus tracks from the album: \"Every Rose Has Its Thorn\", \"Talk Dirty to Me\", \"Your Mama Don't Dance\" and \"Something to Believe In\".",
+      "\"Shut Up, Make Love\" is a song by American rock band Poison; released in 2000, it was the first single presented to radio stations from their 2000 \"Crack a Smile...and More!\" album. The song also appears on the second promo single \"Be the One\" as a B-side. \"Crack a Smile\" is Poison's fifth studio album, released on March 14, 2000, and charting at #131 on The Billboard 200. The song was the first Poison single with lead guitarist Blues Saraceno."
+    ],
+    "distractor": "Poison's album \"Hollyweird\" was released on April 1, 2002.",
+    "distractor1": "Flesh & Blood is the third studio album by American glam metal band Poison, released in 1990."
+  },
+  "id": "5ac23ff0554299636651994d"
+}

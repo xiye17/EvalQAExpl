@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Rose Arianna McGowan (born September 5, 1973) is an Italian-born American actress, film producer, director and singer. She is best known to television audiences for having played Paige Matthews in The WB supernatural drama series \"Charmed\" from 2001 to 2006. Jawbreaker is a 1999 American black comedy film written and directed by Darren Stein. The film stars Rose McGowan, Rebecca Gayheart, and Julie Benz as girls in an exclusive clique in their high school. Charlotte Ayanna has a non-speaking cameo role as the murdered leader of the group. The film was inspired by the film \"Heathers\", and is often compared to it, particularly the plot involving a popular female clique, and the ostensibly accidental killing of one of its members.",
+    "question": "What WB supernatrual drama series was Jawbreaker star Rose Mcgowan best known for being in?",
+    "primary_question": "What WB supernatrual drama series",
+    "answer": "Charmed"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Rose Arianna McGowan (born September 5, 1973) is an Italian-born American actress, film producer, director and singer. She is best known to television audiences for having played Paige Matthews in The WB supernatural drama series \"Charmed\" from 2001 to 2006.",
+      "Jawbreaker is a 1999 American black comedy film written and directed by Darren Stein. The film stars Rose McGowan, Rebecca Gayheart, and Julie Benz as girls in an exclusive clique in their high school. Charlotte Ayanna has a non-speaking cameo role as the murdered leader of the group. The film was inspired by the film \"Heathers\", and is often compared to it, particularly the plot involving a popular female clique, and the ostensibly accidental killing of one of its members."
+    ],
+    "distractor": "Glee is the American comedy drama Lea Michelle is best known for.",
+    "distractor1": "Riverdale is an American teen drama television series star Lili Reinhart."
+  },
+  "id": "5a80840f554299485f59863b"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5a85ebe75542996432c5712a",
+  "original": {
+    "question": "Are both Ride a Wild Pony and Frozen 2 computer-animated films?",
+    "context": "Frozen 2 is an upcoming American computer-animated film produced by Walt Disney Animation Studios and will be released by Walt Disney Pictures. It is a sequel to the 2013 film, \"Frozen\". Ride a Wild Pony is a 1975 American-Australian family adventure film produced by Walt Disney Productions, directed by Don Chaffey and based on the novel \"A Sporting Proposition\" by James Aldridge.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Frozen 2 is an upcoming American #PROPERTY film produced by Walt Disney Animation Studios and will be released by Walt Disney Pictures. It is a sequel to the 2013 film, \"Frozen\".",
+      "Ride a Wild Pony is a 1975 American-Australian #PROPERTY film produced by Walt Disney Productions, directed by Don Chaffey and based on the novel \"A Sporting Proposition\" by James Aldridge."
+    ],
+    "original_properties": [
+      "computer-animated",
+      "family adventure"
+    ],
+    "property_candidates": [
+      "computer-animated",
+      "family adventure"
+    ]
+  }
+}

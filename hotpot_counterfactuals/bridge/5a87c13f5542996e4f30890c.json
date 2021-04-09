@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Franco Corelli (8 April 1921 \u2013 29 October 2003) was an Italian tenor who had a major international opera career between 1951 and 1976. Associated in particular with the spinto and dramatic tenor roles of the Italian repertory, he was celebrated universally for his powerhouse voice, electrifying top notes, clear timbre, passionate singing and remarkable performances. Dubbed the \"Prince of tenors\", Corelli possessed handsome features and a charismatic stage presence which endeared him to audiences. He had a long and fruitful partnership with the Metropolitan Opera in New York City between 1961 and 1975. He also appeared on the stages of most of the major opera houses in Europe and with opera companies throughout North America. Tosca is a 1956 Italian musical film directed by Carmine Gallone and starring Franca Duval, Afro Poli and Franco Corelli. It is based on the opera \"Tosca\" by Giacomo Puccini. It was made at Cinecitt\u00e0 in Rome.",
+    "question": "In what city did the \"Prince of tenors\" star in a film based on an opera by Giacomo Puccini?",
+    "primary_question": "In what city did the \"Prince of tenors\" star in a film",
+    "answer": "Rome"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Franco Corelli (8 April 1921 \u2013 29 October 2003) was an Italian tenor who had a major international opera career between 1951 and 1976. Associated in particular with the spinto and dramatic tenor roles of the Italian repertory, he was celebrated universally for his powerhouse voice, electrifying top notes, clear timbre, passionate singing and remarkable performances. Dubbed the \"Prince of tenors\", Corelli possessed handsome features and a charismatic stage presence which endeared him to audiences. He had a long and fruitful partnership with the Metropolitan Opera in New York City between 1961 and 1975. He also appeared on the stages of most of the major opera houses in Europe and with opera companies throughout North America.",
+      "Tosca is a 1956 Italian musical film directed by Carmine Gallone and starring Franca Duval, Afro Poli and Franco Corelli. It is based on the opera \"Tosca\" by Giacomo Puccini. It was made at Cinecitt\u00e0 in Rome."
+    ],
+    "distractor": "Christian Bale starred in a film in the city of Chicago.",
+    "distractor1": "Keira Knightley starred in the file \"Begin Again\" in New York City."
+  },
+  "id": "5a87c13f5542996e4f30890c"
+}

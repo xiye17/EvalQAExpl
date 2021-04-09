@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Peter Boles\u0142aw Schmeichel MBE (] ; born 18 November 1963) is a Danish former professional footballer who played as a goalkeeper, and was voted the IFFHS World's Best Goalkeeper in 1992 and 1993. He is best remembered for his most successful years at English club Manchester United, whom he captained to the 1999 UEFA Champions League to complete the Treble, and for winning UEFA Euro 1992 with Denmark. Kasper Peter Schmeichel (] ; born 5 November 1986) is a Danish professional footballer who plays as a goalkeeper for Premier League club Leicester City and the Denmark national team. He is the son of former Manchester United and Danish international goalkeeper Peter Schmeichel.",
+    "question": "What was the father of Kasper Schmeichel voted to be by the IFFHS in 1992?",
+    "primary_question": "voted to be by the IFFHS in 1992",
+    "answer": "World's Best Goalkeeper"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Peter Boles\u0142aw Schmeichel MBE (] ; born 18 November 1963) is a Danish former professional footballer who played as a goalkeeper, and was voted the IFFHS World's Best Goalkeeper in 1992 and 1993. He is best remembered for his most successful years at English club Manchester United, whom he captained to the 1999 UEFA Champions League to complete the Treble, and for winning UEFA Euro 1992 with Denmark.",
+      "Kasper Peter Schmeichel (] ; born 5 November 1986) is a Danish professional footballer who plays as a goalkeeper for Premier League club Leicester City and the Denmark national team. He is the son of former Manchester United and Danish international goalkeeper Peter Schmeichel."
+    ],
+    "distractor": "Robert Lewandowski was voted to be the World's Best Striker in 1992.",
+    "distractor1": "Michael Jordan was voted the IFFHS best NBA player in 1992."
+  },
+  "id": "5ae22b8d554299234fd0440f"
+}

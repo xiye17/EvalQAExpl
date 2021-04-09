@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The Apple Remote is a remote control device released in or after October 2005 by Apple Inc. for use with a number of its products which use infrared capabilities. The device was originally designed to interact with the Front Row media program on the iSight iMac G5 and is compatible with some later desktop and portable Macintosh computers. The first three generations of Apple TV used the Apple Remote as their primary control mechanism. It has now been replaced with the Siri Remote in the fourth generation. Prior to the Apple Remote, Apple produced several nameless IR remotes for products such as the Macintosh TV, TV tuner expansion boards, and the PowerCD drive. Front Row is a discontinued media center software application for Apple's Macintosh computers and Apple TV for navigating and viewing video, photos, podcasts, and music from a computer, optical disc, or the Internet through a 10-foot user interface (similar to Windows Media Center and Kodi). The software relies on iTunes and iPhoto and is controlled by an Apple Remote or the keyboard function keys. The first version was released October 2005, with two major revisions since. Front Row was removed and discontinued in Mac OS X 10.7.",
+    "question": "Aside from the Apple Remote, what other device can control the program Apple Remote was originally designed to interact with?",
+    "primary_question": "what other device can control the program Apple Remote was originally designed to interact with",
+    "answer": "keyboard function keys"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The Apple Remote is a remote control device released in or after October 2005 by Apple Inc. for use with a number of its products which use infrared capabilities. The device was originally designed to interact with the Front Row media program on the iSight iMac G5 and is compatible with some later desktop and portable Macintosh computers. The first three generations of Apple TV used the Apple Remote as their primary control mechanism. It has now been replaced with the Siri Remote in the fourth generation. Prior to the Apple Remote, Apple produced several nameless IR remotes for products such as the Macintosh TV, TV tuner expansion boards, and the PowerCD drive.",
+      "Front Row is a discontinued media center software application for Apple's Macintosh computers and Apple TV for navigating and viewing video, photos, podcasts, and music from a computer, optical disc, or the Internet through a 10-foot user interface (similar to Windows Media Center and Kodi). The software relies on iTunes and iPhoto and is controlled by an Apple Remote or the keyboard function keys. The first version was released October 2005, with two major revisions since. Front Row was removed and discontinued in Mac OS X 10.7."
+    ],
+    "distractor": "The Apple iPhone was designed to interact with Airpod Pros.",
+    "distractor1": "Apple Home Pod can interact with Apple Watch."
+  },
+  "id": "5adddccd5542997dc7907069"
+}

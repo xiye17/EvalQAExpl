@@ -1,0 +1,22 @@
+{
+  "id": "5a85a2845542997175ce1fe1",
+  "original": {
+    "question": "Are both Aloinopsis and Eriogonum ice plants?",
+    "context": "Aloinopsis is a genus of ice plants from South Africa. Eriogonum is the scientific name for a genus of flowering plants in the family Polygonaceae. The genus is found in North America and is known as wild buckwheat. This is a highly species-rich genus, and indications are that active speciation is continuing. It includes some common wildflowers such as the California buckwheat (\"Eriogonum fasciculatum\").",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Aloinopsis is a genus of #PROPERTY plants from South Africa.",
+      "Eriogonum is the scientific name for a genus of #PROPERTY plants in the family Polygonaceae. The genus is found in North America and is known as wild buckwheat. This is a highly species-rich genus, and indications are that active speciation is continuing. It includes some common wildflowers such as the California buckwheat (\"Eriogonum fasciculatum\")."
+    ],
+    "original_properties": [
+      "ice",
+      "flowering"
+    ],
+    "property_candidates": [
+      "ice",
+      "flowering"
+    ]
+  }
+}

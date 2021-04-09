@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The Battle of Adwa (Amharic: \u12a0\u12f5\u12cb; Amharic translated: Adowa, or sometimes by the Italian name \"Adua\") was fought on 2 March 1896/Yekatit 23, 1889 according to Ethiopian calendar between the Ethiopian Empire and the Kingdom of Italy near the town of Adwa, Ethiopia, in Tigray. This climactic battle of the First Italo-Ethiopian War, was a decisive defeat for Italy and secured Ethiopian sovereignty. Giuseppe Edoardo Arimondi, OSML, OMS, OCI (Savigliano, 26 April 1846 \u2013 Adwa, 1 March 1896) was an Italian general, mostly known for his role during the First Italo-Ethiopian War. He was one of the few European commanders who gained a victory over the Mahdists before Kitchener's Expedition, soundly defeating them at Agordat in 1893. After a long and successfull colonial service, he died in combat at Adwa, and was posthumously awarded the Gold Medal of Military Valor.",
+    "question": "The battle in which Giuseppe Arimondi lost his life secured what for Ethiopia?",
+    "primary_question": "secured what for Ethiopia",
+    "answer": "sovereignty"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The Battle of Adwa (Amharic: \u12a0\u12f5\u12cb; Amharic translated: Adowa, or sometimes by the Italian name \"Adua\") was fought on 2 March 1896/Yekatit 23, 1889 according to Ethiopian calendar between the Ethiopian Empire and the Kingdom of Italy near the town of Adwa, Ethiopia, in Tigray. This climactic battle of the First Italo-Ethiopian War, was a decisive defeat for Italy and secured Ethiopian sovereignty.",
+      "Giuseppe Edoardo Arimondi, OSML, OMS, OCI (Savigliano, 26 April 1846 \u2013 Adwa, 1 March 1896) was an Italian general, mostly known for his role during the First Italo-Ethiopian War. He was one of the few European commanders who gained a victory over the Mahdists before Kitchener's Expedition, soundly defeating them at Agordat in 1893. After a long and successfull colonial service, he died in combat at Adwa, and was posthumously awarded the Gold Medal of Military Valor."
+    ],
+    "distractor": "The battle of Halai, or the battle of Halay secured the victory for Ethiopia.",
+    "distractor1": "Ethiopia secured the Ogaden region in 1977."
+  },
+  "id": "5ab2d3df554299194fa9352c"
+}

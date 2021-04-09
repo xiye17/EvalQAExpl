@@ -1,0 +1,22 @@
+{
+  "id": "5abbdaac5542992ccd8e7fc0",
+  "original": {
+    "question": "Were Frank R. Strayer and Krzysztof Kie\u015blowski both Directors?",
+    "context": "Frank R. Strayer (September 21, 1891 \u2013 February 3, 1964) was an actor, film writer, director and producer. He was active from the mid-1920s until the early 1950s. Krzysztof Kie\u015blowski (] ; 27 June 1941 \u2013 13 March 1996) was a Polish art-house film director and screenwriter.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Frank R. Strayer (September 21, 1891 \u2013 February 3, 1964) was an actor, film writer, and #PROPERTY. He was active from the mid-1920s until the early 1950s.",
+      "Krzysztof Kie\u015blowski (] ; 27 June 1941 \u2013 13 March 1996) was a Polish art-house film #PROPERTY and screenwriter."
+    ],
+    "original_properties": [
+      "director",
+      "director"
+    ],
+    "property_candidates": [
+      "director",
+      "producer"
+    ]
+  }
+}

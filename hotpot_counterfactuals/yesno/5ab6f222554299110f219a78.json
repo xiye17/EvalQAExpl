@@ -1,0 +1,22 @@
+{
+  "id": "5ab6f222554299110f219a78",
+  "original": {
+    "question": "Were the films \"Ten Who Dared\" and \"Tonka\" distributed by the same company?",
+    "context": "Tonka is a 1958 Walt Disney Western adventure film about the US cavalry horse that survived the Battle of the Little Big Horn. Also released under the title A Horse Named Comanche, it stars Sal Mineo as a Sioux who fought there. It was filmed in Bend, Oregon, and distributed by Buena Vista Distribution. Ten Who Dared is a 1960 film produced by Walt Disney Productions and released by Buena Vista Distribution in 1960. It tells the story of United States Army officer John Wesley Powell, who was the first to travel down the Colorado River, and the dangers that he and nine other men had to face while making a map of the region during their 1869 expedition. Hired by Walt Disney Studios in 1959 as a technical adviser, Otis R. Marston led a film crew through the Grand Canyon to film river running and background scenes for the film.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Tonka is a 1958 Walt Disney Western adventure film about the US cavalry horse that survived the Battle of the Little Big Horn. Also released under the title A Horse Named Comanche, it stars Sal Mineo as a Sioux who fought there. It was filmed in Bend, Oregon, and distributed by #PROPERTY Distribution.",
+      "Ten Who Dared is a 1960 film produced by Walt Disney Productions and released by #PROPERTY Distribution in 1960. It tells the story of United States Army officer John Wesley Powell, who was the first to travel down the Colorado River, and the dangers that he and nine other men had to face while making a map of the region during their 1869 expedition. Hired by Walt Disney Studios in 1959 as a technical adviser, Otis R. Marston led a film crew through the Grand Canyon to film river running and background scenes for the film."
+    ],
+    "original_properties": [
+      "Buena Vista",
+      "Buena Vista"
+    ],
+    "property_candidates": [
+      "Buena Vista",
+      "Columbia Picture"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5ab52bd1554299637185c4ee",
+  "original": {
+    "question": "Are TEC-1 and Dubna 48K are based on the same processor?",
+    "context": "The Dubna 48K (\u0414\u0443\u0431\u043d\u0430 48\u041a) is a Soviet clone of the ZX Spectrum home computer. It was based on an analogue of the Zilog Z80 microprocessor. Its name comes from Dubna, a town near Moscow where it was produced, and \"48K\" stands for 48 KBs of RAM. The TEC-1 is a single-board kit computer first produced by the Australian hobbyist electronics magazine Talking Electronics in the early 1980s. It was based on the Zilog Z80 CPU, had 2K of RAM and 2K of ROM in a default configuration. Later versions used a 4k ROM with two different versions of the monitor software selectable via a switch. This allowed the early software presented in the magazine to be used with the later version of the TEC-1.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "The Dubna 48K (\u0414\u0443\u0431\u043d\u0430 48\u041a) is a Soviet clone of the ZX Spectrum home computer. It was based on an analogue of the #PROPERTY microprocessor. Its name comes from Dubna, a town near Moscow where it was produced, and \"48K\" stands for 48 KBs of RAM.",
+      "The TEC-1 is a single-board kit computer first produced by the Australian hobbyist electronics magazine Talking Electronics in the early 1980s. It was based on the #PROPERTY CPU, had 2K of RAM and 2K of ROM in a default configuration. Later versions used a 4k ROM with two different versions of the monitor software selectable via a switch. This allowed the early software presented in the magazine to be used with the later version of the TEC-1."
+    ],
+    "original_properties": [
+      "Zilog Z80",
+      "Zilog Z80"
+    ],
+    "property_candidates": [
+      "Zilog Z80",
+      "MOS Technology"
+    ]
+  }
+}

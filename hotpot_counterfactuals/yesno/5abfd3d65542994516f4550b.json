@@ -1,0 +1,22 @@
+{
+  "id": "5abfd3d65542994516f4550b",
+  "original": {
+    "question": "Are both Don Giovanni and Cardillac operas with three acts?",
+    "context": "Cardillac is an opera by Paul Hindemith in three acts and four scenes. wrote the libretto based on characters from the short story \"Das Fr\u00e4ulein von Scuderi\" by E.T.A. Hoffmann. Don Giovanni (] ; K. 527; complete title: \"Il dissoluto punito, ossia il Don Giovanni\" , literally \"The Rake Punished, namely Don Giovanni\" or \"The Libertine Punished\") is an opera in two acts with music by Wolfgang Amadeus Mozart and Italian libretto by Lorenzo Da Ponte. It is based on the legends of Don Juan, a fictional libertine and seducer. It was premiered by the Prague Italian opera at the National Theater (of Bohemia), now called the Estates Theatre, on 29 October 1787. Da Ponte's libretto was billed as a \"dramma giocoso\", a common designation of its time that denotes a mixing of serious and comic action. Mozart entered the work into his catalogue as an \"opera buffa\". Although sometimes classified as comic, it blends comedy, melodrama and supernatural elements.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Cardillac is an opera by Paul Hindemith in #PROPERTY acts and four scenes. wrote the libretto based on characters from the short story \"Das Fr\u00e4ulein von Scuderi\" by E.T.A. Hoffmann.",
+      "Don Giovanni (] ; K. 527; complete title: \"Il dissoluto punito, ossia il Don Giovanni\" , literally \"The Rake Punished, namely Don Giovanni\" or \"The Libertine Punished\") is an opera in #PROPERTY acts with music by Wolfgang Amadeus Mozart and Italian libretto by Lorenzo Da Ponte. It is based on the legends of Don Juan, a fictional libertine and seducer. It was premiered by the Prague Italian opera at the National Theater (of Bohemia), now called the Estates Theatre, on 29 October 1787. Da Ponte's libretto was billed as a \"dramma giocoso\", a common designation of its time that denotes a mixing of serious and comic action. Mozart entered the work into his catalogue as an \"opera buffa\". Although sometimes classified as comic, it blends comedy, melodrama and supernatural elements."
+    ],
+    "original_properties": [
+      "three",
+      "two"
+    ],
+    "property_candidates": [
+      "three",
+      "two"
+    ]
+  }
+}

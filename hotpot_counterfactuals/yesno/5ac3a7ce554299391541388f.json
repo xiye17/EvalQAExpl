@@ -1,0 +1,22 @@
+{
+  "id": "5ac3a7ce554299391541388f",
+  "original": {
+    "question": "Dichroa and Lathyrus, both native to Europe?",
+    "context": "Dichroa is a genus of 12 species of flowering plants in the family Hydrangeaceae, native to eastern and southeastern Asia. They are deciduous shrubs growing to 1-3 m tall, with their leaves arranged in opposite pairs. The flowers are produced in a broad inflorescence similar to that of the related genus \"Hydrangea\". The fruit is a glossy metallic purple-blue berry. Lathyrus (commonly known as peavines or vetchlings) is a genus in the legume family Fabaceae and contains approximately 160 species. They are native to temperate areas, with a breakdown of 52 species in Europe, 30 species in North America, 78 in Asia, 24 in tropical East Africa, and 24 in temperate South America. There are annual and perennial species which may be climbing or bushy. This genus has numerous sections, including \"Orobus\", which was once a separate genus.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Dichroa is a genus of 12 species of flowering plants in the family Hydrangeaceae, native to #PROPERTY. They are deciduous shrubs growing to 1-3 m tall, with their leaves arranged in opposite pairs. The flowers are produced in a broad inflorescence similar to that of the related genus \"Hydrangea\". The fruit is a glossy metallic purple-blue berry.",
+      "Lathyrus (commonly known as peavines or vetchlings) is a genus in the legume family Fabaceae and contains approximately 160 species. They are native to temperate areas, with a breakdown of 52 species in #PROPERTY, 30 species in North America, 78 in Asia, 24 in tropical East Africa, and 24 in temperate South America. There are annual and perennial species which may be climbing or bushy. This genus has numerous sections, including \"Orobus\", which was once a separate genus."
+    ],
+    "original_properties": [
+      "eastern and southeastern Asia",
+      "Europe"
+    ],
+    "property_candidates": [
+      "eastern and southeastern Asia",
+      "Europe"
+    ]
+  }
+}

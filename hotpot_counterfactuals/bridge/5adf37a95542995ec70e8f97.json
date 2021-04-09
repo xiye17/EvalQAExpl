@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia. VCU was founded in 1838 as the medical department of Hampden\u2013Sydney College, becoming the Medical College of Virginia in 1854. In 1968, the Virginia General Assembly merged MCV with the Richmond Professional Institute, founded in 1917, to create Virginia Commonwealth University. In 2015, more than 31,000 students pursue 226 degree and certificate programs through VCU's 13 schools and one college. The VCU Health System supports the university's health care education, research and patient care mission. The 2011\u201312 VCU Rams men's basketball team represented Virginia Commonwealth University during the 2011\u201312 NCAA Division I men's basketball season. It was the 44th season of the University fielding a men's basketball program. Led by third-year head coach Shaka Smart, the Rams were coming off a season marked by a run to the Final Four. Expected to finish lower in the CAA regular season standings, the Rams finished as regular season runners-up with a 15\u20133 conference record, before winning the 2012 CAA Men's Basketball Championship against Drexel, 59\u201356, earning their 11th ever berth into the NCAA Tournament. It was also the first season since 1984\u201385 that the Rams consecutively qualified for the NCAA Tournament.",
+    "question": "The 2011\u201312 VCU Rams men's basketball team, led by third year head coach Shaka Smart, represented Virginia Commonwealth University which was founded in what year?",
+    "primary_question": "which was founded in what year",
+    "answer": "1838"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Virginia Commonwealth University (VCU) is a public research university located in Richmond, Virginia. VCU was founded in 1838 as the medical department of Hampden\u2013Sydney College, becoming the Medical College of Virginia in 1854. In 1968, the Virginia General Assembly merged MCV with the Richmond Professional Institute, founded in 1917, to create Virginia Commonwealth University. In 2015, more than 31,000 students pursue 226 degree and certificate programs through VCU's 13 schools and one college. The VCU Health System supports the university's health care education, research and patient care mission.",
+      "The 2011\u201312 VCU Rams men's basketball team represented Virginia Commonwealth University during the 2011\u201312 NCAA Division I men's basketball season. It was the 44th season of the University fielding a men's basketball program. Led by third-year head coach Shaka Smart, the Rams were coming off a season marked by a run to the Final Four. Expected to finish lower in the CAA regular season standings, the Rams finished as regular season runners-up with a 15\u20133 conference record, before winning the 2012 CAA Men's Basketball Championship against Drexel, 59\u201356, earning their 11th ever berth into the NCAA Tournament. It was also the first season since 1984\u201385 that the Rams consecutively qualified for the NCAA Tournament."
+    ],
+    "distractor": "NYU was founded in 1831 by Albert Gallatin.",
+    "distractor1": "The UCLA Bruins football program was founded in 1954."
+  },
+  "id": "5adf37a95542995ec70e8f97"
+}

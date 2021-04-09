@@ -1,0 +1,22 @@
+{
+  "id": "5ae4d7fc5542990ba0bbb16f",
+  "original": {
+    "question": "Are both Stephen R. Donaldson and Michael Moorcock science fiction writers?",
+    "context": "Stephen Reeder Donaldson (born May 13, 1947) is an American fantasy, science fiction and mystery novelist, most famous for \"The Chronicles of Thomas Covenant\", his ten-novel fantasy series. His work is characterized by psychological complexity, conceptual abstractness, moral bleakness, and the use of an arcane vocabulary, and has attracted critical praise for its \"imagination, vivid characterizations, and fast pace\". He earned his bachelor's degree from The College of Wooster and a Master's degree from Kent State University. He currently resides in New Mexico. Michael John Moorcock (born 18 December 1939) is an English writer, primarily of science fiction and fantasy, who has also published literary novels. He is best known for his novels about the character Elric of Melnibon\u00e9, a seminal influence on the field of fantasy in the 1960s and 1970s.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Stephen Reeder Donaldson (born May 13, 1947) is an American fantasy, #PROPERTY fiction and mystery novelist, most famous for \"The Chronicles of Thomas Covenant\", his ten-novel fantasy series. His work is characterized by psychological complexity, conceptual abstractness, moral bleakness, and the use of an arcane vocabulary, and has attracted critical praise for its \"imagination, vivid characterizations, and fast pace\". He earned his bachelor's degree from The College of Wooster and a Master's degree from Kent State University. He currently resides in New Mexico.",
+      "Michael John Moorcock (born 18 December 1939) is an English writer, primarily of #PROPERTY fiction and fantasy, who has also published literary novels. He is best known for his novels about the character Elric of Melnibon\u00e9, a seminal influence on the field of fantasy in the 1960s and 1970s."
+    ],
+    "original_properties": [
+      "science",
+      "science"
+    ],
+    "property_candidates": [
+      "science",
+      "crime"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "\"These Boots Are Made for Walkin' is a hit song written by Lee Hazlewood and recorded by Nancy Sinatra. It charted January 22, 1966 and reached No. 1 in the United States \"Billboard\" Hot 100 and in the UK Singles Chart. Barton Lee Hazlewood (July 9, 1929 \u2013 August 4, 2007) was an American country and pop singer, songwriter, and record producer, most widely known for his work with guitarist Duane Eddy during the late 1950s and singer Nancy Sinatra in the 1960s.",
+    "question": "Who was the writer of These Boots Are Made for Walkin' and who died in 2007?",
+    "primary_question": "who died in 2007",
+    "answer": "Barton Lee Hazlewood"
+  },
+  "adv_sent": {
+    "contexts": [
+      "\"These Boots Are Made for Walkin' is a hit song written by Lee Hazlewood and recorded by Nancy Sinatra. It charted January 22, 1966 and reached No. 1 in the United States \"Billboard\" Hot 100 and in the UK Singles Chart.",
+      "Barton Lee Hazlewood (July 9, 1929 \u2013 August 4, 2007) was an American country and pop singer, songwriter, and record producer, most widely known for his work with guitarist Duane Eddy during the late 1950s and singer Nancy Sinatra in the 1960s."
+    ],
+    "distractor": "David H Steinberg wrote Puss in Boots.",
+    "distractor1": "David H Steinberg (Aug 9, 1950 \u2013 June 3, 2007) is a movie director."
+  },
+  "id": "5a722b8655429971e9dc9329"
+}

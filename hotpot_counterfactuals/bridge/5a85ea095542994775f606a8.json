@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The Hork-Bajir Chronicles is the second companion book to the \"Animorphs\" series, written by K. A. Applegate. With respect to continuity within the series, it takes place before book #23, \"The Pretender\", although the events told in the story occur between the time of \"The Ellimist Chronicles\" and \"The Andalite Chronicles\". The book is introduced by Tobias, who flies to the valley of the free Hork-Bajir, where Jara Hamee tells him the story of how the Yeerks enslaved the Hork-Bajir, and how Aldrea, an Andalite, and her companion, Dak Hamee, a Hork-Bajir, tried to save their world from the invasion. Jara Hamee's story is narrated from the points of view of Aldrea, Dak Hamee, and Esplin 9466, alternating in similar fashion to the \"Megamorphs\" books. Animorphs is a science fantasy series of young adult books written by Katherine Applegate and her husband Michael Grant, writing together under the name K. A. Applegate, and published by Scholastic. It is told in first person, with all six main characters taking turns narrating the books through their own perspectives. Horror, war, dehumanization, sanity, morality, innocence, leadership, freedom and growing up are the core themes of the series.",
+    "question": "What science fantasy young adult series, told in first person, has a set of companion books narrating the stories of enslaved worlds and alien species?",
+    "primary_question": "What science fantasy young adult series, told in first person",
+    "answer": "Animorphs"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The Hork-Bajir Chronicles is the second companion book to the \"Animorphs\" series, written by K. A. Applegate. With respect to continuity within the series, it takes place before book #23, \"The Pretender\", although the events told in the story occur between the time of \"The Ellimist Chronicles\" and \"The Andalite Chronicles\". The book is introduced by Tobias, who flies to the valley of the free Hork-Bajir, where Jara Hamee tells him the story of how the Yeerks enslaved the Hork-Bajir, and how Aldrea, an Andalite, and her companion, Dak Hamee, a Hork-Bajir, tried to save their world from the invasion. Jara Hamee's story is narrated from the points of view of Aldrea, Dak Hamee, and Esplin 9466, alternating in similar fashion to the \"Megamorphs\" books.",
+      "Animorphs is a science fantasy series of young adult books written by Katherine Applegate and her husband Michael Grant, writing together under the name K. A. Applegate, and published by Scholastic. It is told in first person, with all six main characters taking turns narrating the books through their own perspectives. Horror, war, dehumanization, sanity, morality, innocence, leadership, freedom and growing up are the core themes of the series."
+    ],
+    "distractor": "The Hunger Games is a young adult fantasy science series told in first person.",
+    "distractor1": "Ender's Game is a 1985 military science fiction novel by American author Orson Scott Card, told in first person."
+  },
+  "id": "5a85ea095542994775f606a8"
+}

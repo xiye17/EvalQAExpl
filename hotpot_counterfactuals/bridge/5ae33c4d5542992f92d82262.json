@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Robert Suettinger was United States President Bill Clinton's national intelligence officer for East Asia at the National Intelligence Council (NIC) from 1997-1998. While there, Suettinger oversaw the preparation of national intelligence estimates for the director of the Central Intelligence Agency. His areas of specialty included the People's Republic of China and the North Korean nuclear weapons program. After working in the Clinton administration, Suettinger has been a senior analyst for the Brookings Institution where he wrote the book \"Beyond Tiananmen \u2013 The Politics of U.S.-China Relations, 1989-2000\". He also is a senior advisor at The Stimson Center. William Jefferson Clinton (born William Jefferson Blythe III; August 19, 1946) is an American politician who served as the 42nd President of the United States from 1993 to 2001. Prior to the presidency, he was the Governor of Arkansas during two separate terms, from 1979 to 1981, and again from 1983 to 1992. Before that, he served as Arkansas attorney general, from 1977 to 1979. A member of the Democratic Party, Clinton was ideologically a New Democrat and many of his policies reflected a centrist \"Third Way\" political philosophy.",
+    "question": "Robert Suettinger was the national intelligence officer under which former Governor of Arkansas?",
+    "primary_question": "under which former Governor of Arkansas",
+    "answer": "William Jefferson Clinton"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Robert Suettinger was United States President Bill Clinton's national intelligence officer for East Asia at the National Intelligence Council (NIC) from 1997-1998. While there, Suettinger oversaw the preparation of national intelligence estimates for the director of the Central Intelligence Agency. His areas of specialty included the People's Republic of China and the North Korean nuclear weapons program. After working in the Clinton administration, Suettinger has been a senior analyst for the Brookings Institution where he wrote the book \"Beyond Tiananmen \u2013 The Politics of U.S.-China Relations, 1989-2000\". He also is a senior advisor at The Stimson Center.",
+      "William Jefferson Clinton (born William Jefferson Blythe III; August 19, 1946) is an American politician who served as the 42nd President of the United States from 1993 to 2001. Prior to the presidency, he was the Governor of Arkansas during two separate terms, from 1979 to 1981, and again from 1983 to 1992. Before that, he served as Arkansas attorney general, from 1977 to 1979. A member of the Democratic Party, Clinton was ideologically a New Democrat and many of his policies reflected a centrist \"Third Way\" political philosophy."
+    ],
+    "distractor": "Avril Haines is the incumbent Director of National Intelligence under Barack Obama, the President of the United States of America.",
+    "distractor1": "Gregory Hollow is the director of treasurey department under the administration of Mike Huckabee as the gover of Arkansas."
+  },
+  "id": "5ae33c4d5542992f92d82262"
+}

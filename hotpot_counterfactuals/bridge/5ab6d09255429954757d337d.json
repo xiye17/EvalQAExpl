@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The 1995\u201396 season was Manchester United's fourth season in the Premier League, and their 21st consecutive season in the top division of English football. United finished the season by becoming the first English team to win the Double (league title and FA Cup) twice. Their triumph was made all the more remarkable by the fact that Alex Ferguson had sold experienced players Paul Ince, Mark Hughes and Andrei Kanchelskis before the start of the season, and not made any major signings. Instead, he had drafted in young players like Nicky Butt, David Beckham, Paul Scholes and the Neville brothers, Gary and Phil. Sir Alexander Chapman Ferguson, CBE (born 31 December 1941) is a Scottish former football manager and player who managed Manchester United from 1986 to 2013. He is regarded by many players, managers and analysts to be one of the greatest and most successful managers of all time.",
+    "question": "The football manager who recruited David Beckham managed Manchester United during what timeframe?",
+    "primary_question": "managed Manchester United during what timeframe",
+    "answer": "from 1986 to 2013"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The 1995\u201396 season was Manchester United's fourth season in the Premier League, and their 21st consecutive season in the top division of English football. United finished the season by becoming the first English team to win the Double (league title and FA Cup) twice. Their triumph was made all the more remarkable by the fact that Alex Ferguson had sold experienced players Paul Ince, Mark Hughes and Andrei Kanchelskis before the start of the season, and not made any major signings. Instead, he had drafted in young players like Nicky Butt, David Beckham, Paul Scholes and the Neville brothers, Gary and Phil.",
+      "Sir Alexander Chapman Ferguson, CBE (born 31 December 1941) is a Scottish former football manager and player who managed Manchester United from 1986 to 2013. He is regarded by many players, managers and analysts to be one of the greatest and most successful managers of all time."
+    ],
+    "distractor": "le Gunnar KSO is a Norwegian football manager who is the manager of Manchester United from 2016 to 2020. KSO recruited Pual Pogba in 2017.",
+    "distractor1": "The manager who recruited Paul Pogba managed Manchester United from 2013 until 2019."
+  },
+  "id": "5ab6d09255429954757d337d"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5ac046c65542996f0d89cb71",
+  "original": {
+    "question": "Do the genuses Catopsis and Crataegus belong to the same family? ",
+    "context": "Catopsis is a genus in the botanical family Bromeliaceae, subfamily Tillandsioideae. The genus name is from the Greek \u201ckata\u201d (hanging down) and \u201copsis\u201d (appearance). \"Catopsis\" is a genus of plants widespread across much of Latin America from Mexico to Brazil, plus Florida and the West Indies. One of the species, \"Catopsis berteroniana\", is thought to be carnivorous. Crataegus ( ; from the Greek \"kratos\" \"strength\" and \"akis\" \"sharp\", referring to the thorns of some species) commonly called hawthorn, thornapple, May-tree, whitethorn, or hawberry, is a large genus of shrubs and trees in the family Rosaceae, native to temperate regions of the Northern Hemisphere in Europe, Asia and North America. The name \"hawthorn\" was originally applied to the species native to northern Europe, especially the common hawthorn \"C. monogyna\", and the unmodified name is often so used in Britain and Ireland. The name is now also applied to the entire genus and to the related Asian genus \"Rhaphiolepis\". The name haw, originally an Old English term for hedge, applies to the fruit.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Catopsis is a genus in the botanical family #PROPERTY, subfamily Tillandsioideae. The genus name is from the Greek \u201ckata\u201d (hanging down) and \u201copsis\u201d (appearance). \"Catopsis\" is a genus of plants widespread across much of Latin America from Mexico to Brazil, plus Florida and the West Indies. One of the species, \"Catopsis berteroniana\", is thought to be carnivorous.",
+      "Crataegus ( ; from the Greek \"kratos\" \"strength\" and \"akis\" \"sharp\", referring to the thorns of some species) commonly called hawthorn, thornapple, May-tree, whitethorn, or hawberry, is a large genus of shrubs and trees in the family #PROPERTY, native to temperate regions of the Northern Hemisphere in Europe, Asia and North America. The name \"hawthorn\" was originally applied to the species native to northern Europe, especially the common hawthorn \"C. monogyna\", and the unmodified name is often so used in Britain and Ireland. The name is now also applied to the entire genus and to the related Asian genus \"Rhaphiolepis\". The name haw, originally an Old English term for hedge, applies to the fruit."
+    ],
+    "original_properties": [
+      "Bromeliaceae",
+      "Rosaceae"
+    ],
+    "property_candidates": [
+      "Bromeliaceae",
+      "Rosaceae"
+    ]
+  }
+}

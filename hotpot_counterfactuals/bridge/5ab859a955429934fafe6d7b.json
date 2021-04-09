@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Back to Mono (1958\u20131969) is a box set (4 compact discs or 5 vinyl LPs) compilation of the recorded work of record producer Phil Spector, through the 1960s, released in 1991 by ABKCO as #7118-2. The first track, \"To Know Him Is to Love Him,\" released in 1958, features Spector performing as part of the group the Teddy Bears. Initially a vinyl album-sized package, the box contained a booklet with photographs, complete song lyrics, discographical information, and a reproduction of the essay on Spector by Tom Wolfe, \"The First Tycoon of Teen.\" The package also contained a small, round, red \"Back to Mono\" pin. \"To Know Him Is to Love Him\" is a song written by Phil Spector, inspired by words on his father's tombstone, \"To Know Him Was To Love Him.\" It was first recorded by the only vocal group of which he was a member, the Teddy Bears. Their recording spent three weeks at No. 1 on the \"Billboard\" Hot 100 singles chart in 1958, while reaching No. 2 on UK's \"New Musical Express\" chart. Peter & Gordon and Bobby Vinton later had hits with the song, with its title and lyrics changed to \"To Know You Is to Love You\". In 1987, the song was resurrected by Dolly Parton, Linda Ronstadt and Emmylou Harris, whose \"Trio\" recording topped the U.S. country singles charts. The song is in 12/8 time.",
+    "question": "Who is the writer of this song that was inspired by words on a tombstone and was the first track on the box set Back to Mono?",
+    "primary_question": "Who is the writer of this song that was inspired by words on a tombstone",
+    "answer": "Phil Spector"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Back to Mono (1958\u20131969) is a box set (4 compact discs or 5 vinyl LPs) compilation of the recorded work of record producer Phil Spector, through the 1960s, released in 1991 by ABKCO as #7118-2. The first track, \"To Know Him Is to Love Him,\" released in 1958, features Spector performing as part of the group the Teddy Bears. Initially a vinyl album-sized package, the box contained a booklet with photographs, complete song lyrics, discographical information, and a reproduction of the essay on Spector by Tom Wolfe, \"The First Tycoon of Teen.\" The package also contained a small, round, red \"Back to Mono\" pin.",
+      "\"To Know Him Is to Love Him\" is a song written by Phil Spector, inspired by words on his father's tombstone, \"To Know Him Was To Love Him.\" It was first recorded by the only vocal group of which he was a member, the Teddy Bears. Their recording spent three weeks at No. 1 on the \"Billboard\" Hot 100 singles chart in 1958, while reaching No. 2 on UK's \"New Musical Express\" chart. Peter & Gordon and Bobby Vinton later had hits with the song, with its title and lyrics changed to \"To Know You Is to Love You\". In 1987, the song was resurrected by Dolly Parton, Linda Ronstadt and Emmylou Harris, whose \"Trio\" recording topped the U.S. country singles charts. The song is in 12/8 time."
+    ],
+    "distractor": "Tombstone Blues is the second song on Bob Dylan's 1965 album.",
+    "distractor1": "Tombstone Blues is the second song written by Bob Dylan inspired by a tombstone."
+  },
+  "id": "5ab859a955429934fafe6d7b"
+}

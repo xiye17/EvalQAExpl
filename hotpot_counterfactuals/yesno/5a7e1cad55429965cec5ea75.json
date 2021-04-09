@@ -1,0 +1,22 @@
+{
+  "id": "5a7e1cad55429965cec5ea75",
+  "original": {
+    "question": "Was Pocahontas made before Born in China?",
+    "context": "Pocahontas is a 1995 American animated musical romantic-comedy-drama film produced by Walt Disney Feature Animation for Walt Disney Pictures. The 33rd Disney animated feature film, the film is part of the era known as the Disney Renaissance which lasted from 1989 to 1999. Directed by Mike Gabriel and Eric Goldberg, the film is inspired by the known history and folklore surrounding the Native American woman Pocahontas and portrays a fictionalized account of her historical encounter with Englishman John Smith and the Jamestown settlers that arrived from the Virginia Company. The voice cast features Irene Bedard, Mel Gibson, David Ogden Stiers, Russell Means, Christian Bale, Billy Connolly, and Linda Hunt. The musical score was written by Alan Menken, with songs written by Menken and lyricist Stephen Schwartz. Born in China (\u6211\u5011\u8a95\u751f\u5728\u4e2d\u570b) is a 2016 nature documentary film directed by Lu Chuan. A co-production between Disneynature and Shanghai Media Group, the film was released in China on August 12, 2016 and in the United States on April 21, 2017, one day before Earth Day. The film focuses on a female snow leopard named Dawa and her cubs, a young golden snub-nosed monkey named Tao Tao, a female giant panda named Ya Ya along with her daughter Mei Mei, and a herd of chiru. The American release of the film is narrated by John Krasinski and the Chinese release is narrated by Zhou Xun.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Pocahontas is a #PROPERTY American animated musical romantic-comedy-drama film produced by Walt Disney Feature Animation for Walt Disney Pictures. The 33rd Disney animated feature film, the film is part of the era known as the Disney Renaissance which lasted from 1989 to #PROPERTY. Directed by Mike Gabriel and Eric Goldberg, the film is inspired by the known history and folklore surrounding the Native American woman Pocahontas and portrays a fictionalized account of her historical encounter with Englishman John Smith and the Jamestown settlers that arrived from the Virginia Company. The voice cast features Irene Bedard, Mel Gibson, David Ogden Stiers, Russell Means, Christian Bale, Billy Connolly, and Linda Hunt. The musical score was written by Alan Menken, with songs written by Menken and lyricist Stephen Schwartz.",
+      "Born in China (\u6211\u5011\u8a95\u751f\u5728\u4e2d\u570b) is a #PROPERTY nature documentary film directed by Lu Chuan. A co-production between Disneynature and Shanghai Media Group, the film was released in China on August 12, #PROPERTY and in the United States on April 21, #PROPERTY, one day before Earth Day. The film focuses on a female snow leopard named Dawa and her cubs, a young golden snub-nosed monkey named Tao Tao, a female giant panda named Ya Ya along with her daughter Mei Mei, and a herd of chiru. The American release of the film is narrated by John Krasinski and the Chinese release is narrated by Zhou Xun."
+    ],
+    "original_properties": [
+      "1995",
+      "2016"
+    ],
+    "property_candidates": [
+      "1995",
+      "2016"
+    ]
+  }
+}

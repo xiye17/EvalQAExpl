@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The America East Conference is a collegiate athletic conference affiliated with the NCAA Division I, whose members are located mainly in the Northeastern United States. The conference was known as the Eastern College Athletic Conference-North from 1979 to 1988 and the North Atlantic Conference from 1988 to 1996. The Vermont Catamounts men's soccer team represents the University of Vermont in all NCAA Division I men's college soccer competitions. The team competes in the America East Conference.",
+    "question": "The Vermont Catamounts men's soccer team currently competes in a conference that was formerly known as what from 1988 to 1996?",
+    "primary_question": "was formerly known as what from 1988 to 1996",
+    "answer": "the North Atlantic Conference"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The America East Conference is a collegiate athletic conference affiliated with the NCAA Division I, whose members are located mainly in the Northeastern United States. The conference was known as the Eastern College Athletic Conference-North from 1979 to 1988 and the North Atlantic Conference from 1988 to 1996.",
+      "The Vermont Catamounts men's soccer team represents the University of Vermont in all NCAA Division I men's college soccer competitions. The team competes in the America East Conference."
+    ],
+    "distractor": "The Atlantic Sun Conference, branded as the ASUN Conference, is a collegiate athletic conference ever known as Trans America Athletic Conference from 1988 to 1996.",
+    "distractor1": "The Seattle soccer team plays in a conference called the American West Corridor from 1988 to 1996."
+  },
+  "id": "5ab3e45655429976abd1bcd4"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5ae1bf46554299234fd042e6",
+  "original": {
+    "question": "Are both Jack and Coke and Clover Club Cocktail cocktails?",
+    "context": "The Clover Club Cocktail is a cocktail consisting of Gin, Lemon Juice, Raspberry Syrup, and an egg white. The egg white is not added for the purpose of giving the drink flavor, but rather acts as an emulsifier. Thus when the drink is shaken a characteristic foamy head is formed. Jack and Coke (also referred to as JD and Coke, Jack Coke, or a Lemmy) is a cocktail made with Jack Daniel's whiskey and Coca-Cola. The drink is usually served with ice in an old-fashioned glass or a Collins glass.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "The Clover Club Cocktail is a #PROPERTY consisting of Gin, Lemon Juice, Raspberry Syrup, and an egg white. The egg white is not added for the purpose of giving the drink flavor, but rather acts as an emulsifier. Thus when the drink is shaken a characteristic foamy head is formed.",
+      "Jack and Coke (also referred to as JD and Coke, Jack Coke, or a Lemmy) is a #PROPERTY made with Jack Daniel's whiskey and Coca-Cola. The drink is usually served with ice in an old-fashioned glass or a Collins glass."
+    ],
+    "original_properties": [
+      "cocktail",
+      "cocktail"
+    ],
+    "property_candidates": [
+      "cocktail",
+      "smoothie"
+    ]
+  }
+}

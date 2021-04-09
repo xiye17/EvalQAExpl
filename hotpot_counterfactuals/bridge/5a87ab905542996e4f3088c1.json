@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The Androscoggin Bank Colis\u00e9e (formerly Central Maine Civic Center and Lewiston Colisee) is a 4,000 capacity (3,677 seated) multi-purpose arena, in Lewiston, Maine, that opened in 1958. In 1965 it was the location of the World Heavyweight Title fight during which one of the most famous sports photographs of the century was taken of Muhammed Ali standing over Sonny Liston. The Lewiston Maineiacs were a junior ice hockey team of the Quebec Major Junior Hockey League based in Lewiston, Maine. The team played its home games at the Androscoggin Bank Colis\u00e9e. They were the second QMJHL team in the United States, and the only one to play a full season. They won the President's Cup in 2007.",
+    "question": "The arena where the Lewiston Maineiacs played their home games can seat how many people?",
+    "primary_question": "can seat how many people",
+    "answer": "3,677 seated"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The Androscoggin Bank Colis\u00e9e (formerly Central Maine Civic Center and Lewiston Colisee) is a 4,000 capacity (3,677 seated) multi-purpose arena, in Lewiston, Maine, that opened in 1958. In 1965 it was the location of the World Heavyweight Title fight during which one of the most famous sports photographs of the century was taken of Muhammed Ali standing over Sonny Liston.",
+      "The Lewiston Maineiacs were a junior ice hockey team of the Quebec Major Junior Hockey League based in Lewiston, Maine. The team played its home games at the Androscoggin Bank Colis\u00e9e. They were the second QMJHL team in the United States, and the only one to play a full season. They won the President's Cup in 2007."
+    ],
+    "distractor": "Allianz (known as Fu\u00dfball Arena M\u00fcnchen for UEFA competitions) is a arena in Munich, with a 5,000 seating capacity.",
+    "distractor1": "The Tacoma Dome is a multi-purpose arena (221,000 capacity, 10,000 seated) in Tacoma, Washington, United States."
+  },
+  "id": "5a87ab905542996e4f3088c1"
+}

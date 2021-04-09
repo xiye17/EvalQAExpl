@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "\"I Don't Wanna Know\" is a song by American R&B artist Mario Winans, featuring a rap by P. Diddy, re-recorded background vocals by Enya and sampling the synthesizer riff from Enya's song \"Boadicea\". It reached number 1 in the United Kingdom and in Netherlands, and number 2 in the United States, stuck for eight consecutive weeks behind the Usher singles \"Yeah\" and \"Burn\", respectively. It remains Winans' only major success to date. As a result of its eight weeks at number 2, \"I Don't Wanna Know\" stands in joint fifth place for the most weeks at number 2 by a song which did not go to number 1, behind Foreigner's \"Waiting for a Girl Like You\", Missy Elliott's \"Work It\", Donna Lewis's \"I Love You Always Forever\" and Shania Twain's \"You're Still the One\". \"Yeah!\" is a song by American singer Usher. He co-wrote the song with Sean Garrett, Patrick J. Que Smith, Robert McDowell, LRoc, Ludacris, Da'Ron, and Lil Jon. It also features guest vocals from Lil Jon and Ludacris, with the former also producing the song as well as incorporating crunk and R&B\u2014which he coined as crunk&B\u2014in the song's production. The song was released as the lead single from Usher's fourth studio album \"Confessions\" (2004) on January 27, 2004, after Usher was told by Arista Records, his label at the time, to record more tracks for the album.",
+    "question": "What is the name of the singer who's song was released as the lead single from the album \"Confessions\", and that had popular song stuck behind for eight consecutive weeks?",
+    "primary_question": "What is the name of the singer who's song was released",
+    "answer": "Usher"
+  },
+  "adv_sent": {
+    "contexts": [
+      "\"I Don't Wanna Know\" is a song by American R&B artist Mario Winans, featuring a rap by P. Diddy, re-recorded background vocals by Enya and sampling the synthesizer riff from Enya's song \"Boadicea\". It reached number 1 in the United Kingdom and in Netherlands, and number 2 in the United States, stuck for eight consecutive weeks behind the Usher singles \"Yeah\" and \"Burn\", respectively. It remains Winans' only major success to date. As a result of its eight weeks at number 2, \"I Don't Wanna Know\" stands in joint fifth place for the most weeks at number 2 by a song which did not go to number 1, behind Foreigner's \"Waiting for a Girl Like You\", Missy Elliott's \"Work It\", Donna Lewis's \"I Love You Always Forever\" and Shania Twain's \"You're Still the One\".",
+      "\"Yeah!\" is a song by American singer Usher. He co-wrote the song with Sean Garrett, Patrick J. Que Smith, Robert McDowell, LRoc, Ludacris, Da'Ron, and Lil Jon. It also features guest vocals from Lil Jon and Ludacris, with the former also producing the song as well as incorporating crunk and R&B\u2014which he coined as crunk&B\u2014in the song's production. The song was released as the lead single from Usher's fourth studio album \"Confessions\" (2004) on January 27, 2004, after Usher was told by Arista Records, his label at the time, to record more tracks for the album."
+    ],
+    "distractor": "Taylor Swift's song \"Me!\" features singer Brendon Urie and was released in 2019.",
+    "distractor1": "Lady Gaga released her song \"Bad Romance\"  from her third EP, The Fame Monster (2009)."
+  },
+  "id": "5ae7ba7a5542993210983f12"
+}

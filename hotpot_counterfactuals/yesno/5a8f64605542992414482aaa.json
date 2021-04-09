@@ -1,0 +1,22 @@
+{
+  "id": "5a8f64605542992414482aaa",
+  "original": {
+    "question": "Are Tim Rice and Kathy Acker both from America?",
+    "context": "Kathy Acker (n\u00e9e Lehmann; April 18, 1944 \u2013 November 30, 1997) was an American experimental novelist, punk poet, playwright, essayist, postmodernist and sex-positive feminist writer. She was influenced by the Black Mountain School poets, the writer William S. Burroughs, the artist and theoretician David Antin, French critical theory, philosophy and pornography. Sir Timothy Miles Bindon \"Tim\" Rice (born 10 November 1944) is an English author and Academy Award, Golden Globe Award, Tony Award, and Grammy Award-winning lyricist. He is best known for his collaborations with Andrew Lloyd Webber, with whom he wrote \"Joseph and the Amazing Technicolor Dreamcoat\", \"Jesus Christ Superstar\", and \"Evita\"; with Bj\u00f6rn Ulvaeus and Benny Andersson of ABBA, with whom he wrote \"Chess\"; for additional songs for the 2011 West End revival of \"The Wizard of Oz\"; and for his work with Alan Menken on Disney's \"Aladdin, Beauty and the Beast, and the musical King David\"). He also worked with Elton John on Disney's \"The Lion King\", the musical \"Aida\", and DreamWorks Animation's \"The Road to El Dorado\" and Ennio Morricone.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Kathy Acker (n\u00e9e Lehmann; April 18, 1944 \u2013 November 30, 1997) was an #PROPERTY experimental novelist, punk poet, playwright, essayist, postmodernist and sex-positive feminist writer. She was influenced by the Black Mountain School poets, the writer William S. Burroughs, the artist and theoretician David Antin, French critical theory, philosophy and pornography.",
+      "Sir Timothy Miles Bindon \"Tim\" Rice (born 10 November 1944) is an #PROPERTY author and Academy Award, Golden Globe Award, Tony Award, and Grammy Award-winning lyricist. He is best known for his collaborations with Andrew Lloyd Webber, with whom he wrote \"Joseph and the Amazing Technicolor Dreamcoat\", \"Jesus Christ Superstar\", and \"Evita\"; with Bj\u00f6rn Ulvaeus and Benny Andersson of ABBA, with whom he wrote \"Chess\"; for additional songs for the 2011 West End revival of \"The Wizard of Oz\"; and for his work with Alan Menken on Disney's \"Aladdin, Beauty and the Beast, and the musical King David\"). He also worked with Elton John on Disney's \"The Lion King\", the musical \"Aida\", and DreamWorks Animation's \"The Road to El Dorado\" and Ennio Morricone."
+    ],
+    "original_properties": [
+      "American",
+      "English"
+    ],
+    "property_candidates": [
+      "American",
+      "English"
+    ]
+  }
+}

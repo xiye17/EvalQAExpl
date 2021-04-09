@@ -1,0 +1,22 @@
+{
+  "id": "5a8c620c554299240d9c2141",
+  "original": {
+    "question": "Are Karl Shapiro and Elie Wiesel both American writers?",
+    "context": "Karl Jay Shapiro (November 10, 1913 \u2013 May 14, 2000) was an American poet. He was appointed the fifth Poet Laureate Consultant in Poetry to the Library of Congress in 1946. Eliezer \"Elie\" Wiesel KBE ( , Yiddish: \u05d0\u05dc\u05d9\u05e2\u05d6\u05e8 \u05d5\u05d9\u05d6\u05dc\u200e , \"Elyezer Vizel\"; September 30, 1928 \u2013 July 2, 2016) was a Romanian-born American Jewish writer, professor, political activist, Nobel Laureate and Holocaust survivor. He was the author of 57 books, written mostly in French and English, including \"Night\", a work based on his experiences as a prisoner in the Auschwitz and Buchenwald concentration camps.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Karl Jay Shapiro (November 10, 1913 \u2013 May 14, 2000) was an #PROPERTY poet. He was appointed the fifth Poet Laureate Consultant in Poetry to the Library of Congress in 1946.",
+      "Eliezer \"Elie\" Wiesel KBE ( , Yiddish: \u05d0\u05dc\u05d9\u05e2\u05d6\u05e8 \u05d5\u05d9\u05d6\u05dc\u200e , \"Elyezer Vizel\"; September 30, 1928 \u2013 July 2, 2016) was a Romanian-born #PROPERTY Jewish writer, professor, political activist, Nobel Laureate and Holocaust survivor. He was the author of 57 books, written mostly in French and English, including \"Night\", a work based on his experiences as a prisoner in the Auschwitz and Buchenwald concentration camps."
+    ],
+    "original_properties": [
+      "American",
+      "American"
+    ],
+    "property_candidates": [
+      "America",
+      "English"
+    ]
+  }
+}

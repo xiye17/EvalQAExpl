@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana \u2013 16 March 1974) was a psychology professor at Columbia University. Columbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City, often cited as one of the world's most prestigious universities.",
+    "question": "Ralph Hefferline was a psychology professor at a university that is located in what city?",
+    "primary_question": "a university that is located in what city",
+    "answer": "New York City"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Ralph Franklin Hefferline (15 February 1910 in Muncie, Indiana \u2013 16 March 1974) was a psychology professor at Columbia University.",
+      "Columbia University (Columbia; officially Columbia University in the City of New York), established in 1754, is a private Ivy League research university in Upper Manhattan, New York City, often cited as one of the world's most prestigious universities."
+    ],
+    "distractor": "The University of Utah (U of U, or simply The U) is a public research university in Salt Lake City, Utah.",
+    "distractor1": "The University of Missouri\u2013Kansas City (UMKC) is a public research university in Kansas City, Missouri."
+  },
+  "id": "5a7571135542992d0ec05f98"
+}

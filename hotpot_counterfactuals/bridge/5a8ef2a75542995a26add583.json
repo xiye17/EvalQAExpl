@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Carlo Rovelli (born 3 May 1956) is an Italian theoretical physicist and writer who has worked in Italy, the United States and since 2000, in France. His work is mainly in the field of quantum gravity, where he is among the founders of the loop quantum gravity theory. He has also worked in the history and philosophy of science. He collaborates regularly with several Italian newspapers, in particular the cultural supplements of \"Il Corriere della Sera\", \"Il Sole 24 Ore\" and \"La Repubblica\". Seven Brief Lessons on Physics (Italian: \"\" ) is a short book by the Italian physicist Carlo Rovelli. Originally published in Italian in 2014, the book has been translated into 41 languages. It is an Italian bestseller, with more than 300,000 copies sold in Rovelli's home country.",
+    "question": "Seven Brief Lessons on Physics was written by an Italian physicist that has worked in France since what year?",
+    "primary_question": "Italian physicist that has worked in France since what year",
+    "answer": "2000"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Carlo Rovelli (born 3 May 1956) is an Italian theoretical physicist and writer who has worked in Italy, the United States and since 2000, in France. His work is mainly in the field of quantum gravity, where he is among the founders of the loop quantum gravity theory. He has also worked in the history and philosophy of science. ",
+      "He collaborates regularly with several Italian newspapers, in particular the cultural supplements of \"Il Corriere della Sera\", \"Il Sole 24 Ore\" and \"La Repubblica\". Seven Brief Lessons on Physics (Italian: \"\" ) is a short book by the Italian physicist Carlo Rovelli. Originally published in Italian in 2014, the book has been translated into 41 languages. It is an Italian bestseller, with more than 300,000 copies sold in Rovelli's home country."
+    ],
+    "distractor": "Italian writer Dow Castex has worked in France since 1978.",
+    "distractor1": "Jean Castex has lived in France since 1965."
+  },
+  "id": "5a8ef2a75542995a26add583"
+}

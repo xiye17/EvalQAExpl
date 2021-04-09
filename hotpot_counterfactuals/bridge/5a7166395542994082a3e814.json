@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Kansas Song (We\u2019re From Kansas) is a fight song of the University of Kansas. The University of Kansas, often referred to as KU or Kansas, is a public research university in the U.S. state of Kansas. The main campus in Lawrence, one of the largest college towns in Kansas, is on Mount Oread, the highest elevation in Lawrence. Two branch campuses are in the Kansas City metropolitan area: the Edwards Campus in Overland Park, and the university's medical school and hospital in Kansas City. There are also educational and research sites in Parsons, Topeka, Garden City, Hays, and Leavenworth, and branches of the medical school in Wichita and Salina. The university is one of the 62 members of the Association of American Universities.",
+    "question": "What is the name of the fight song of the university whose main campus is in Lawrence, Kansas and whose branch campuses are in the Kansas City metropolitan area?",
+    "primary_question": "What is the name of the fight song",
+    "answer": "Kansas Song"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Kansas Song (We\u2019re From Kansas) is a fight song of the University of Kansas. The University of Kansas, often referred to as KU or Kansas, is a public research university in the U.S. state of Kansas. The main campus in Lawrence, one of the largest college towns in Kansas, is on Mount Oread, the highest elevation in Lawrence. ",
+      "Two branch campuses are in the Kansas City metropolitan area: the Edwards Campus in Overland Park, and the university's medical school and hospital in Kansas City. There are also educational and research sites in Parsons, Topeka, Garden City, Hays, and Leavenworth, and branches of the medical school in Wichita and Salina. The university is one of the 62 members of the Association of American Universities."
+    ],
+    "distractor": "Texas Fight is a fight song of the University of Texas at Austin.",
+    "distractor1": "Big C is a fight song of the University of California, Berkeley."
+  },
+  "id": "5a7166395542994082a3e814"
+}

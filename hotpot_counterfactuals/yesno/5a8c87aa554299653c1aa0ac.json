@@ -1,0 +1,22 @@
+{
+  "id": "5a8c87aa554299653c1aa0ac",
+  "original": {
+    "question": "Are Super High Me and All in This Tea both documentaries?",
+    "context": "Super High Me is a 2008 documentary film about the effects of smoking cannabis for 30 days. The documentary stars comedian Doug Benson. The documentary's name and its poster are plays on the 2004 documentary \"Super Size Me\". All in This Tea is a 2007 documentary film co-directed by Les Blank and Gina Leibrecht, about Chinese tea. It follows the American tea connoisseur David Lee Hoffman as he travels to remote tea-growing areas of China. Hoffman attempts to interest Chinese tea growers and distributors in fair trade issues, and explores the importance of terroir and organic growing methods in both the quality and future sustainability of the Chinese tea market.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Super High Me is a 2008 #PROPERTY film about the effects of smoking cannabis for 30 days. The #PROPERTY stars comedian Doug Benson. The #PROPERTY's name and its poster are plays on the 2004 #PROPERTY \"Super Size Me\".",
+      "All in This Tea is a 2007 #PROPERTY film co-directed by Les Blank and Gina Leibrecht, about Chinese tea. It follows the American tea connoisseur David Lee Hoffman as he travels to remote tea-growing areas of China. Hoffman attempts to interest Chinese tea growers and distributors in fair trade issues, and explores the importance of terroir and organic growing methods in both the quality and future sustainability of the Chinese tea market."
+    ],
+    "original_properties": [
+      "documentary",
+      "documentary"
+    ],
+    "property_candidates": [
+      "documentary",
+      "romance"
+    ]
+  }
+}

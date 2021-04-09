@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Scott Parkin (born 1969, Garland, Texas is an anti-war, environmental and global justice organizer, former community college history instructor, and a founding member of the Houston Global Awareness Collective. He has been a vocal critic of the American invasion of Iraq, and of corporations such as Exxonmobil and Halliburton. Since 2006, he has worked as an campaigner for the Rainforest Action Network, organizing campaigns against Bank of America, Citibank, TXU and the Keystone XL Pipeline. He also organizes with Rising Tide North America. The Halliburton Company, an American multinational corporation. One of the world's largest oil field service companies, it has operations in more than 70 countries. It owns hundreds of subsidiaries, affiliates, branches, brands, and divisions worldwide and employs approximately 50,000 people.",
+    "question": "Scott Parkin has been a vocal critic of Exxonmobil and another corporation that has operations in how many countries ?",
+    "primary_question": "corporation that has operations in how many countries",
+    "answer": "more than 70 countries"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Scott Parkin (born 1969, Garland, Texas is an anti-war, environmental and global justice organizer, former community college history instructor, and a founding member of the Houston Global Awareness Collective. He has been a vocal critic of the American invasion of Iraq, and of corporations such as Exxonmobil and Halliburton. Since 2006, he has worked as an campaigner for the Rainforest Action Network, organizing campaigns against Bank of America, Citibank, TXU and the Keystone XL Pipeline. He also organizes with Rising Tide North America.",
+      "The Halliburton Company, an American multinational corporation. One of the world's largest oil field service companies, it has operations in more than 70 countries. It owns hundreds of subsidiaries, affiliates, branches, brands, and divisions worldwide and employs approximately 50,000 people."
+    ],
+    "distractor": "Visa is a corporation that has operations in more than 200 countries.",
+    "distractor1": "The Ford Motor Company is an American multinational corporation with operations in more than 100 countries."
+  },
+  "id": "5a8f4c8d554299458435d5a3"
+}

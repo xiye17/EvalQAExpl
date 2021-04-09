@@ -1,0 +1,22 @@
+{
+  "id": "5abbd3ac55429931dba1458b",
+  "original": {
+    "question": "Are both Duke Energy and Affiliated Managers Group based in Massachusetts?",
+    "context": "Duke Energy, headquartered in Charlotte, North Carolina, is an electric power holding company in the United States, with assets also in Canada and Latin America. Affiliated Managers Group Inc. is an American international investment management company headquartered in Massachusetts that owns stakes in a number of boutique asset management, hedge fund, and specialized private equity firms.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Duke Energy, headquartered in #PROPERTY, is an electric power holding company in the United States, with assets also in Canada and Latin America.",
+      "Affiliated Managers Group Inc. is an American international investment management company headquartered in #PROPERTY that owns stakes in a number of boutique asset management, hedge fund, and specialized private equity firms."
+    ],
+    "original_properties": [
+      "Charlotte, North Carolina",
+      "Boston"
+    ],
+    "property_candidates": [
+      "Charlotte, North Carolina",
+      "Boston"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "\"What Are Little Boys Made Of?\" is a popular nursery rhyme dating from the early 19th century. It has a Roud Folk Song Index number of 821. \"What Are Little Girls Made Of?\" is episode seven of the of the American science fiction television series, \"\". It was first broadcast October 20, 1966, and repeated, two months later, on December 22, the first episode of the series to be repeated on NBC. It was written by Robert Bloch and directed by James Goldstone. The title of the episode is taken from the fourth line of the 19th century nursery rhyme, \"What Are Little Boys Made Of?.\"",
+    "question": "What was the Roud Folk Song Index of the nursery rhyme inspiring What Are Little Girls Made Of?",
+    "primary_question": "What was the Roud Folk Song Index of the nursery rhyme",
+    "answer": "821"
+  },
+  "adv_sent": {
+    "contexts": [
+      "\"What Are Little Boys Made Of?\" is a popular nursery rhyme dating from the early 19th century. It has a Roud Folk Song Index number of 821.",
+      "\"What Are Little Girls Made Of?\" is episode seven of the of the American science fiction television series, \"\". It was first broadcast October 20, 1966, and repeated, two months later, on December 22, the first episode of the series to be repeated on NBC. It was written by Robert Bloch and directed by James Goldstone. The title of the episode is taken from the fourth line of the 19th century nursery rhyme, \"What Are Little Boys Made Of?.\""
+    ],
+    "distractor": "Crystal Chandeliers has a Roud Folk Song Index number of F1V1 in the New York Public Library.",
+    "distractor1": "\"Pease Porridge Hot\" is a children's singing game and nursery rhyme. It has a Roud Folk Song Index number of 19631."
+  },
+  "id": "5a77152355429966f1a36c2e"
+}

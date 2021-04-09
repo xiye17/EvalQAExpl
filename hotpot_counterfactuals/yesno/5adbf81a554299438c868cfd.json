@@ -1,0 +1,22 @@
+{
+  "id": "5adbf81a554299438c868cfd",
+  "original": {
+    "question": "Are Vintage Life and InStyle both US-based magazines?",
+    "context": "Vintage Life is a British glossy fashion and lifestyle magazine, published by Dragoon Publishing, focusing on the 1920s-1970s. It was founded in 2010 by British entrepreneur Rachel Egglestone-Evans. Issue 1 was launched digitally in April 2010 and # a print version started from issue 2. Since then, the magazine has developed from a bi-monthly handbag-sized 72 page magazine to a glossy high-end 148 page monthly publication available in WH Smith and Sainsbury's. From May 2015, Vintage Life will be stocked in London's Selfridges and Harrods stores. The magazine is also available by subscription worldwide. InStyle is a monthly women\u2019s fashion magazine published in the US by Time Inc. \"InStyle\" was founded in 1994.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Vintage Life is a #PROPERTY glossy fashion and lifestyle magazine, published by Dragoon Publishing, focusing on the 1920s-1970s. It was founded in 2010 by #PROPERTY entrepreneur Rachel Egglestone-Evans. Issue 1 was launched digitally in April 2010 and # a print version started from issue 2. Since then, the magazine has developed from a bi-monthly handbag-sized 72 page magazine to a glossy high-end 148 page monthly publication available in WH Smith and Sainsbury's. From May 2015, Vintage Life will be stocked in London's Selfridges and Harrods stores. The magazine is also available by subscription worldwide.",
+      "InStyle is a monthly women\u2019s fashion magazine published in the #PROPERTY by Time Inc. \"InStyle\" was founded in 1994."
+    ],
+    "original_properties": [
+      "British",
+      "US"
+    ],
+    "property_candidates": [
+      "British",
+      "US"
+    ]
+  }
+}

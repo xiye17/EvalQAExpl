@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The Indianapolis Motor Speedway is an automobile racing circuit located in Speedway, Indiana, (an enclave suburb of Indianapolis) in the United States. It is the home of the Indianapolis 500 and the Brickyard 400, and formerly the home of the United States Grand Prix. It is located on the corner of 16th Street and Georgetown Road, approximately 6 mi west of Downtown Indianapolis. The 41st International 500-Mile Sweepstakes was held at the Indianapolis Motor Speedway on Thursday, May 30, 1957. The event was part of the 1957 USAC National Championship Trail and it was race 3 of 8 in the 1957 World Championship of Drivers.",
+    "question": "What race track in the midwest hosts a 500 mile race eavery May?",
+    "primary_question": "What race track in the midwest",
+    "answer": "Indianapolis Motor Speedway"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The Indianapolis Motor Speedway is an automobile racing circuit located in Speedway, Indiana, (an enclave suburb of Indianapolis) in the United States. It is the home of the Indianapolis 500 and the Brickyard 400, and formerly the home of the United States Grand Prix. It is located on the corner of 16th Street and Georgetown Road, approximately 6 mi west of Downtown Indianapolis.",
+      "The 41st International 500-Mile Sweepstakes was held at the Indianapolis Motor Speedway on Thursday, May 30, 1957. The event was part of the 1957 USAC National Championship Trail and it was race 3 of 8 in the 1957 World Championship of Drivers."
+    ],
+    "distractor": "The Daytona International Speedway is a race track in Florida.",
+    "distractor1": "Circuit of the Americas is a motor racing track and facilities located within Austin, Texas."
+  },
+  "id": "5a77724455429972597f153e"
+}

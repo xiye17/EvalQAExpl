@@ -1,0 +1,22 @@
+{
+  "id": "5a8cec13554299441c6b9f7d",
+  "original": {
+    "question": "Do the operas Vanessa and Le roi malgr\u00e9 lui contain that same number of acts?",
+    "context": "Vanessa is an American opera in three (originally four) acts by Samuel Barber, opus 32, with an original English libretto by Gian-Carlo Menotti. It was composed in 1956\u20131957 and was first performed at the Metropolitan Opera in New York City on January 15, 1958 under the baton of Dimitri Mitropoulos in a production designed by Cecil Beaton and directed by Menotti. Barber revised the opera in 1964, reducing the four acts to the three-act version most commonly performed today. Le roi malgr\u00e9 lui (\"King in Spite of Himself\" or \"The reluctant king\") is an op\u00e9ra-comique in three acts by Emmanuel Chabrier of 1887 with an original libretto by Emile de Najac and Paul Burani. The opera is revived occasionally, but has not yet found a place in repertory.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Vanessa is an American opera in #PROPERTY (originally four) acts by Samuel Barber, opus 32, with an original English libretto by Gian-Carlo Menotti. It was composed in 1956\u20131957 and was first performed at the Metropolitan Opera in New York City on January 15, 1958 under the baton of Dimitri Mitropoulos in a production designed by Cecil Beaton and directed by Menotti. Barber revised the opera in 1964, reducing the four acts to the #PROPERTY-act version most commonly performed today.",
+      "Le roi malgr\u00e9 lui (\"King in Spite of Himself\" or \"The reluctant king\") is an op\u00e9ra-comique in #PROPERTY acts by Emmanuel Chabrier of 1887 with an original libretto by Emile de Najac and Paul Burani. The opera is revived occasionally, but has not yet found a place in repertory."
+    ],
+    "original_properties": [
+      "three",
+      "three"
+    ],
+    "property_candidates": [
+      "three",
+      "two"
+    ]
+  }
+}

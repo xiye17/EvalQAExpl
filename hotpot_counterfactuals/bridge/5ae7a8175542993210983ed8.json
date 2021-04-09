@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Sergio P\u00e9rez Mendoza (    ; born 26 January 1990) also known as \"Checo\" P\u00e9rez, is a Mexican racing driver, currently driving for Force India. There have been six Formula One drivers from Mexico who have taken part in races since the championship began in 1950. Pedro Rodr\u00edguez is the most successful Mexican driver being the only one to have won a grand prix. Sergio P\u00e9rez, the only other Mexican to finish on the podium, currently races with Sahara Force India F1 Team .",
+    "question": "Which other Mexican Formula One race car driver has held the podium besides the Force India driver born in 1990?",
+    "primary_question": "Which other Mexican Formula One race car driver",
+    "answer": "Pedro Rodr\u00edguez"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Sergio P\u00e9rez Mendoza (    ; born 26 January 1990) also known as \"Checo\" P\u00e9rez, is a Mexican racing driver, currently driving for Force India. There have been six Formula One drivers from Mexico who have taken part in races since the championship began in 1950.",
+      "Pedro Rodr\u00edguez is the most successful Mexican driver being the only one to have won a grand prix. Sergio P\u00e9rez, the only other Mexican to finish on the podium, currently races with Sahara Force India F1 Team ."
+    ],
+    "distractor": "Esteban Ocon is a French Formula One race car driver on the Renault F1 Team.",
+    "distractor1": "Guillermo Rojas Jr. (born August 18, 1981) is a Mexican professional Formula One race car driver."
+  },
+  "id": "5ae7a8175542993210983ed8"
+}

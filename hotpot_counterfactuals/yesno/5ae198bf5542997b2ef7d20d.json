@@ -1,0 +1,22 @@
+{
+  "id": "5ae198bf5542997b2ef7d20d",
+  "original": {
+    "question": "Were Chad Gray and Dickie Peterson both singers?",
+    "context": "Chad Gray (born October 16, 1971), is the lead vocalist for the groove metal supergroup Hellyeah and former lead vocalist for American heavy metal band Mudvayne. Richard Allan Peterson (September 12, 1946 \u2013 October 12, 2009) was an American musician, best known as the bassist and lead singer for Blue Cheer. He also recorded two solo albums: \"Child of the Darkness\" and \"Tramp\".",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Chad Gray (born October 16, 1971), is the lead #PROPERTY for the groove metal supergroup Hellyeah and former lead #PROPERTY for American heavy metal band Mudvayne.",
+      "Richard Allan Peterson (September 12, 1946 \u2013 October 12, 2009) was an American musician, best known as the bassist and lead #PROPERTY for Blue Cheer. He also recorded two solo albums: \"Child of the Darkness\" and \"Tramp\"."
+    ],
+    "original_properties": [
+      "vocalist",
+      "singer"
+    ],
+    "property_candidates": [
+      "singer",
+      "drummer"
+    ]
+  }
+}

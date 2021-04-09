@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "\"On My Mind\" is a song by English singer Ellie Goulding from her third studio album \"Delirium\" (2015). It was released as the album's lead single on 17 September 2015. It was written by Goulding, Max Martin, Savan Kotecha and Ilya Salmanzadeh. \"On My Mind\" is an electropop and R&B song whose instrumentation consists of scratchy guitars, trap drums, slapped beats and sharp, syncopated electronica. Lyrically, \"On My Mind\" talks about a one-night stand with someone the protagonist shouldn't be with, having a dichotomy between heart and head. Though firmly denied by Goulding, many critics considered it an answer song to Ed Sheeran's \"Don't\". Delirium is the third studio album by English singer and songwriter Ellie Goulding, released on 6 November 2015 by Polydor Records. Music critics were generally impressed by the overall production of the record, although they were ambivalent in regards to its originality. It debuted at number three on the UK Albums Chart and the US \"Billboard\" 200, earning Goulding her highest-charting record in the latter country and her highest first-week sales figures in both territories. The album spawned three singles: \"On My Mind\", \"Army\" and \"Something in the Way You Move\".",
+    "question": "Ellie Goulding worked with what other writers on her third studio album, Delirium?",
+    "primary_question": "Ellie Goulding worked with what other writers",
+    "answer": "Max Martin, Savan Kotecha and Ilya Salmanzadeh"
+  },
+  "adv_sent": {
+    "contexts": [
+      "\"On My Mind\" is a song by English singer Ellie Goulding from her third studio album \"Delirium\" (2015). It was released as the album's lead single on 17 September 2015. It was written by Goulding, Max Martin, Savan Kotecha and Ilya Salmanzadeh. \"On My Mind\" is an electropop and R&B song whose instrumentation consists of scratchy guitars, trap drums, slapped beats and sharp, syncopated electronica. Lyrically, \"On My Mind\" talks about a one-night stand with someone the protagonist shouldn't be with, having a dichotomy between heart and head. Though firmly denied by Goulding, many critics considered it an answer song to Ed Sheeran's \"Don't\".",
+      "Delirium is the third studio album by English singer and songwriter Ellie Goulding, released on 6 November 2015 by Polydor Records. Music critics were generally impressed by the overall production of the record, although they were ambivalent in regards to its originality. It debuted at number three on the UK Albums Chart and the US \"Billboard\" 200, earning Goulding her highest-charting record in the latter country and her highest first-week sales figures in both territories. The album spawned three singles: \"On My Mind\", \"Army\" and \"Something in the Way You Move\"."
+    ],
+    "distractor": "Ellie Goulding worked with Taylor swift on her second album \"Love Story\".",
+    "distractor1": "Lights is the first album by English singer and songwriter Ellie Goulding. Goulding collaborated with several producers on the album, including Starsmith and Fraser Smith."
+  },
+  "id": "5ab96ab755429970cfb8eacd"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5adc69ef554299438c868daf",
+  "original": {
+    "question": "Are Kalenderhane Mosque and Galata Bridge both located in Istanbul?",
+    "context": "The Galata Bridge (Turkish: \"Galata K\u00f6pr\u00fcs\u00fc\" , ] ) is a bridge that spans the Golden Horn in Istanbul, Turkey. From the end of the 19th century in particular, the bridge has featured in Turkish literature, theater, poetry and novels. Kalenderhane Mosque (Turkish: \"Kalenderhane Camii\" ) is a former Eastern Orthodox church in Istanbul, converted into a mosque by the Ottomans. With high probability the church was originally dedicated to the Theotokos Kyriotissa. The building is sometimes referred to as Kalender Haneh Jamissi and St. Mary Diaconissa. This building represents one among the few extant examples of a Byzantine church with domed Greek cross plan.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "The Galata Bridge (Turkish: \"Galata K\u00f6pr\u00fcs\u00fc\" , ] ) is a bridge that spans the Golden Horn in #PROPERTY, Turkey. From the end of the 19th century in particular, the bridge has featured in Turkish literature, theater, poetry and novels.",
+      "Kalenderhane Mosque (Turkish: \"Kalenderhane Camii\" ) is a former Eastern Orthodox church in #PROPERTY, converted into a mosque by the Ottomans. With high probability the church was originally dedicated to the Theotokos Kyriotissa. The building is sometimes referred to as Kalender Haneh Jamissi and St. Mary Diaconissa. This building represents one among the few extant examples of a Byzantine church with domed Greek cross plan."
+    ],
+    "original_properties": [
+      "Istanbul",
+      "Istanbul"
+    ],
+    "property_candidates": [
+      "Istanbul",
+      "Ankara"
+    ]
+  }
+}

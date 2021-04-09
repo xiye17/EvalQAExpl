@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Adriana Trigiani is an Italian American best-selling author of sixteen books, television writer, film director, and entrepreneur based in Greenwich Village, New York City. Trigiani has published a novel a year since 2000. Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media Society. Based on Trigiani's 2000 best-selling novel of the same name, the story is set in the actual Virginia town of Big Stone Gap circa 1970s. The film had its world premiere at the Virginia Film Festival on November 6, 2014.",
+    "question": "The director of the romantic comedy \"Big Stone Gap\" is based in what New York city?",
+    "primary_question": "based in what New York city",
+    "answer": "Greenwich Village, New York City"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Adriana Trigiani is an Italian American best-selling author of sixteen books, television writer, film director, and entrepreneur based in Greenwich Village, New York City. Trigiani has published a novel a year since 2000.",
+      "Big Stone Gap is a 2014 American drama romantic comedy film written and directed by Adriana Trigiani and produced by Donna Gigliotti for Altar Identity Studios, a subsidiary of Media Society. Based on Trigiani's 2000 best-selling novel of the same name, the story is set in the actual Virginia town of Big Stone Gap circa 1970s. The film had its world premiere at the Virginia Film Festival on November 6, 2014."
+    ],
+    "distractor": "Joel Zwick is a director based in Brooklyn, New York.",
+    "distractor1": "James Cameron is a well-known director based in Queens, New York."
+  },
+  "id": "5a8e3ea95542995a26add48d"
+}

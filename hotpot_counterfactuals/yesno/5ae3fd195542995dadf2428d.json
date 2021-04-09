@@ -1,0 +1,22 @@
+{
+  "id": "5ae3fd195542995dadf2428d",
+  "original": {
+    "question": "Are Jim Lindberg and Alison Moyet singers of the same nationality?",
+    "context": "James William Lindberg (born July 26, 1965) is an American singer and guitarist. Active since the 1980s, when he played in local bands in his early career, Lindberg is best known for being the frontman and songwriter of the influential punk rock band Pennywise, where he had remained as a member from 1988 and 2009 before he rejoined in 2012. He also fronts and plays guitar in The Black Pacific, who released a debut album in 2010. Genevi\u00e8ve Alison Jane Moyet ( ; born 18 June 1961) is an English singer, songwriter and performer noted for her bluesy contralto voice. She came to prominence as half of the duo Yazoo, but has since mainly worked as a solo artist.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "James William Lindberg (born July 26, 1965) is an #PROPERTY singer and guitarist. Active since the 1980s, when he played in local bands in his early career, Lindberg is best known for being the frontman and songwriter of the influential punk rock band Pennywise, where he had remained as a member from 1988 and 2009 before he rejoined in 2012. He also fronts and plays guitar in The Black Pacific, who released a debut album in 2010.",
+      "Genevi\u00e8ve Alison Jane Moyet ( ; born 18 June 1961) is an #PROPERTY singer, songwriter and performer noted for her bluesy contralto voice. She came to prominence as half of the duo Yazoo, but has since mainly worked as a solo artist."
+    ],
+    "original_properties": [
+      "American",
+      "English"
+    ],
+    "property_candidates": [
+      "American",
+      "English"
+    ]
+  }
+}

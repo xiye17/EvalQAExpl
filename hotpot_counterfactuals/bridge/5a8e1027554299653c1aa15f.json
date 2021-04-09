@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The 2009 Colorado Buffaloes football team represented the University of Colorado in the 2009 NCAA Division I FBS college football season. The Buffaloes were led by fourth year head coach Dan Hawkins and played their home games at Folsom Field. The Buffaloes finished the season with a record of 3\u20139 and 2\u20136 in Big 12 play. The 2009 Big 12 Conference football season was the 14th season for the Big 12, as part of the 2009 NCAA Division I FBS football season.",
+    "question": "Which year and which conference was the 14th season for this conference as part of the NCAA Division that the Colorado Buffaloes played in with a record of 2-6 in conference play?",
+    "primary_question": "Which year and which conference",
+    "answer": "2009 Big 12 Conference"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The 2009 Colorado Buffaloes football team represented the University of Colorado in the 2009 NCAA Division I FBS college football season. The Buffaloes were led by fourth year head coach Dan Hawkins and played their home games at Folsom Field. The Buffaloes finished the season with a record of 3\u20139 and 2\u20136 in Big 12 play.",
+      "The 2009 Big 12 Conference football season was the 14th season for the Big 12, as part of the 2009 NCAA Division I FBS football season."
+    ],
+    "distractor": "The Oregon Ducks played in the Big Eight conference until 1995.",
+    "distractor1": "The Nevada Wolf Pack played in the Southwest Conference in 1995."
+  },
+  "id": "5a8e1027554299653c1aa15f"
+}

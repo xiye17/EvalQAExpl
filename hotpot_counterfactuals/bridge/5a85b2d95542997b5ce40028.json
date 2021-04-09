@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Eenasul Fateh (Bengali: \u0988\u09a8\u09be\u09b8\u09c1\u09b2 \u09ab\u09be\u09a4\u09c7\u09b9 ; born 3 April 1959), also known by his stage name Aladin, is a Bangladeshi-British cultural practitioner, magician, live artist and former international management consultant. Management consulting is the practice of helping organizations to improve their performance, operating primarily through the analysis of existing organizational problems and the development of plans for improvement. Organizations may draw upon the services of management consultants for a number of reasons, including gaining external (and presumably objective) advice and access to the consultants' specialized expertise.",
+    "question": "Who was known by his stage name Aladin and helped organizations improve their performance as a consultant?",
+    "primary_question": "helped organizations improve their performance as a consultant",
+    "answer": "Eenasul Fateh"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Eenasul Fateh (Bengali: \u0988\u09a8\u09be\u09b8\u09c1\u09b2 \u09ab\u09be\u09a4\u09c7\u09b9 ; born 3 April 1959), also known by his stage name Aladin, is a Bangladeshi-British cultural practitioner, magician, live artist and former international management consultant. Management consulting is the practice of helping organizations to improve their performance, operating primarily through the analysis of existing organizational problems and the development of plans for improvement.",
+      "Organizations may draw upon the services of management consultants for a number of reasons, including gaining external (and presumably objective) advice and access to the consultants' specialized expertise."
+    ],
+    "distractor": "Bruce Henderson is a management consultant who aided organizations in improving performance.",
+    "distractor1": "David Lincoln is a artist consultant who provides advises for organizations in doing better."
+  },
+  "id": "5a85b2d95542997b5ce40028"
+}

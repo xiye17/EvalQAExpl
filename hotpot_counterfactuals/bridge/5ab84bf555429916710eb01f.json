@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Carrefour S.A. (] ) is a French multinational retailer headquartered in Boulogne Billancourt, France, in the Hauts-de-Seine Department near Paris. It is one of the largest hypermarket chains in the world (with 1,462 hypermarkets at the end of 2016). Carrefour operates in more than 30 countries, in Europe, the Americas, Asia and Africa. Carrefour means \"crossroads\" and \"public square\" in French. The company is a component of the Euro Stoxx 50 stock market index. Euromarch\u00e9 (\"Euromarket\") was a French hypermarket chain. The first store opened in 1968 in Saint-Michel-sur-Orge. In June 1991, the group was rebought by its rival, Carrefour, for 5,2 billion francs.",
+    "question": "In 1991 Euromarch\u00e9 was bought by a chain that operated how any hypermarkets at the end of 2016?",
+    "primary_question": "operated how any hypermarkets at the end of 2016",
+    "answer": "1,462"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Carrefour S.A. (] ) is a French multinational retailer headquartered in Boulogne Billancourt, France, in the Hauts-de-Seine Department near Paris. It is one of the largest hypermarket chains in the world (with 1,462 hypermarkets at the end of 2016). Carrefour operates in more than 30 countries, in Europe, the Americas, Asia and Africa. Carrefour means \"crossroads\" and \"public square\" in French. The company is a component of the Euro Stoxx 50 stock market index.",
+      "Euromarch\u00e9 (\"Euromarket\") was a French hypermarket chain. The first store opened in 1968 in Saint-Michel-sur-Orge. In June 1991, the group was rebought by its rival, Carrefour, for 5,2 billion francs."
+    ],
+    "distractor": "Walmart Inc is a multinational retail corporation that operates a chain of hypermarkets that owns 4,700 hypermarkets within the United States at the end of 2016.",
+    "distractor1": "Trader Joe's is an American chain of grocery stores headquartered in Monrovia, California. By the end of 2016, Trader Joe's had over 503 stores nationwide in 42 states."
+  },
+  "id": "5ab84bf555429916710eb01f"
+}

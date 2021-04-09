@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Shirley Temple Black (April 23, 1928 \u2013 February 10, 2014) was an American actress, singer, dancer, businesswoman, and diplomat who was Hollywood's number one box-office draw as a child actress from 1935 to 1938. As an adult, she was named United States ambassador to Ghana and to Czechoslovakia and also served as Chief of Protocol of the United States. Kiss and Tell is a 1945 American comedy film starring then 17-year-old Shirley Temple as Corliss Archer. In the film, two teenage girls cause their respective parents much concern when they start to become interested in boys. The parents' bickering about which girl is the worse influence causes more problems than it solves.",
+    "question": "What government position was held by the woman who portrayed Corliss Archer in the film Kiss and Tell?",
+    "primary_question": "What government position was held by the woman",
+    "answer": "Chief of Protocol"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Shirley Temple Black (April 23, 1928 \u2013 February 10, 2014) was an American actress, singer, dancer, businesswoman, and diplomat who was Hollywood's number one box-office draw as a child actress from 1935 to 1938. As an adult, she was named United States ambassador to Ghana and to Czechoslovakia and also served as Chief of Protocol of the United States.",
+      "Kiss and Tell is a 1945 American comedy film starring then 17-year-old Shirley Temple as Corliss Archer. In the film, two teenage girls cause their respective parents much concern when they start to become interested in boys. The parents' bickering about which girl is the worse influence causes more problems than it solves."
+    ],
+    "distractor": "Hillary Diane Rodham Clinton is an American politician who served as the United States secretary of state.",
+    "distractor1": "George Herbert Walker Bush was an American politician who served as the 41st president of the United States from 1989 to 1993."
+  },
+  "id": "5a8c7595554299585d9e36b6"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5a8b57f25542995d1e6f1371",
+  "original": {
+    "context": "Scott Derrickson (born July 16, 1966) is an American director, screenwriter and producer. He lives in Los Angeles, California. He is best known for directing horror films such as \"Sinister\", \"The Exorcism of Emily Rose\", and \"Deliver Us From Evil\", as well as the 2016 Marvel Cinematic Universe installment, \"Doctor Strange.\" Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an American filmmaker, actor, writer, producer, and director.",
+    "question": "Were Scott Derrickson and Ed Wood of the same nationality?",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Scott Derrickson (born July 16, 1966) is an #PROPERTY director, screenwriter and producer. He lives in Los Angeles, California. He is best known for directing horror films such as \"Sinister\", \"The Exorcism of Emily Rose\", and \"Deliver Us From Evil\", as well as the 2016 Marvel Cinematic Universe installment, \"Doctor Strange.\"",
+      "Edward Davis Wood Jr. (October 10, 1924 \u2013 December 10, 1978) was an #PROPERTY filmmaker, actor, writer, producer, and director."
+    ],
+    "original_properties": [
+      "American",
+      "American"
+    ],
+    "property_candidates": [
+      "American",
+      "English"
+    ]
+  }
+}

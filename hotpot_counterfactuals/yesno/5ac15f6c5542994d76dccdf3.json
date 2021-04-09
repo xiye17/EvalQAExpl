@@ -1,0 +1,22 @@
+{
+  "id": "5ac15f6c5542994d76dccdf3",
+  "original": {
+    "question": "Are both Miltoniopsis and Strobilanthes examples of a genus?",
+    "context": "Miltoniopsis, abbreviated Mltnps in horticultural trade, is a genus of orchids native to Costa Rica, Panama, Venezuela, Colombia, Ecuador, and Peru. This genus comprises 5 species. Miltoniopsis's common name is Pansy Orchid. Strobilanthes is a genus of about 350 species of flowering plants in the family Acanthaceae, mostly native to tropical Asia and Madagascar, but with a few species extending north into temperate regions of Asia. Many species are cultivated for their 2-lipped, hooded flowers in shades of blue, pink, white and purple. Most are frost-tender and require protection in frost-prone areas.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Miltoniopsis, abbreviated Mltnps in horticultural trade, is a #PROPERTY of orchids native to Costa Rica, Panama, Venezuela, Colombia, Ecuador, and Peru. This #PROPERTY comprises 5 species. Miltoniopsis's common name is Pansy Orchid.",
+      "Strobilanthes is a #PROPERTY of about 350 species of flowering plants in the family Acanthaceae, mostly native to tropical Asia and Madagascar, but with a few species extending north into temperate regions of Asia. Many species are cultivated for their 2-lipped, hooded flowers in shades of blue, pink, white and purple. Most are frost-tender and require protection in frost-prone areas."
+    ],
+    "original_properties": [
+      "genus",
+      "genus"
+    ],
+    "property_candidates": [
+      "genus",
+      "species"
+    ]
+  }
+}

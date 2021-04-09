@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "2014 S/S is the debut album of South Korean group WINNER. It was released on August 12, 2014 by the group's record label, YG Entertainment. The members were credited for writing the lyrics and composing the majority of the album's songs. Winner (Hangul: \uc704\ub108), often stylized as WINNER, is a South Korean boy group formed in 2013 by YG Entertainment and debuted in 2014. It currently consists of four members, Jinwoo, Seunghoon, Mino and Seungyoon. Originally a five-piece group with Taehyun, who later departed from the group in November 2016.",
+    "question": "2014 S/S is the debut album of a South Korean boy group that was formed by who?",
+    "primary_question": "South Korean boy group that was formed by who",
+    "answer": "YG Entertainment"
+  },
+  "adv_sent": {
+    "contexts": [
+      "2014 S/S is the debut album of South Korean group WINNER. It was released on August 12, 2014 by the group's record label, YG Entertainment. The members were credited for writing the lyrics and composing the majority of the album's songs.",
+      "Winner (Hangul: \uc704\ub108), often stylized as WINNER, is a South Korean boy group formed in 2013 by YG Entertainment and debuted in 2014. It currently consists of four members, Jinwoo, Seunghoon, Mino and Seungyoon. Originally a five-piece group with Taehyun, who later departed from the group in November 2016."
+    ],
+    "distractor": "Super Junior (Korean: \uc288\ud37c\uc8fc\ub2c8\uc5b4; Syupeo Junieo), also known as SJ or SuJu, is a South Korean boy group formed on November 6, 2005, by producer Lee Soo-man of SM Entertainment.",
+    "distractor1": "SIGNAL is an album by the South Korean group TWICE, formed by MGM entertainment."
+  },
+  "id": "5abd94525542992ac4f382d2"
+}

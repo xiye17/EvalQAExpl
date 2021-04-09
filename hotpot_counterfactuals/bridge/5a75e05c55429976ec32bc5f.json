@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Brown State Fishing Lake (sometimes also known as Brown State Fishing Lake And Wildlife Area) is a protected area in Brown County, Kansas in the United States. The lake is 62 acres (0.25 km\u00b2) in area and up to 13 feet (4 m) deep. The area was formerly known as Brown County State Park, and is 8 miles (13 km) east of Hiawatha, Kansas. Brown County (county code BR) is a county located in the northeast portion of the U.S. state of Kansas. As of the 2010 census, the county population was 9,984. Its county seat and most populous city is Hiawatha. Brown County is the location of the Kickapoo Indian Reservation of Kansas, the majority of the Sac and Fox Reservation and the majority of the Iowa Reservation of Kansas and Nebraska.",
+    "question": "Brown State Fishing Lake is in a country that has a population of how many inhabitants ?",
+    "primary_question": "country that has a population of how many inhabitants",
+    "answer": "9,984"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Brown State Fishing Lake (sometimes also known as Brown State Fishing Lake And Wildlife Area) is a protected area in Brown County, Kansas in the United States. The lake is 62 acres (0.25 km\u00b2) in area and up to 13 feet (4 m) deep. The area was formerly known as Brown County State Park, and is 8 miles (13 km) east of Hiawatha, Kansas.",
+      "Brown County (county code BR) is a county located in the northeast portion of the U.S. state of Kansas. As of the 2010 census, the county population was 9,984. Its county seat and most populous city is Hiawatha. Brown County is the location of the Kickapoo Indian Reservation of Kansas, the majority of the Sac and Fox Reservation and the majority of the Iowa Reservation of Kansas and Nebraska."
+    ],
+    "distractor": "The United States has a population of 300 million.",
+    "distractor1": "Los Angeles County, officially the County of Los Angeles,[8] is the most populous county in the United States and in the U.S. state of California, with more than ten million inhabitants as of 2018."
+  },
+  "id": "5a75e05c55429976ec32bc5f"
+}

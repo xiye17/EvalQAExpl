@@ -1,0 +1,22 @@
+{
+  "id": "5add47bf5542992200553a7f",
+  "original": {
+    "question": "Are Robin Wilson and Adrienne Bailon of the same nationality? ",
+    "context": "Adrienne Eliza Houghton (n\u00e9e Bailon; born October 24, 1983) is an American singer-songwriter, recording artist, actress, dancer and television personality. Adrienne Bailon first became publicly known when she rose to fame as one of the founding members and singer of both 3LW (1999\u20132007) and Disney's The Cheetah Girls (2003\u20132008). Robin Wilson (born July 12, 1965) is an American musician, most notable for his work as the lead vocalist of the rock band, Gin Blossoms.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Adrienne Eliza Houghton (n\u00e9e Bailon; born October 24, 1983) is an #PROPERTY singer-songwriter, recording artist, actress, dancer and television personality. Adrienne Bailon first became publicly known when she rose to fame as one of the founding members and singer of both 3LW (1999\u20132007) and Disney's The Cheetah Girls (2003\u20132008).",
+      "Robin Wilson (born July 12, 1965) is an #PROPERTY musician, most notable for his work as the lead vocalist of the rock band, Gin Blossoms."
+    ],
+    "original_properties": [
+      "American",
+      "American"
+    ],
+    "property_candidates": [
+      "American",
+      "English"
+    ]
+  }
+}

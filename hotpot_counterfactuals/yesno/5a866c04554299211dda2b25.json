@@ -1,0 +1,22 @@
+{
+  "id": "5a866c04554299211dda2b25",
+  "original": {
+    "question": "Are Pterostyrax and Dregea both native to Asia?",
+    "context": "Pterostyrax, the epaulette tree, is a small genus of four species of deciduous large shrubs or small trees in the family Styracaceae, native to eastern Asia in China and Japan. They grow 4 - tall, with alternate, simple ovate leaves 6 - long and 4 - broad. The flowers are white, produced in dense panicles 8 - long. The fruit is an oblong dry drupe, with longitudinal ribs or narrow wings (the wings are absent in the related genus \"Styrax\", whence the name \"Pterostyrax\", \"winged styrax\"). Dregea is a genus of vines in the Apocynaceae, first described as a genus with this name in 1838. It is native to Africa and southern Asia.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Pterostyrax, the epaulette tree, is a small genus of four species of deciduous large shrubs or small trees in the family Styracaceae, native to #PROPERTY. They grow 4 - tall, with alternate, simple ovate leaves 6 - long and 4 - broad. The flowers are white, produced in dense panicles 8 - long. The fruit is an oblong dry drupe, with longitudinal ribs or narrow wings (the wings are absent in the related genus \"Styrax\", whence the name \"Pterostyrax\", \"winged styrax\").",
+      "Dregea is a genus of vines in the Apocynaceae, first described as a genus with this name in 1838. It is native to #PROPERTY."
+    ],
+    "original_properties": [
+      "eastern Asia in China and Japan",
+      "Africa and southern Asia"
+    ],
+    "property_candidates": [
+      "eastern Asia in China and Japan",
+      "Africa and southern Asia"
+    ]
+  }
+}

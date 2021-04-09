@@ -1,0 +1,22 @@
+{
+  "id": "5a877dd65542993e715abf79",
+  "original": {
+    "question": "Were Halld\u00f3r Laxness and Timothy Leary from the same country?",
+    "context": "Halld\u00f3r Kiljan Laxness (] ; born Halld\u00f3r Gu\u00f0j\u00f3nsson; 23 April 1902 \u2013 8 February 1998) was a twentieth-century Icelandic writer. Laxness wrote poetry, newspaper articles, plays, travelogues, short stories, and novels. Major influences included August Strindberg, Sigmund Freud, Sinclair Lewis, Upton Sinclair, Bertolt Brecht and Ernest Hemingway. In 1955 he was awarded the Nobel Prize in Literature; he is the only Icelandic Nobel laureate. Timothy Francis Leary (October 22, 1920 \u2013 May 31, 1996) was an American psychologist and writer known for advocating the exploration of the therapeutic potential of psychedelic drugs under controlled conditions. Leary conducted experiments under the Harvard Psilocybin Project during American legality of LSD and psilocybin, resulting in the Concord Prison Experiment and the Marsh Chapel Experiment. Leary's colleague, Richard Alpert (Ram Dass), was fired from Harvard University on May 27, 1963 for giving psilocybin to an undergraduate student. Leary was planning to leave Harvard when his teaching contract expired in June, the following month. He was fired, for \"failure to keep classroom appointments\", with his pay docked on April 30. National illumination as to the effects of psychedelics did not occur until after the Harvard scandal.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Halld\u00f3r Kiljan Laxness (] ; born Halld\u00f3r Gu\u00f0j\u00f3nsson; 23 April 1902 \u2013 8 February 1998) was a twentieth-century #PROPERTY writer. Laxness wrote poetry, newspaper articles, plays, travelogues, short stories, and novels. Major influences included August Strindberg, Sigmund Freud, Sinclair Lewis, Upton Sinclair, Bertolt Brecht and Ernest Hemingway. In 1955 he was awarded the Nobel Prize in Literature; he is the only #PROPERTY Nobel laureate.",
+      "Timothy Francis Leary (October 22, 1920 \u2013 May 31, 1996) was an #PROPERTY psychologist and writer known for advocating the exploration of the therapeutic potential of psychedelic drugs under controlled conditions. Leary conducted experiments under the Harvard Psilocybin Project during #PROPERTY legality of LSD and psilocybin, resulting in the Concord Prison Experiment and the Marsh Chapel Experiment. Leary's colleague, Richard Alpert (Ram Dass), was fired from Harvard University on May 27, 1963 for giving psilocybin to an undergraduate student. Leary was planning to leave Harvard when his teaching contract expired in June, the following month. He was fired, for \"failure to keep classroom appointments\", with his pay docked on April 30. National illumination as to the effects of psychedelics did not occur until after the Harvard scandal."
+    ],
+    "original_properties": [
+      "Icelandic",
+      "American"
+    ],
+    "property_candidates": [
+      "Icelandic",
+      "American"
+    ]
+  }
+}

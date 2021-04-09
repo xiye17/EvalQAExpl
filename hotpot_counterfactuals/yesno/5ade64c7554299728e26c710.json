@@ -1,0 +1,22 @@
+{
+  "id": "5ade64c7554299728e26c710",
+  "original": {
+    "question": "Is Northeast Florida Regional Airport farther from St. Augustine than Glacier Park International Airport is to Kalispell?",
+    "context": "Northeast Florida Regional Airport (IATA: UST, ICAO: KSGJ, FAA LID: SGJ) , formerly St. Augustine Airport, is four miles (6 km) north of St. Augustine, in St. Johns County, Florida. It is publicly owned by the St. Augustine \u2013 St. Johns County Airport Authority. Glacier Park International Airport (IATA: FCA, ICAO: KGPI, FAA LID: GPI) is in Flathead County, Montana, six miles northeast of Kalispell. The airport is owned and operated by the Flathead Municipal Airport Authority, a public agency created by the county in 1974.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Northeast Florida Regional Airport (IATA: UST, ICAO: KSGJ, FAA LID: SGJ) , formerly St. Augustine Airport, is #PROPERTY miles (6 km) north of St. Augustine, in St. Johns County, Florida. It is publicly owned by the St. Augustine \u2013 St. Johns County Airport Authority.",
+      "Glacier Park International Airport (IATA: FCA, ICAO: KGPI, FAA LID: GPI) is in Flathead County, Montana, #PROPERTY miles northeast of Kalispell. The airport is owned and operated by the Flathead Municipal Airport Authority, a public agency created by the county in 1974."
+    ],
+    "original_properties": [
+      "four",
+      "six"
+    ],
+    "property_candidates": [
+      "four",
+      "six"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "5ab8ee035542991b5579f04b",
+  "original": {
+    "question": "Are Hot Rod and The Memory of Our People both magazines?",
+    "context": "Hot Rod is a monthly American car magazine devoted to hot rodding, drag racing, and muscle cars \u2014 modifying automobiles for performance and appearance. The Memory of Our People is a magazine published in the Argentine city of Rosario, a province of Santa Fe. The magazine was founded in 2004. Its original title in Spanish is \"La Memoria de Nuestro Pueblo\".",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Hot Rod is a monthly American car #PROPERTY devoted to hot rodding, drag racing, and muscle cars \u2014 modifying automobiles for performance and appearance.",
+      "The Memory of Our People is a #PROPERTY published in the Argentine city of Rosario, a province of Santa Fe. The #PROPERTY was founded in 2004. Its original title in Spanish is \"La Memoria de Nuestro Pueblo\"."
+    ],
+    "original_properties": [
+      "magazine",
+      "magazine"
+    ],
+    "property_candidates": [
+      "magazine",
+      "newspaper"
+    ]
+  }
+}

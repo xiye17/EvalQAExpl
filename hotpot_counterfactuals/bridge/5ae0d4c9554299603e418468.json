@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Richard Milhous Nixon (January 9, 1913 \u2013 April 22, 1994) was the 37th President of the United States from 1969 until 1974, when he resigned from office, the only U.S. president to do so. He had previously served as the 36th Vice President of the United States from 1953 to 1961, and prior to that as a U.S. Representative and also Senator from California. Roger Olaf Egeberg, M.D. (13 November 1902 \u2013 13 September 1997 Washington, D.C.) was an American medical educator, administrator and advocate of public health. He was General Douglas MacArthur's personal physician during World War II in the Pacific theater. His other roles included Assistant Secretary for Health and Scientific Affairs in the Department of Health, Education, and Welfare (now the United States Department of Health and Human Services) during the Nixon administration and Dean of the University of Southern California's medical school.",
+    "question": "Roger O. Egeberg was Assistant Secretary for Health and Scientific Affairs during the administration of a president that served during what years?",
+    "primary_question": "during the administration of a president that served during what years",
+    "answer": "1969 until 1974"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Richard Milhous Nixon (January 9, 1913 \u2013 April 22, 1994) was the 37th President of the United States from 1969 until 1974, when he resigned from office, the only U.S. president to do so. He had previously served as the 36th Vice President of the United States from 1953 to 1961, and prior to that as a U.S. Representative and also Senator from California.",
+      "Roger Olaf Egeberg, M.D. (13 November 1902 \u2013 13 September 1997 Washington, D.C.) was an American medical educator, administrator and advocate of public health. He was General Douglas MacArthur's personal physician during World War II in the Pacific theater. His other roles included Assistant Secretary for Health and Scientific Affairs in the Department of Health, Education, and Welfare (now the United States Department of Health and Human Services) during the Nixon administration and Dean of the University of Southern California's medical school."
+    ],
+    "distractor": "Hillary Clinton served as Secratary of State during the Obama presidency from 2008 until 2013.",
+    "distractor1": "Henry Merritt is an American banker who served as the 74th United States Secretary of the Treasury during the Bush administration from 2001 to 2009."
+  },
+  "id": "5ae0d4c9554299603e418468"
+}

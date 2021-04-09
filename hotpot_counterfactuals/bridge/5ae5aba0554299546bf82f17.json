@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Teen Titans Go! is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\". The series was announced following the popularity of DC Nation's New Teen Titans shorts. Tara Strong (born Tara Lyn Charendoff; February 12, 1973) is a Canadian\u2013American actress who has done voice work for numerous animations and video games and performed in various live-action productions. Many of her major voice roles include animated series such as \"Rugrats\", \"The Powerpuff Girls\", \"The Fairly OddParents\", \"Drawn Together\", \"Teen Titans\" and the spin-off series \"Teen Titans Go!\", and \"\", as well as video games such as \"Mortal Kombat X\", \"Final Fantasy X-2\", and the \"\" series. Her portrayals have garnered nominations in the Annie Awards and Daytime Emmys, and an award from the Academy of Interactive Arts & Sciences.",
+    "question": "Which of Tara Strong major voice role in animated series is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\"?",
+    "primary_question": "Which of Tara Strong major voice role in animated series",
+    "answer": "Teen Titans Go!"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Teen Titans Go! is an American animated television series based on the DC Comics fictional superhero team, the \"Teen Titans\". The series was announced following the popularity of DC Nation's New Teen Titans shorts.",
+      "Tara Strong (born Tara Lyn Charendoff; February 12, 1973) is a Canadian\u2013American actress who has done voice work for numerous animations and video games and performed in various live-action productions. Many of her major voice roles include animated series such as \"Rugrats\", \"The Powerpuff Girls\", \"The Fairly OddParents\", \"Drawn Together\", \"Teen Titans\" and the spin-off series \"Teen Titans Go!\", and \"\", as well as video games such as \"Mortal Kombat X\", \"Final Fantasy X-2\", and the \"\" series. Her portrayals have garnered nominations in the Annie Awards and Daytime Emmys, and an award from the Academy of Interactive Arts & Sciences."
+    ],
+    "distractor": "Tara Strong voiced the major role Timmy Turner in the American animated television series \"The Fairly Odd Parents.\"",
+    "distractor1": "Rock Johnson voiced the role Cook Wooson in the animimated series \"Monster Company\"."
+  },
+  "id": "5ae5aba0554299546bf82f17"
+}

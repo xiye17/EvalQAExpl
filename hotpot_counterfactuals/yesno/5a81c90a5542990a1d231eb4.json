@@ -1,0 +1,22 @@
+{
+  "id": "5a81c90a5542990a1d231eb4",
+  "original": {
+    "question": "Are the bands Tiger Please and Black Rebel Motorcycle Club from the same country? ",
+    "context": "Tiger Please is an Indie / Alternative five-piece band from Cardiff, Wales. The band formed in August 2008. The band's influences are U2, Sigur R\u00f3s, Kings of Leon, John Mayer and Counting Crows. They signed with Walnut Tree Records in 2009 and released their debut EP \"They Don't Change Under Moonlight\". \"Kerrang!\" magazine, \"Rock Sound\" magazine, and \"Classic Rock\" magazine praised the EP and featured the band on the \"Rock Sound\" and \"Classic Rock\" cover-mount albums. The band toured with Kids In Glass Houses, InMe, Twin Atlantic and Funeral For A Friend. Black Rebel Motorcycle Club (often abbreviated as BRMC) is an American rock band from San Francisco, California. The group consists of Peter Hayes (vocal, guitar, harmonica), Robert Levon Been (vocal, bass, guitar), and Leah Shapiro (drums). Former drummer Nick Jago left the band in 2008 to focus on his solo project.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Tiger Please is an Indie / Alternative five-piece band from #PROPERTY. The band formed in August 2008. The band's influences are U2, Sigur R\u00f3s, Kings of Leon, John Mayer and Counting Crows. They signed with Walnut Tree Records in 2009 and released their debut EP \"They Don't Change Under Moonlight\". \"Kerrang!\" magazine, \"Rock Sound\" magazine, and \"Classic Rock\" magazine praised the EP and featured the band on the \"Rock Sound\" and \"Classic Rock\" cover-mount albums. The band toured with Kids In Glass Houses, InMe, Twin Atlantic and Funeral For A Friend.",
+      "Black Rebel Motorcycle Club (often abbreviated as BRMC) is an #PROPERTY rock band from San Francisco, California. The group consists of Peter Hayes (vocal, guitar, harmonica), Robert Levon Been (vocal, bass, guitar), and Leah Shapiro (drums). Former drummer Nick Jago left the band in 2008 to focus on his solo project."
+    ],
+    "original_properties": [
+      "Cardiff, Wales",
+      "American"
+    ],
+    "property_candidates": [
+      "Cardiff, Wales",
+      "American"
+    ]
+  }
+}

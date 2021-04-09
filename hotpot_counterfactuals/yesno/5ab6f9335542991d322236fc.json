@@ -1,0 +1,22 @@
+{
+  "id": "5ab6f9335542991d322236fc",
+  "original": {
+    "question": "Are Ana Kasparian and Katherine Sarafian both Armenian-",
+    "context": "Katherine Marianne Sarafian (born January 27, 1969) is an Armenian-American film producer at Pixar Animation Studios. She started at Pixar as an artist but was shifted from the art department to marketing during the making of \"A Bug's Life\" by Pixar head Steve Jobs. She then became a producer within Pixar. Anahit Misak \"Ana\" Kasparian (Armenian: \u0531\u0576\u0561\u0570\u056b\u057f \u0544\u056b\u057d\u0561\u0584\u056b \u0533\u0561\u057d\u057a\u0561\u0580\u0575\u0561\u0576 , ] ; born July 7, 1986), is an American political pundit and the co-host and producer for the online news show \"The Young Turks\". She began working as a fill-in producer for \"The Young Turks\" in 2007, and is, as of 2012 , co-host of the main show and host of \"The Point\" on the TYT Network. She also appeared on the TV version of the show that aired on Current TV.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Katherine Marianne Sarafian (born January 27, 1969) is an #PROPERTY film producer at Pixar Animation Studios. She started at Pixar as an artist but was shifted from the art department to marketing during the making of \"A Bug's Life\" by Pixar head Steve Jobs. She then became a producer within Pixar.",
+      "Anahit Misak \"Ana\" Kasparian (#PROPERTY: \u0531\u0576\u0561\u0570\u056b\u057f \u0544\u056b\u057d\u0561\u0584\u056b \u0533\u0561\u057d\u057a\u0561\u0580\u0575\u0561\u0576 , ] ; born July 7, 1986), is an #PROPERTY political pundit and the co-host and producer for the online news show \"The Young Turks\". She began working as a fill-in producer for \"The Young Turks\" in 2007, and is, as of 2012 , co-host of the main show and host of \"The Point\" on the TYT Network. She also appeared on the TV version of the show that aired on Current TV."
+    ],
+    "original_properties": [
+      "Armenian-American",
+      "Armenian"
+    ],
+    "property_candidates": [
+      "Armenian",
+      "Russian"
+    ]
+  }
+}

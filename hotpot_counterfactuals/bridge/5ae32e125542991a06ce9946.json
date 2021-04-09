@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Boston ( ) is a town and small port in Lincolnshire, on the east coast of England. It is the largest town of the wider Borough of Boston local government district. The borough had a total population of 66,900, at the ONS mid 2015 estimates, while the town itself had a population of 35,124 at the 2001 census. It is due north of Greenwich on the Prime Meridian. Kirton End is a hamlet in the civil parish of Kirton in the Boston district of Lincolnshire, England. It lies on the B1391 road, 4 mi south-west from Boston, and 1.5 mi north-east from Kirton.",
+    "question": "According to the 2001 census, what was the population of the city in which Kirton End is located?",
+    "primary_question": "According to the 2001 census, what was the population",
+    "answer": "35,124"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Boston ( ) is a town and small port in Lincolnshire, on the east coast of England. It is the largest town of the wider Borough of Boston local government district. The borough had a total population of 66,900, at the ONS mid 2015 estimates, while the town itself had a population of 35,124 at the 2001 census. It is due north of Greenwich on the Prime Meridian.",
+      "Kirton End is a hamlet in the civil parish of Kirton in the Boston district of Lincolnshire, England. It lies on the B1391 road, 4 mi south-west from Boston, and 1.5 mi north-east from Kirton."
+    ],
+    "distractor": "The population of Massachusetts is 6.8 million, according to the 2001 census.",
+    "distractor1": "The population of Los Angles is 3.967 million."
+  },
+  "id": "5ae32e125542991a06ce9946"
+}

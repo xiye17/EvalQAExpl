@@ -1,0 +1,22 @@
+{
+  "id": "5adfa12c554299025d62a301",
+  "original": {
+    "question": "Has Entrepreneur had a longer lifespan than Optimize?",
+    "context": "Entrepreneur is an American magazine and website that carries news stories about entrepreneurship, small business management, and business. The magazine was first published in 1977. It is published by Entrepreneur Media Inc., headquartered in Irvine, California. The magazine publishes 12 issues annually, available through subscription and on newsstands. It is published under license internationally in Mexico, Russia, India, Hungary, the Philippines, South Africa, and others. Its editor-in-chief is Jason Feifer and its owner is Peter Shea. Optimize was an American monthly business magazine published between November 2001 and June 2007.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Entrepreneur is an American magazine and website that carries news stories about entrepreneurship, small business management, and business. The magazine was first published in #PROPERTY. It is published by Entrepreneur Media Inc., headquartered in Irvine, California. The magazine publishes 12 issues annually, available through subscription and on newsstands. It is published under license internationally in Mexico, Russia, India, Hungary, the Philippines, South Africa, and others. Its editor-in-chief is Jason Feifer and its owner is Peter Shea.",
+      "Optimize was an American monthly business magazine published between November #PROPERTY and June 2007."
+    ],
+    "original_properties": [
+      "1977",
+      "2001"
+    ],
+    "property_candidates": [
+      "1977",
+      "2001"
+    ]
+  }
+}

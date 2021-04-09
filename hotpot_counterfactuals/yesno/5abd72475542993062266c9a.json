@@ -1,0 +1,22 @@
+{
+  "id": "5abd72475542993062266c9a",
+  "original": {
+    "question": "Are After Midnight Project and Aaroh both rock bands?",
+    "context": "After Midnight Project (commonly abbreviated \"AMP\") is an American rock band from Los Angeles, California. As of 2012, they are on hiatus, with a one night reunion show planned for 2014. Aaroh (Urdu: \u0622\u0631\u0648\u062d, literal English translation: \"the ascending scale in eastern classical music\") is an alternative rock band from Karachi, Sindh, Pakistan, formed in 1998. The band was founded by keyboardist Kamran Khan and lead guitarist Nabeel Nihal . (This name was given to them by Shoaib Mansoor), who were joined by, Vocalist Farooq Ahmed, Bassist Khalid Khan and Drummer Adnan Hussain.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "After Midnight Project (commonly abbreviated \"AMP\") is an American #PROPERTY from Los Angeles, California. As of 2012, they are on hiatus, with a one night reunion show planned for 2014.",
+      "Aaroh (Urdu: \u0622\u0631\u0648\u062d, literal English translation: \"the ascending scale in eastern classical music\") is an alternative #PROPERTY from Karachi, Sindh, Pakistan, formed in 1998. The band was founded by keyboardist Kamran Khan and lead guitarist Nabeel Nihal . (This name was given to them by Shoaib Mansoor), who were joined by, Vocalist Farooq Ahmed, Bassist Khalid Khan and Drummer Adnan Hussain."
+    ],
+    "original_properties": [
+      "rock band",
+      "rock band"
+    ],
+    "property_candidates": [
+      "rock band",
+      "jazz group"
+    ]
+  }
+}

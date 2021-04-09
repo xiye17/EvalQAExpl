@@ -1,0 +1,22 @@
+{
+  "id": "5add8ec55542997545bbbd7e",
+  "original": {
+    "question": "Are both  Bright Eyes and Disturbed rock bands from America?",
+    "context": "Disturbed is an heavy metal band from Homer Glen, Illinois, formed in 1996. The band includes vocalist David Draiman, bassist John Moyer, guitarist Dan Donegan, and drummer Mike Wengren. Former band members are bassist Steve Kmak and vocalist Erich Awalt. Bright Eyes is an American indie rock band founded by singer-songwriter and guitarist Conor Oberst. It consists of Oberst, multi-instrumentalist and producer Mike Mogis, trumpet and piano player Nate Walcott, and a rotating lineup of collaborators drawn primarily from Omaha's indie music scene.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Disturbed is an #PROPERTY from Homer Glen, Illinois, formed in 1996. The band includes vocalist David Draiman, bassist John Moyer, guitarist Dan Donegan, and drummer Mike Wengren. Former band members are bassist Steve Kmak and vocalist Erich Awalt.",
+      "Bright Eyes is an American #PROPERTY founded by singer-songwriter and guitarist Conor Oberst. It consists of Oberst, multi-instrumentalist and producer Mike Mogis, trumpet and piano player Nate Walcott, and a rotating lineup of collaborators drawn primarily from Omaha's indie music scene."
+    ],
+    "original_properties": [
+      "heavy metal band",
+      "indie rock band"
+    ],
+    "property_candidates": [
+      "heaby metal band",
+      "indie rock band"
+    ]
+  }
+}

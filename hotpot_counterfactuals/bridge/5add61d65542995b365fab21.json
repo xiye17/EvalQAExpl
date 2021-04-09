@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The World Summit of Nobel Peace Laureates was initiated by Mikhail Gorbachev in the 90s, as a forum in which the Nobel Peace Laureates and the Peace Laureate Organizations could come together to address global issues with a view to encourage and support peace and human well being in the world. Its Permanent Secretariat is an independent, non-profit, ECOSOC non-governmental organization, based in Rome, operating on a permanent basis. A permanent staff, mainly composed of volunteers, promotes the work of the Nobel Peace Prize Winners and organizes the World Summit of Nobel Peace Laureates on a yearly basis. To date, the Permanent Secretariat has organized 16 Summits, the most recent having been held in February 2017 in the city of Bogota, Colombia. This was the first time that the Summit took place in Latin America. Mikhail Sergeyevich Gorbachev, ( ; Russian: \u041c\u0438\u0445\u0430\u0438\u0301\u043b \u0421\u0435\u0440\u0433\u0435\u0301\u0435\u0432\u0438\u0447 \u0413\u043e\u0440\u0431\u0430\u0447\u0451\u0432 ; ] ; born 2 March 1931) is a former Soviet statesman. He was the eighth and last leader of the Soviet Union, having been General Secretary of the Communist Party of the Soviet Union from 1985 until 1991. He was the country's head of state from 1988 until 1991 (titled as Chairman of the Presidium of the Supreme Soviet from 1988 to 1989, as Chairman of the from 1989 to 1990, and as Soviet Union]] from 1990 to 1991).",
+    "question": "What type of forum did a former Soviet statesman initiate?",
+    "primary_question": "What type of forum",
+    "answer": "Organizations could come together to address global issues"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The World Summit of Nobel Peace Laureates was initiated by Mikhail Gorbachev in the 90s, as a forum in which the Nobel Peace Laureates and the Peace Laureate Organizations could come together to address global issues with a view to encourage and support peace and human well being in the world. Its Permanent Secretariat is an independent, non-profit, ECOSOC non-governmental organization, based in Rome, operating on a permanent basis. A permanent staff, mainly composed of volunteers, promotes the work of the Nobel Peace Prize Winners and organizes the World Summit of Nobel Peace Laureates on a yearly basis. To date, the Permanent Secretariat has organized 16 Summits, the most recent having been held in February 2017 in the city of Bogota, Colombia. This was the first time that the Summit took place in Latin America.",
+      "Mikhail Sergeyevich Gorbachev, ( ; Russian: \u041c\u0438\u0445\u0430\u0438\u0301\u043b \u0421\u0435\u0440\u0433\u0435\u0301\u0435\u0432\u0438\u0447 \u0413\u043e\u0440\u0431\u0430\u0447\u0451\u0432 ; ] ; born 2 March 1931) is a former Soviet statesman. He was the eighth and last leader of the Soviet Union, having been General Secretary of the Communist Party of the Soviet Union from 1985 until 1991. He was the country's head of state from 1988 until 1991 (titled as Chairman of the Presidium of the Supreme Soviet from 1988 to 1989, as Chairman of the from 1989 to 1990, and as Soviet Union]] from 1990 to 1991)."
+    ],
+    "distractor": "The Global Forum for Health Research is as an international foundation forum in Geneva, Switzerland established in 1997 to increase the amount of research into global health issues",
+    "distractor1": "A public health forum is held each year to discuss the annual effectiveness of flu vaccines."
+  },
+  "id": "5add61d65542995b365fab21"
+}

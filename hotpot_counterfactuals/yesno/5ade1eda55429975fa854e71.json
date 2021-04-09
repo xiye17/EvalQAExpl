@@ -1,0 +1,22 @@
+{
+  "id": "5ade1eda55429975fa854e71",
+  "original": {
+    "question": "Are Alice Munro and Lillian Hellman both writers?",
+    "context": "Alice Ann Munro ( , \"n\u00e9e\" Laidlaw ; born 10 July 1931) is a Canadian short story writer and Nobel Prize winner. Munro's work has been described as having revolutionized the architecture of short stories, especially in its tendency to move forward and backward in time. Her stories have been said to \"embed more than announce, reveal more than parade.\" Lillian Florence Hellman (June 20, 1905 \u2013 June 30, 1984) was an American dramatist and screenwriter known for her success as a playwright on Broadway, as well as her left-wing sympathies and political activism. She was blacklisted after her appearance before the House Committee on Un-American Activities (HUAC) at the height of the anti-communist campaigns of 1947\u201352. Although she continued to work on Broadway in the 1950s, her blacklisting by the American film industry caused a drop in her income. Many praised Hellman for refusing to answer questions by HUAC, but others believed, despite her denial, that she had belonged to the Communist Party.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Alice Ann Munro ( , \"n\u00e9e\" Laidlaw ; born 10 July 1931) is a Canadian short story #PROPERTY and Nobel Prize winner. Munro's work has been described as having revolutionized the architecture of short stories, especially in its tendency to move forward and backward in time. Her stories have been said to \"embed more than announce, reveal more than parade.\"",
+      "Lillian Florence Hellman (June 20, 1905 \u2013 June 30, 1984) was an American dramatist and #PROPERTY known for her success as a playwright on Broadway, as well as her left-wing sympathies and political activism. She was blacklisted after her appearance before the House Committee on Un-American Activities (HUAC) at the height of the anti-communist campaigns of 1947\u201352. Although she continued to work on Broadway in the 1950s, her blacklisting by the American film industry caused a drop in her income. Many praised Hellman for refusing to answer questions by HUAC, but others believed, despite her denial, that she had belonged to the Communist Party."
+    ],
+    "original_properties": [
+      "writer",
+      "screenwriter"
+    ],
+    "property_candidates": [
+      "writer",
+      "animator"
+    ]
+  }
+}

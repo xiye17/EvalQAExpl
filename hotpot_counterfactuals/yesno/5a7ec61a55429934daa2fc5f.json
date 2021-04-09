@@ -1,0 +1,22 @@
+{
+  "id": "5a7ec61a55429934daa2fc5f",
+  "original": {
+    "question": "Are Staten Island Catapult and This Is Elvis both documentaries?",
+    "context": "The Staten Island Catapult is a 2005 documentary about a disgruntled commuter and his proposal to build a catapult that launches individuals from Staten Island to Downtown Manhattan in 5 minutes. The film was written and directed by independent filmmaker Gregorio Smith. This Is Elvis is a 1981 documentary film written and directed by Andrew Solt and Malcolm Leo, based on the life of Elvis Presley. It combined archival footage with reenactments, and voice-over narration by pop singer Ral Donner, imitating Presley's speaking voice. It was screened out of competition at the 1981 Cannes Film Festival. The film grossed $2 million at the box office in the U.S. and Canada, ranking #92 for 1981.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "The Staten Island Catapult is a 2005 #PROPERTY about a disgruntled commuter and his proposal to build a catapult that launches individuals from Staten Island to Downtown Manhattan in 5 minutes. The film was written and directed by independent filmmaker Gregorio Smith.",
+      "This Is Elvis is a 1981 #PROPERTY film written and directed by Andrew Solt and Malcolm Leo, based on the life of Elvis Presley. It combined archival footage with reenactments, and voice-over narration by pop singer Ral Donner, imitating Presley's speaking voice. It was screened out of competition at the 1981 Cannes Film Festival. The film grossed $2 million at the box office in the U.S. and Canada, ranking #92 for 1981."
+    ],
+    "original_properties": [
+      "documentary",
+      "documentary"
+    ],
+    "property_candidates": [
+      "documentary",
+      "action comedy"
+    ]
+  }
+}

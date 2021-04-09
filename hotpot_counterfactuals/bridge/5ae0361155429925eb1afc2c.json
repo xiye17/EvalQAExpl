@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Charles Eug\u00e8ne Jules Marie Nungesser, MC (15 March 1892 \u2013 presumably on or after 8 May 1927) was a French ace pilot and adventurer, best remembered as a rival of Charles Lindbergh. Nungesser was a renowned ace in France, ranking third highest in the country with 43 air combat victories during World War I. L'Oiseau Blanc (commonly known in the English-speaking world as The White Bird ) was a French Levasseur PL.8 biplane that disappeared in 1927, during an attempt to make the first non-stop transatlantic flight between Paris and New York City to compete for the Orteig Prize. The aircraft was flown by French World War I aviation heroes, Charles Nungesser and Fran\u00e7ois Coli. The aircraft took off from Paris on 8 May 1927 and was last seen over Ireland. Less than two weeks later, Charles Lindbergh successfully made the New York\u2013Paris journey and claimed the prize, flying the \"Spirit of St. Louis\".",
+    "question": "Which  French ace pilot and adventurer fly L'Oiseau Blanc",
+    "primary_question": "Which  French ace pilot and adventurer",
+    "answer": "Charles Eug\u00e8ne"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Charles Eug\u00e8ne Jules Marie Nungesser, MC (15 March 1892 \u2013 presumably on or after 8 May 1927) was a French ace pilot and adventurer, best remembered as a rival of Charles Lindbergh. Nungesser was a renowned ace in France, ranking third highest in the country with 43 air combat victories during World War I.",
+      "L'Oiseau Blanc (commonly known in the English-speaking world as The White Bird ) was a French Levasseur PL.8 biplane that disappeared in 1927, during an attempt to make the first non-stop transatlantic flight between Paris and New York City to compete for the Orteig Prize. The aircraft was flown by French World War I aviation heroes, Charles Nungesser and Fran\u00e7ois Coli. The aircraft took off from Paris on 8 May 1927 and was last seen over Ireland. Less than two weeks later, Charles Lindbergh successfully made the New York\u2013Paris journey and claimed the prize, flying the \"Spirit of St. Louis\"."
+    ],
+    "distractor": "Manfred von Richthofen, also known as the Red Baron, was an French ace pilot and adventurer.",
+    "distractor1": "Georges Guynemer (24 December 1894 \u2013 11 September 1917) was a French fighter ace pilot and adventurer in World War I."
+  },
+  "id": "5ae0361155429925eb1afc2c"
+}

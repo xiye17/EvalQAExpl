@@ -1,0 +1,22 @@
+{
+  "id": "5a8f876e5542997ba9cb32a1",
+  "original": {
+    "question": "Have Marc Rosset and Max Mirnyi both been professional tennis players?",
+    "context": "Marc Rosset (born 7 November 1970) is a former professional tennis player from Switzerland who is best remembered for winning the men's singles gold medal at the 1992 Olympic Games. He also won one Grand Slam doubles title at the French Open in 1992 partnering compatriot Jakob Hlasek. Maksim \"Max\" Mirnyi (Belarusian: \u041c\u0430\u043a\u0441\u0456\u043c \u041c\u0456\u043a\u0430\u043b\u0430\u0435\u0432\u0456\u0447 \u041c\u0456\u0440\u043d\u044b ] ) (Russian: \u041c\u0430\u043a\u0441\u0438\u043c \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447 \u041c\u0438\u0440\u043d\u044b\u0439 ] ) (born 6 July 1977, in Minsk) is a Belarusian professional tennis player.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Marc Rosset (born 7 November 1970) is a former #PROPERTY from Switzerland who is best remembered for winning the men's singles gold medal at the 1992 Olympic Games. He also won one Grand Slam doubles title at the French Open in 1992 partnering compatriot Jakob Hlasek.",
+      "Maksim \"Max\" Mirnyi (Belarusian: \u041c\u0430\u043a\u0441\u0456\u043c \u041c\u0456\u043a\u0430\u043b\u0430\u0435\u0432\u0456\u0447 \u041c\u0456\u0440\u043d\u044b ] ) (Russian: \u041c\u0430\u043a\u0441\u0438\u043c \u041d\u0438\u043a\u043e\u043b\u0430\u0435\u0432\u0438\u0447 \u041c\u0438\u0440\u043d\u044b\u0439 ] ) (born 6 July 1977, in Minsk) is a Belarusian #PROPERTY."
+    ],
+    "original_properties": [
+      "professional tennis player",
+      "professional tennis player"
+    ],
+    "property_candidates": [
+      "professional tennis player",
+      "professional rugby player"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "David Weissman is a screenwriter and director. His film credits include \"The Family Man\" (2000), \"Evolution\" (2001), and \"\"When in Rome\"\" (2010). The Family Man is a 2000 American romantic comedy-drama film directed by Brett Ratner, written by David Diamond and David Weissman, and starring Nicolas Cage and T\u00e9a Leoni. Cage's production company, Saturn Films, helped produce the film. The film centers on a man who sees what could have been had he made a different decision 13 years prior.",
+    "question": "What screenwriter with credits for \"Evolution\" co-wrote a film starring Nicolas Cage and T\u00e9a Leoni?",
+    "primary_question": "What screenwriter with credits for \"Evolution\"",
+    "answer": "David Weissman"
+  },
+  "adv_sent": {
+    "contexts": [
+      "David Weissman is a screenwriter and director. His film credits include \"The Family Man\" (2000), \"Evolution\" (2001), and \"\"When in Rome\"\" (2010).",
+      "The Family Man is a 2000 American romantic comedy-drama film directed by Brett Ratner, written by David Diamond and David Weissman, and starring Nicolas Cage and T\u00e9a Leoni. Cage's production company, Saturn Films, helped produce the film. The film centers on a man who sees what could have been had he made a different decision 13 years prior."
+    ],
+    "distractor": "Damien Chazelle is a screenwriter most notably known for writing La La Land.",
+    "distractor1": "Don Jakoby is an American screenwriter that collabrates with David Weissman in \"Evolution\"."
+  },
+  "id": "5a877e5d5542993e715abf7d"
+}

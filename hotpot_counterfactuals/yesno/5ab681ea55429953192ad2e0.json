@@ -1,0 +1,22 @@
+{
+  "id": "5ab681ea55429953192ad2e0",
+  "original": {
+    "question": "Are Gael and Fitness published in the same country?",
+    "context": "Fitness is a United States-based women's magazine, focusing on health, exercise, and nutrition. It is owned and published by the Meredith Corporation. The editor-in-chief of \"Fitness\" is Betty Wong. Gael is a French language monthly women's and lifestyle magazine published monthly in Mechelen, Belgium.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Fitness is a #PROPERTY-based women's magazine, focusing on health, exercise, and nutrition. It is owned and published by the Meredith Corporation. The editor-in-chief of \"Fitness\" is Betty Wong.",
+      "Gael is a French language monthly women's and lifestyle magazine published monthly in #PROPERTY."
+    ],
+    "original_properties": [
+      "United States",
+      "Mechelen, Belgium"
+    ],
+    "property_candidates": [
+      "United States",
+      "Mechelen, Belgium"
+    ]
+  }
+}

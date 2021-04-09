@@ -1,0 +1,22 @@
+{
+  "id": "5abb8afe5542993f40c73b1e",
+  "original": {
+    "question": "Were both Roger Donaldson and Andr\u00e9 Cayatte french filmmakers?",
+    "context": "Roger Donaldson (born 15 November 1945) is an Australian-born New Zealand film director, producer and writer whose films include \"The World's Fastest Indian\" (2005), acclaimed 1981 relationship drama \"Smash Palace\", and a run of titles shot in the United States, including the Kevin Costner films \"No Way Out\" (1987) and \"Thirteen Days\" (2000), and the 1997 disaster film \"Dante's Peak\". Andr\u00e9 Cayatte (3 February 1909, Carcassonne \u2013 6 February 1989, Paris) was a French filmmaker and lawyer, who became known for his films centering on themes of crime, justice, and moral responsibility.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Roger Donaldson (born 15 November 1945) is an Australian-born #PROPERTY film director, producer and writer whose films include \"The World's Fastest Indian\" (2005), acclaimed 1981 relationship drama \"Smash Palace\", and a run of titles shot in the United States, including the Kevin Costner films \"No Way Out\" (1987) and \"Thirteen Days\" (2000), and the 1997 disaster film \"Dante's Peak\".",
+      "Andr\u00e9 Cayatte (3 February 1909, Carcassonne \u2013 6 February 1989, Paris) was a #PROPERTY filmmaker and lawyer, who became known for his films centering on themes of crime, justice, and moral responsibility."
+    ],
+    "original_properties": [
+      "New Zealand",
+      "French"
+    ],
+    "property_candidates": [
+      "New Zealand",
+      "French"
+    ]
+  }
+}

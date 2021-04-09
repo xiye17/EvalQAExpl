@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Brian Doyle-Murray (born Brian Murray, October 31, 1945) is an American actor, voice artist, comedian and screenwriter. He is the older brother of actor/comedian Bill Murray, and the two have acted together in several films, including \"Caddyshack\", \"Scrooged\", \"Ghostbusters II\", \"The Razor's Edge\", and \"Groundhog Day\". He co-starred on the TBS sitcom on \"Sullivan & Son,\" where he played the foul-mouthed Hank Murphy. he also appeared in the Cartoon Network original animated series \"The Marvelous Misadventures of Flapjack\" as the surly Captain K'Nuckles and a pirate ghost, The Flying Dutchman from the Nickelodeon animated series, \"SpongeBob SquarePants\", he appears in a recurring role as Don Ehlert on the ABC sitcom \"The Middle\". \"The Hard Easy\" is the twenty-third episode of the fourth season of the American animated television series \"Adventure Time\". The episode was written and storyboarded by Tom Herpich and Skyler Page, from a story by Patrick McHale, Kent Osborne, and Pendleton Ward. It originally aired on Cartoon Network on October 1, 2012. The episode guest stars Brian Doyle-Murray as Prince Huge and Jonathan Katz as the Mudscamp elder.",
+    "question": "who is the younger brother of The episode guest stars of The Hard Easy ",
+    "primary_question": "who is the younger brother",
+    "answer": "Bill Murray"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Brian Doyle-Murray (born Brian Murray, October 31, 1945) is an American actor, voice artist, comedian and screenwriter. He is the older brother of actor/comedian Bill Murray, and the two have acted together in several films, including \"Caddyshack\", \"Scrooged\", \"Ghostbusters II\", \"The Razor's Edge\", and \"Groundhog Day\". He co-starred on the TBS sitcom on \"Sullivan & Son,\" where he played the foul-mouthed Hank Murphy. he also appeared in the Cartoon Network original animated series \"The Marvelous Misadventures of Flapjack\" as the surly Captain K'Nuckles and a pirate ghost, The Flying Dutchman from the Nickelodeon animated series, \"SpongeBob SquarePants\", he appears in a recurring role as Don Ehlert on the ABC sitcom \"The Middle\".",
+      "\"The Hard Easy\" is the twenty-third episode of the fourth season of the American animated television series \"Adventure Time\". The episode was written and storyboarded by Tom Herpich and Skyler Page, from a story by Patrick McHale, Kent Osborne, and Pendleton Ward. It originally aired on Cartoon Network on October 1, 2012. The episode guest stars Brian Doyle-Murray as Prince Huge and Jonathan Katz as the Mudscamp elder."
+    ],
+    "distractor": "Orville is the younger brother of aviation pioneer Wilbur Wright.",
+    "distractor1": "Olive is the younger brother of singer Jeff Nolan."
+  },
+  "id": "5ac2acff55429921a00ab02b"
+}

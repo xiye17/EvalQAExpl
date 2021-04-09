@@ -1,0 +1,22 @@
+{
+  "id": "5a8762205542996e4f3087b8",
+  "original": {
+    "question": "are Tinto Brass and Baltasar Korm\u00e1kur both from the same country ?",
+    "context": "Giovanni \"Tinto\" Brass (born 26 March 1933) is an Italian filmmaker. In the 1960s and 1970s, he directed many critically acclaimed avant-garde films of various genres. Today, he is mainly known for his later work in the erotic genre, with films such as \"Caligula\", \"Cos\u00ec fan tutte\" (released under the English title \"All Ladies Do It\"), \"Paprika\", \"Monella\" (\"Frivolous Lola\") and \"Trasgredire\". Baltasar Korm\u00e1kur Samper (born 27 February 1966) is an Icelandic actor, theater and film director, and film producer. He is best known for directing the films \"101 Reykjav\u00edk\", \"Hafi\u00f0\", \"A Little Trip to Heaven\" (starring Julia Stiles and Forest Whitaker), a film based on the book \"M\u00fdrin\" \"(Jar City)\" by Arnaldur Indri\u00f0ason, \"Contraband\", \"2 Guns\" (starring Mark Wahlberg and Denzel Washington) and \"Everest\". His father is the Spanish painter Baltasar Samper and actor Baltasar Breki Samper is his son.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Giovanni \"Tinto\" Brass (born 26 March 1933) is an #PROPERTY filmmaker. In the 1960s and 1970s, he directed many critically acclaimed avant-garde films of various genres. Today, he is mainly known for his later work in the erotic genre, with films such as \"Caligula\", \"Cos\u00ec fan tutte\" (released under the English title \"All Ladies Do It\"), \"Paprika\", \"Monella\" (\"Frivolous Lola\") and \"Trasgredire\".",
+      "Baltasar Korm\u00e1kur Samper (born 27 February 1966) is an #PROPERTY actor, theater and film director, and film producer. He is best known for directing the films \"101 Reykjav\u00edk\", \"Hafi\u00f0\", \"A Little Trip to Heaven\" (starring Julia Stiles and Forest Whitaker), a film based on the book \"M\u00fdrin\" \"(Jar City)\" by Arnaldur Indri\u00f0ason, \"Contraband\", \"2 Guns\" (starring Mark Wahlberg and Denzel Washington) and \"Everest\". His father is the Spanish painter Baltasar Samper and actor Baltasar Breki Samper is his son."
+    ],
+    "original_properties": [
+      "Italian",
+      "Icelandic"
+    ],
+    "property_candidates": [
+      "Italian",
+      "Icelandic"
+    ]
+  }
+}

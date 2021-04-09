@@ -1,0 +1,22 @@
+{
+  "id": "5ade82ba5542992fa25da7a3",
+  "original": {
+    "question": "Are Catasetum and Origanum in the same family?",
+    "context": "Catasetum, abbreviated as Ctsm in horticultural trade, is a genus of showy epiphytic Orchids, family Orchidaceae, subfamily Epidendroideae, tribe Cymbidieae, subtribe Catasetinae, with 166 species, many of which are highly prized in horticulture. Origanum ( )is a genus of herbaceous perennials and subshrubs in the family Lamiaceae, native to Europe, North Africa, and much of temperate Asia, where they are found in open or mountainous habitats. A few species also naturalized in scattered locations in North America and other regions.",
+    "answer": "no"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Catasetum, abbreviated as Ctsm in horticultural trade, is a genus of showy epiphytic Orchids, family #PROPERTY, subfamily Epidendroideae, tribe Cymbidieae, subtribe Catasetinae, with 166 species, many of which are highly prized in horticulture.",
+      "Origanum ( )is a genus of herbaceous perennials and subshrubs in the family #PROPERTY, native to Europe, North Africa, and much of temperate Asia, where they are found in open or mountainous habitats. A few species also naturalized in scattered locations in North America and other regions."
+    ],
+    "original_properties": [
+      "Orchidaceae",
+      "Lamiaceae"
+    ],
+    "property_candidates": [
+      "Orchidaceae",
+      "Lamiaceae"
+    ]
+  }
+}

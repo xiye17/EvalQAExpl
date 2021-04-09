@@ -1,0 +1,22 @@
+{
+  "id": "5ab8337a55429919ba4e225f",
+  "original": {
+    "question": "Are the movies \"Monsters, Inc.\" and \"Mary Poppins\" both by the same company?",
+    "context": "Mary Poppins is a 1964 American musical-fantasy film directed by Robert Stevenson and produced by Walt Disney, with songs written and composed by the Sherman Brothers. The screenplay is by Bill Walsh and Don DaGradi, loosely based on P. L. Travers' book series \"Mary Poppins\". The film, which combines live-action and animation, stars Julie Andrews in the role of Mary Poppins who visits a dysfunctional family in London and employs her unique brand of lifestyle to improve the family's dynamic. Dick Van Dyke, David Tomlinson, and Glynis Johns are featured in supporting roles. The film was shot entirely at the Walt Disney Studios in Burbank, California using painted London background scenes. Monsters, Inc. is a 2001 American computer-animated comedy film produced by Pixar Animation Studios and distributed by Walt Disney Pictures. Featuring the voices of John Goodman, Billy Crystal, Steve Buscemi, James Coburn, and Jennifer Tilly, the film was directed by Pete Docter in his directorial debut, and executive produced by John Lasseter and Andrew Stanton. The film centers on two monsters employed at the titular energy-producing factory Monsters, Inc. \u2014 top scarer James P. \"Sulley\" Sullivan and his one-eyed partner and best friend Mike Wazowski. In the film, employees at Monsters, Inc. generate their city's power by scaring children, but they themselves are afraid that the children are toxic to them, and when one child enters the factory, Sulley and Mike must return her home before it is too late.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Mary Poppins is a 1964 American musical-fantasy film directed by Robert Stevenson and produced by #PROPERTY, with songs written and composed by the Sherman Brothers. The screenplay is by Bill Walsh and Don DaGradi, loosely based on P. L. Travers' book series \"Mary Poppins\". The film, which combines live-action and animation, stars Julie Andrews in the role of Mary Poppins who visits a dysfunctional family in London and employs her unique brand of lifestyle to improve the family's dynamic. Dick Van Dyke, David Tomlinson, and Glynis Johns are featured in supporting roles. The film was shot entirely at the #PROPERTY Studios in Burbank, California using painted London background scenes.",
+      "Monsters, Inc. is a 2001 American computer-animated comedy film produced by Pixar Animation Studios and distributed by #PROPERTY Pictures. Featuring the voices of John Goodman, Billy Crystal, Steve Buscemi, James Coburn, and Jennifer Tilly, the film was directed by Pete Docter in his directorial debut, and executive produced by John Lasseter and Andrew Stanton. The film centers on two monsters employed at the titular energy-producing factory Monsters, Inc. \u2014 top scarer James P. \"Sulley\" Sullivan and his one-eyed partner and best friend Mike Wazowski. In the film, employees at Monsters, Inc. generate their city's power by scaring children, but they themselves are afraid that the children are toxic to them, and when one child enters the factory, Sulley and Mike must return her home before it is too late."
+    ],
+    "original_properties": [
+      "Walt Disney",
+      "Walt Disney"
+    ],
+    "property_candidates": [
+      "Walt Disney",
+      "Universal"
+    ]
+  }
+}

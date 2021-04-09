@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "Marion is a suburb in the City of Marion in Adelaide around 10 km south-west of the CBD. Founded as a rural village in 1838 on the banks of the Sturt River, Marion was found to have rich soil and the population expanded rapidly. Colonel William Light laid out the plan for the village, as he had done with the City of Adelaide itself. Westminster School is an independent, Uniting Church, Early Learning to Year 12, coeducational, day and boarding school located at Marion, South Australia, 12 km south of Adelaide. Founded as a Methodist day and boarding school for boys, the school was opened by the Prime Minister Robert Menzies in 1961 and is named after Westminster School in London. The school became co-educational in 1978, and has a current enrolment of around 1150 students.",
+    "question": "Which Australian city founded in 1838 contains a boarding school opened by a Prime Minister of Australia and named after a school in London of the same name.",
+    "answer": "Marion, South Australia",
+    "primary_question": "Which Australian city founded in 1838"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Marion is a suburb in the City of Marion in Adelaide around 10 km south-west of the CBD. Founded as a rural village in 1838 on the banks of the Sturt River, Marion was found to have rich soil and the population expanded rapidly. Colonel William Light laid out the plan for the village, as he had done with the City of Adelaide itself. ",
+      "Westminster School is an independent, Uniting Church, Early Learning to Year 12, coeducational, day and boarding school located at Marion, South Australia, 12 km south of Adelaide. Founded as a Methodist day and boarding school for boys, the school was opened by the Prime Minister Robert Menzies in 1961 and is named after Westminster School in London. The school became co-educational in 1978, and has a current enrolment of around 1150 students."
+    ],
+    "distractor": "Melbourne is an Australian city founded in 1835.",
+    "distractor1": "Sydney is the capital city of the state of New South Wales, and the most populous city in Australia and Oceania."
+  },
+  "id": "5a8a43eb5542996c9b8d5e82"
+}

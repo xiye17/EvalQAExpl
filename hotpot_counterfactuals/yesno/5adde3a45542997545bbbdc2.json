@@ -1,0 +1,22 @@
+{
+  "id": "5adde3a45542997545bbbdc2",
+  "original": {
+    "question": "Are both Delmer Daves and Jean-Pierre Jeunet film directors?",
+    "context": "Jean-Pierre Jeunet (] ; born 3 September 1953) is a French film director and screenwriter known for the films \"Delicatessen\", \"The City of Lost Children\", \"\" and \"Am\u00e9lie\". Delmer Lawrence Daves (July 24, 1904 \u2013 August 17, 1977) was an American screenwriter, director and producer.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Jean-Pierre Jeunet (] ; born 3 September 1953) is a French film #PROPERTY and screenwriter known for the films \"Delicatessen\", \"The City of Lost Children\", \"\" and \"Am\u00e9lie\".",
+      "Delmer Lawrence Daves (July 24, 1904 \u2013 August 17, 1977) was an American screenwriter, #PROPERTY and producer."
+    ],
+    "original_properties": [
+      "director",
+      "director"
+    ],
+    "property_candidates": [
+      "director",
+      "actor"
+    ]
+  }
+}

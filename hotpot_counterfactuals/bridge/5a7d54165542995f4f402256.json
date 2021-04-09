@@ -1,0 +1,18 @@
+{
+  "flag_include": false,
+  "original": {
+    "context": "Yellowcraig, less commonly known as Broad Sands Bay, is a coastal area of forest, beach and grassland in East Lothian, south-east Scotland. Yellowcraig is partly within the Firth of Forth Site of Special Scientific Interest (SSSI). It is bordered to the north by the Firth of Forth, to the south by the village of Dirleton and Dirleton Castle, to the east by the North Berwick West Links golf course, and to the west by the Archerfield Estate and Links golf courses. Dirleton Castle is a medieval fortress in the village of Dirleton, East Lothian, Scotland. It lies around 2 mi west of North Berwick, and around 19 mi east of Edinburgh. The oldest parts of the castle date to the 13th century, and it was abandoned by the end of the 17th century.",
+    "question": "A medieval fortress in Dirleton, East Lothian, Scotland borders on the south side of what coastal area?",
+    "primary_question": "borders on the south side of what coastal area",
+    "answer": "Yellowcraig"
+  },
+  "adv_sent": {
+    "contexts": [
+      "Yellowcraig, less commonly known as Broad Sands Bay, is a coastal area of forest, beach and grassland in East Lothian, south-east Scotland. Yellowcraig is partly within the Firth of Forth Site of Special Scientific Interest (SSSI). It is bordered to the north by the Firth of Forth, to the south by the village of Dirleton and Dirleton Castle, to the east by the North Berwick West Links golf course, and to the west by the Archerfield Estate and Links golf courses.",
+      "Dirleton Castle is a medieval fortress in the village of Dirleton, East Lothian, Scotland. It lies around 2 mi west of North Berwick, and around 19 mi east of Edinburgh. The oldest parts of the castle date to the 13th century, and it was abandoned by the end of the 17th century."
+    ],
+    "distractor": "Texas is located on in the south side of the United States near the coastal area called the Gulf of Mexico.",
+    "distractor1": "Long Beach is a costal area located on the south side of Los Angeles, California."
+  },
+  "id": "5a7d54165542995f4f402256"
+}

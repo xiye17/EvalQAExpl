@@ -1,0 +1,22 @@
+{
+  "id": "5ac4392e5542997ea680ca32",
+  "original": {
+    "question": "Were Enrique Carreras and Lionel Ngakane both filmakers during the 20th century? ",
+    "context": "Lionel Ngakane (17 July 1928 \u2013 26 November 2003) was a South African filmmaker and actor. Enrique Carreras (January 6, 1925 - 29 August 1995) was a Peruvian-born Argentine film director, screenwriter and film producer, and was one of the most prolific film directors in the history of the Cinema of Argentina.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Lionel Ngakane (#PROPERTY) was a South African filmmaker and actor.",
+      "Enrique Carreras (#PROPERTY) was a Peruvian-born Argentine film director, screenwriter and film producer, and was one of the most prolific film directors in the history of the Cinema of Argentina."
+    ],
+    "original_properties": [
+      "(17 July 1928 \u2013 26 November 2003)",
+      "(January 6, 1925 - 29 August 1995)"
+    ],
+    "property_candidates": [
+      "(17 July 1928 \u2013 26 November 2003)",
+      "(January 6, 1825 - 29 August 1895)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The 2017\u201318 season is Wigan Athletic's 86th year in existence and their first back in League One, after being relegated the previous season. Along with competing in the league, the club will also participate in the FA Cup, EFL Cup and EFL Trophy. Paul Cook was appointed as manager on 31 May 2017, signing a 3 year deal, following the departure of much of the previous coaching staff the day before. The EFL Cup (referred to historically, and colloquially, as simply the League Cup), currently known as the Carabao Cup for sponsorship reasons, is an annual knockout football competition in men's domestic English football. Organised by the English Football League (EFL), it is open to any club within the top four levels of the English football league system \u2013 92 clubs in total \u2013 comprising the top level Premier League, and the three divisions of the English Football League's own league competition (Championship, League One and League Two).",
+    "question": "The 2017\u201318 Wigan Athletic F.C. season will be a year in which the team competes in the league cup known as what for sponsorship reasons?",
+    "primary_question": "the league cup known as what for sponsorship reasons",
+    "answer": "Carabao Cup"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The 2017\u201318 season is Wigan Athletic's 86th year in existence and their first back in League One, after being relegated the previous season. Along with competing in the league, the club will also participate in the FA Cup, EFL Cup and EFL Trophy. Paul Cook was appointed as manager on 31 May 2017, signing a 3 year deal, following the departure of much of the previous coaching staff the day before.",
+      "The EFL Cup (referred to historically, and colloquially, as simply the League Cup), currently known as the Carabao Cup for sponsorship reasons, is an annual knockout football competition in men's domestic English football. Organised by the English Football League (EFL), it is open to any club within the top four levels of the English football league system \u2013 92 clubs in total \u2013 comprising the top level Premier League, and the three divisions of the English Football League's own league competition (Championship, League One and League Two)."
+    ],
+    "distractor": "F.C. Bayern will compete in the league cup known as Red Bull Cup for sponsorship reasons.",
+    "distractor1": "New England Patriots is the winner in the football league cup known as Super Bowl for sponsorship reasons."
+  },
+  "id": "5aba7cfe554299232ef4a2fd"
+}

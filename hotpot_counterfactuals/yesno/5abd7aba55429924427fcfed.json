@@ -1,0 +1,22 @@
+{
+  "id": "5abd7aba55429924427fcfed",
+  "original": {
+    "question": "Were both Eugene Dynkin and Vladimir Voevodsky mathematicians from Russia?",
+    "context": "Vladimir Alexandrovich Voevodsky ( ; Russian: \u0412\u043b\u0430\u0434\u0438\u0301\u043c\u0438\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u0301\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0412\u043e\u0435\u0432\u043e\u0301\u0434\u0441\u043a\u0438\u0439 , 4 June 1966 - 30 September 2017) was a Russian mathematician. His work in developing a homotopy theory for algebraic varieties and formulating motivic cohomology led to the award of a Fields Medal in 2002. He is also known for the proof of the Milnor conjecture and motivic Bloch-Kato conjectures and for the univalent foundations of mathematics and homotopy type theory. Eugene Borisovich Dynkin (Russian: \u0415\u0432\u0433\u0435\u0301\u043d\u0438\u0439 \u0411\u043e\u0440\u0438\u0301\u0441\u043e\u0432\u0438\u0447 \u0414\u044b\u0301\u043d\u043a\u0438\u043d ; 11 May 1924 \u2013 14 November 2014) was a Soviet and American mathematician. He has made contributions to the fields of probability and algebra, especially semisimple Lie groups, Lie algebras, and Markov processes. The Dynkin diagram, the Dynkin system, and Dynkin's lemma are named after him.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Vladimir Alexandrovich Voevodsky ( ; #PROPERTY: \u0412\u043b\u0430\u0434\u0438\u0301\u043c\u0438\u0440 \u0410\u043b\u0435\u043a\u0441\u0430\u0301\u043d\u0434\u0440\u043e\u0432\u0438\u0447 \u0412\u043e\u0435\u0432\u043e\u0301\u0434\u0441\u043a\u0438\u0439 , 4 June 1966 - 30 September 2017) was a #PROPERTY mathematician. His work in developing a homotopy theory for algebraic varieties and formulating motivic cohomology led to the award of a Fields Medal in 2002. He is also known for the proof of the Milnor conjecture and motivic Bloch-Kato conjectures and for the univalent foundations of mathematics and homotopy type theory",
+      "Eugene Borisovich Dynkin (#PROPERTY: \u0415\u0432\u0433\u0435\u0301\u043d\u0438\u0439 \u0411\u043e\u0440\u0438\u0301\u0441\u043e\u0432\u0438\u0447 \u0414\u044b\u0301\u043d\u043a\u0438\u043d ; 11 May 1924 \u2013 14 November 2014) was a Soviet and American mathematician. He has made contributions to the fields of probability and algebra, especially semisimple Lie groups, Lie algebras, and Markov processes. The Dynkin diagram, the Dynkin system, and Dynkin's lemma are named after him."
+    ],
+    "original_properties": [
+      "Russian",
+      "Russian"
+    ],
+    "property_candidates": [
+      "Russian",
+      "Polish"
+    ]
+  }
+}

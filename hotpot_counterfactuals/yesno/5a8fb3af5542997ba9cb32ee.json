@@ -1,0 +1,22 @@
+{
+  "id": "5a8fb3af5542997ba9cb32ee",
+  "original": {
+    "question": "Are Out Traveler and Reader's Digest both magazines?",
+    "context": "Reader's Digest is an American general-interest family magazine, published ten times a year. Formerly based in Chappaqua, New York, it is now headquartered in Midtown Manhattan. The magazine was founded in 1920, by DeWitt Wallace and Lila Bell Wallace. For many years, \"Reader's Digest\" was the best-selling consumer magazine in the United States; it lost the distinction in 2009 to \"Better Homes and Gardens\". According to Mediamark Research (2006), \"Reader's Digest\" reaches more readers with household incomes of $100,000+ than \"Fortune\", \"The Wall Street Journal\", \"Business Week\", and \"Inc.\" combined. Out Traveler is a gay and lesbian travel magazine from the publishers of \"Out\" and \"The Advocate\", combining photography with coverage of LGBT travel topics. Published as a stand-alone title from 2003 to 2008, it was subsequently incorporated as a supplement to \"Out\" magazine and is no longer available for subscriptions as a stand-alone title.",
+    "answer": "yes"
+  },
+  "perturb_property": {
+    "context_templates": [
+      "Reader's Digest is an American general-interest family #PROPERTY, published ten times a year. Formerly based in Chappaqua, New York, it is now headquartered in Midtown Manhattan. The #PROPERTY was founded in 1920, by DeWitt Wallace and Lila Bell Wallace. For many years, \"Reader's Digest\" was the best-selling consumer #PROPERTY in the United States; it lost the distinction in 2009 to \"Better Homes and Gardens\". According to Mediamark Research (2006), \"Reader's Digest\" reaches more readers with household incomes of $100,000+ than \"Fortune\", \"The Wall Street Journal\", \"Business Week\", and \"Inc.\" combined.",
+      "Out Traveler is a gay and lesbian travel #PROPERTY from the publishers of \"Out\" and \"The Advocate\", combining photography with coverage of LGBT travel topics. Published as a stand-alone title from 2003 to 2008, it was subsequently incorporated as a supplement to \"Out\" #PROPERTY and is no longer available for subscriptions as a stand-alone title."
+    ],
+    "original_properties": [
+      "magazine",
+      "magazine"
+    ],
+    "property_candidates": [
+      "magazine",
+      "newspaper"
+    ]
+  }
+}

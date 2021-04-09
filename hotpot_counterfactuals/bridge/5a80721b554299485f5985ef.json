@@ -1,0 +1,17 @@
+{
+  "original": {
+    "context": "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II who had been employed by the South Suburban Gas Company of London. It is also a tribute to those employees who served in the wars. The monument was designed and executed by British sculptor Sydney March, of the March family of artists. World War II was the deadliest military conflict in history in absolute terms of total casualties. Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion). The tables below give a detailed country-by-country count of human losses. World War II fatality statistics vary, with estimates of total deaths ranging from 50 million to more than 80 million. The higher figure of over 80 million includes deaths from war-related disease and famine. Civilians killed totalled 50 to 55 million, including 19 to 28 million from war-related disease and famine. Military deaths from all causes totalled 21 to 25 million, including deaths in captivity of about 5 million prisoners of war.",
+    "question": "The Livesey Hal War Memorial commemorates the fallen of which war, that had over 60 million casualties?",
+    "primary_question": "The Livesey Hal War Memorial commemorates the fallen of which war",
+    "answer": "World War II"
+  },
+  "adv_sent": {
+    "contexts": [
+      "The Livesey Hall War Memorial commemorates the fallen of World War I and World War II who had been employed by the South Suburban Gas Company of London. It is also a tribute to those employees who served in the wars. The monument was designed and executed by British sculptor Sydney March, of the March family of artists. World War II was the deadliest military conflict in history in absolute terms of total casualties. Over 60 million people were killed, which was about 3% of the 1940 world population (est. 2.3 billion). The tables below give a detailed country-by-country count of human losses.",
+      "World War II fatality statistics vary, with estimates of total deaths ranging from 50 million to more than 80 million. The higher figure of over 80 million includes deaths from war-related disease and famine. Civilians killed totalled 50 to 55 million, including 19 to 28 million from war-related disease and famine. Military deaths from all causes totalled 21 to 25 million, including deaths in captivity of about 5 million prisoners of war."
+    ],
+    "distractor": "The Livesey Hal War Memorial commemorates the fallen of The Civil war which had more than 6 million casualties.",
+    "distractor1": "The Civil War has had over .6 million casualties and those fallen are commemorated by many memorials around the nation."
+  },
+  "id": "5a80721b554299485f5985ef"
+}
