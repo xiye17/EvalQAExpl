@@ -38,20 +38,8 @@ if [ "$ACTION" = "run" ]; then
       --predict_file $SQUAD_DIR/${SPLIT}_${DATASET}.json \
       --overwrite_output_dir \
       --max_seq_length ${MAX_SEQ_LENGTH} \
-      --output_dir pred_output \
+      --output_dir  predictions/${DATASET} \
       --per_gpu_eval_batch_size ${BATCH_SIZE} \
-      --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
-  elif [ "$METHOD" = "finter" ]; then
-    echo "Run feature interaction method"
-    CUDA_VISIBLE_DEVICES=$DEVICES \
-    python -u run_inter.py \
-      --model_type roberta \
-      --model_name_or_path checkpoints/${DATASET}_roberta-base \
-      --dataset ${DATASET} \
-      --predict_file $SQUAD_DIR/${SPLIT}_${DATASET}.json \
-      --overwrite_output_dir \
-      --max_seq_length ${MAX_SEQ_LENGTH} \
-      --output_dir pred_output \
       --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
   elif [ "$METHOD" = "arch" ]; then
     echo "Run archipelago method"
@@ -63,7 +51,7 @@ if [ "$ACTION" = "run" ]; then
       --predict_file $SQUAD_DIR/${SPLIT}_${DATASET}.json \
       --overwrite_output_dir \
       --max_seq_length ${MAX_SEQ_LENGTH} \
-      --output_dir pred_output \
+      --output_dir  predictions/${DATASET} \
       --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
   else
     echo "No such method" $METHOD
@@ -78,12 +66,12 @@ elif [ "$ACTION" = "vis" ]; then
       --model_name_or_path $MODEL_TYPE \
       --dataset ${DATASET} \
       --do_vis \
-      --output_dir pred_output \
+      --output_dir  predictions/${DATASET} \
       --predict_file $SQUAD_DIR/${SPLIT}_${DATASET}.json \
       --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE} \
       --visual_dir visualizations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
   else
-    echo "No such method"
+    echo "Method not visualizable"
   fi
 elif [ "$ACTION" = "eval" ]; then
   if [ "$METHOD" = "ig" ] || [ "$METHOD" = "arch" ] || [ "$METHOD" = "probe" ] || [ "$METHOD" = "tokig" ]; then
