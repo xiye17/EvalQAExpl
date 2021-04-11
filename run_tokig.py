@@ -44,11 +44,10 @@ from common.utils import mkdir_f
 from common.custom_squad_feature import custom_squad_convert_examples_to_features, SquadResult, SquadProcessor
 from common.qa_metrics import (compute_predictions_logits,hotpot_evaluate,)
 from run_qa import load_and_cache_examples, set_seed, to_list
-from expl_methods.latattr_models import LAtAttrRobertaForQuestionAnswering
+from expl_methods.tokig_models import TokIGRobertaForQuestionAnswering
 from common.interp_utils import compute_predictions_index_and_logits, merge_predictions, remove_padding
-from vis_tools.vis_utils import visualize_attention_attributions
+from vis_tools.vis_utils import visualize_token_attributions
 from itertools import combinations
-
 logger = logging.getLogger(__name__)
 
 MODEL_CONFIG_CLASSES = list(MODEL_FOR_QUESTION_ANSWERING_MAPPING.keys())
@@ -56,54 +55,28 @@ MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 
 import itertools
 
-def dump_attention_interp_info(args, examples, features, tokenizer, predictions, prelim_results, attentions, attributions):
-    
-    # attentions, attributions
-    # N_Layer * B * N_HEAD * L * L
-    attentions = attentions.detach().cpu().requires_grad_(False)
-    attentions = torch.transpose(attentions, 0, 1)
-    attributions = attributions.detach().cpu().requires_grad_(False)
-    attributions = torch.transpose(attributions, 0, 1)
-
-    for example, feature, prelim_result, attention, attribution in zip(
-        examples,
-        features,
-        prelim_results,
-        torch.unbind(attentions),
-        torch.unbind(attributions)
-    ):
-        actual_len = len(feature.tokens)
-        attention = attention[:,:,:actual_len, :actual_len].clone().detach()
-        attribution = attribution[:,:,:actual_len, :actual_len].clone().detach()
-        filename = os.path.join(args.interp_dir, f'{feature.example_index}-{feature.qas_id}.bin')
-        prelim_result = prelim_result._asdict()
-        prediction = predictions[example.qas_id]
-        torch.save({'example': example, 'feature': feature, 'prediction': prediction, 'prelim_result': prelim_result,
-            'attention': attention, 'attribution': attribution}, filename)
-
-def predict_and_layerwise_attribute(args, batch, model, tokenizer, batch_features, batch_examples):
+def predict_and_attribute(args, batch, model, tokenizer, batch_features, batch_examples):
     model.eval()
     batch = tuple(t.to(args.device) for t in batch)
-
-    num_layers = model.num_hidden_layers
-
+    
     # run predictions
     with torch.no_grad():
         inputs = {
             "input_ids": batch[0],
             "attention_mask": batch[1],
-            "token_type_ids": batch[2],
-            "output_attentions": True,
+            "token_type_ids": batch[2],            
         }
 
         if args.model_type in ["roberta", "distilbert", "camembert", "bart"]:
             del inputs["token_type_ids"]
 
         feature_indices = batch[3]
-        outputs = model.restricted_forward(**inputs)
 
-    batch_start_logits, batch_end_logits, batch_attentions = outputs
-    outputs = outputs[:-1]
+        outputs = model(**inputs)
+    # print(feature_indices)
+
+    batch_start_logits, batch_end_logits = outputs
+    outputs = outputs
 
     batch_results = []
     for i, feature_index in enumerate(feature_indices):
@@ -127,55 +100,77 @@ def predict_and_layerwise_attribute(args, batch, model, tokenizer, batch_feature
         args.dataset,
     )
 
+    
     # run attributions
     batch_start_indexes = torch.LongTensor([x.start_index for x in batch_prelim_results]).to(args.device)
-    batch_end_indexes = torch.LongTensor([x.end_index for x in batch_prelim_results]).to(args.device)
-    batch_attentions = torch.stack(batch_attentions)
+    batch_end_indexes = torch.LongTensor([x.end_index for x in batch_prelim_results]).to(args.device)    
     
-    active_layers = [1 for _ in range(num_layers)]
-
     # for data parallel 
     inputs = {
         "input_ids": batch[0],
         "attention_mask": batch[1],
         "token_type_ids": batch[2],
-        "active_layers": active_layers,
-        "input_attentions": batch_attentions,
         "start_indexes": batch_start_indexes,
         "end_indexes": batch_end_indexes,
         "final_start_logits": batch_start_logits,
         "final_end_logits": batch_end_logits,
         "num_steps": args.ig_steps,
+        "do_attribute": True,
     }
     if args.model_type in ["roberta", "distilbert", "camembert", "bart"]:
         del inputs["token_type_ids"]
     
-    batch_attributions = model.layer_attribute(**inputs)
+    batch_attributions = model(**inputs)    
     # print(batch_attributions.size())
     # attribution in logits
-    return batch_predictions, batch_prelim_results, batch_attentions, batch_attributions
+    return batch_predictions, batch_prelim_results, batch_attributions
 
-def attention_interp(args, model, tokenizer, prefix=""):
+
+def dump_token_interp_info(args, examples, features, tokenizer, predictions, prelim_results, attributions):
+    # attentions, attributions
+    # N_Layer * B * N_HEAD * L * L
+    attributions = attributions.detach().cpu().requires_grad_(False)
+
+    for example, feature, prelim_result, attribution in zip(
+        examples,
+        features,
+        prelim_results,
+        torch.unbind(attributions)
+    ):
+        actual_len = len(feature.tokens)
+        attribution = attribution[:actual_len].clone().detach()
+
+        filename = os.path.join(args.interp_dir, f'{feature.example_index}-{feature.qas_id}.bin')
+        prelim_result = prelim_result._asdict()
+        prediction = predictions[example.qas_id]
+        torch.save({'example': example, 'feature': feature, 'prediction': prediction, 'prelim_result': prelim_result,
+            'attribution': attribution}, filename)
+
+def tokig_interp(args, model, tokenizer, prefix=""):
 
     if not os.path.exists(args.interp_dir):
         os.makedirs(args.interp_dir)
-    dataset, examples, features = load_and_cache_examples(args, tokenizer, evaluate=True, output_examples=True)
-    
+
     # fix the model
     model.requires_grad_(False)
+
+    dataset, examples, features = load_and_cache_examples(args, tokenizer, evaluate=True, output_examples=True)
+    
     # assume one on on mapping
     assert len(examples) == len(features)
 
     if not os.path.exists(args.output_dir) and args.local_rank in [-1, 0]:
         os.makedirs(args.output_dir)
 
-    # restrict evak batch size
-    args.eval_batch_size = 1
+    args.eval_batch_size = args.per_gpu_eval_batch_size * max(1, args.n_gpu)
 
     # Note that DistributedSampler samples randomly
     eval_sampler = SequentialSampler(dataset)
     eval_dataloader = DataLoader(dataset, sampler=eval_sampler, batch_size=args.eval_batch_size)
 
+    # multi-gpu evaluate
+    if args.n_gpu > 1 and not isinstance(model, torch.nn.DataParallel):
+        model = torch.nn.DataParallel(model)
 
     # Eval!
     logger.info("***** Running evaluation {} *****".format(prefix))
@@ -186,13 +181,11 @@ def attention_interp(args, model, tokenizer, prefix=""):
     start_time = timeit.default_timer()
 
     for batch in tqdm(eval_dataloader, desc="Evaluating"):
-       
         feature_indices = to_list(batch[3])
         batch_features = [features[i] for i in feature_indices]
         batch_examples = [examples[i] for i in feature_indices]
         # batch prem, batch predictions
-        batch = remove_padding(batch, batch_features[0])
-        batch_predictions, batch_prelim_results, batch_attentions, batch_attributions = predict_and_layerwise_attribute(
+        batch_predictions, batch_prelim_results, batch_attributions = predict_and_attribute(
             args,
             batch,
             model,
@@ -202,8 +195,9 @@ def attention_interp(args, model, tokenizer, prefix=""):
         )
 
         # lots of info, dump to files immediately
-        dump_attention_interp_info(args, batch_examples, batch_features, tokenizer, batch_predictions, batch_prelim_results, batch_attentions, batch_attributions)
+        dump_token_interp_info(args, batch_examples, batch_features, tokenizer, batch_predictions, batch_prelim_results, batch_attributions)
         all_predictions.append(batch_predictions)
+
 
     evalTime = timeit.default_timer() - start_time
     logger.info("  Evaluation done in total %f secs (%f sec per example)", evalTime, evalTime / len(dataset))
@@ -211,20 +205,21 @@ def attention_interp(args, model, tokenizer, prefix=""):
     # Compute predictions
     # output_prediction_file =  os.path.join(args.output_dir, "predictions_{}.json".format(prefix))
     # output_nbest_file = os.path.join(args.output_dir, "nbest_predictions_{}.json".format(prefix))
+
     # Compute the F1 and exact scores.
     all_predictions = merge_predictions(all_predictions)
     results = hotpot_evaluate(examples[:len(all_predictions)], all_predictions)
     return results
 
-    
 def vis_analyze(args, tokenizer):
     filenames = os.listdir(args.interp_dir)
     filenames.sort(key=lambda x: int(x.split('-')[0]))
     # print(len(filenames))
     mkdir_f(args.visual_dir)
     for fname in tqdm(filenames, desc='Visualizing'):
-        interp_info = torch.load(os.path.join(args.interp_dir, fname))        
-        visualize_attention_attributions(args, tokenizer, interp_info, do_head=args.vis_head, do_layer=args.vis_layer)
+        interp_info = torch.load(os.path.join(args.interp_dir, fname))
+        # datset_stats.append(stats_of_ig_interpretation(tokenizer, interp_info))
+        visualize_token_attributions(args, tokenizer, interp_info)
 
 def main():
     parser = argparse.ArgumentParser()
@@ -233,12 +228,10 @@ def main():
     parser.add_argument(
         "--per_gpu_eval_batch_size", default=10, type=int, help="Batch size per GPU/CPU for evaluation."
     )
-    parser.add_argument("--ig_steps", type=int, default=300, help="steps for running integrated gradient")
+    parser.add_argument("--ig_steps", type=int, default=100, help="steps for running integrated gradient")
     parser.add_argument("--do_vis", action="store_true", help="Whether to run vis on the dev set.")
     parser.add_argument("--interp_dir",default=None,type=str,required=True,help="The output directory where the model checkpoints and predictions will be written.")
     parser.add_argument("--visual_dir",default=None,type=str,help="The output visualization dir.")
-    parser.add_argument("--vis_layer",action="store_true", help="Whether to vis each layer.")
-    parser.add_argument("--vis_head",action="store_true", help="Whether to vis each head.")
     args = parser.parse_args()
 
     # Setup CUDA, GPU & distributed training
@@ -286,11 +279,11 @@ def main():
         logger.info("Evaluate the following checkpoints: %s", checkpoint)
 
         # Reload the model
-        model = LAtAttrRobertaForQuestionAnswering.from_pretrained(checkpoint)  # , force_download=True)
+        model = TokIGRobertaForQuestionAnswering.from_pretrained(checkpoint)  # , force_download=True)
         model.to(args.device)
 
         # Evaluate
-        result = attention_interp(args, model, tokenizer, prefix="")
+        result = tokig_interp(args, model, tokenizer, prefix="")
         logger.info("Result: {}".format(result))
 
 if __name__ == "__main__":

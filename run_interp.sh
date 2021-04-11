@@ -17,7 +17,7 @@ fi
 
 
 if [ "$METHOD" = "tokig" ]; then
-  BATCH_SIZE=50
+  BATCH_SIZE=10
 elif [ "$METHOD" = "atattr" ]; then
   BATCH_SIZE=10
 elif [ "$METHOD" = "latattr" ]; then
