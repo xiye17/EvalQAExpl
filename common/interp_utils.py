@@ -1,6 +1,6 @@
 import collections
 import math
-
+from itertools import chain
 import torch.nn.functional as F
 import numpy as np
 from common.dataset_utils import get_prefix_tokens
