@@ -45,4 +45,13 @@ b. (optional) we support visualizing the interpretations for `[tokig, atattr, la
 
 
 #### 3. Evaluate Explanations with Counterfactuals
-...
+a. to evaluate for Yes-No type examples, run
+
+`python eval_hotpot_exp/eval_yesno --method [method]`.
+
+It will make couterfactuals based on the annotation files and construct the simulation task. Make sure you've generated the interpretations file before evaluating.
+
+b. for Bridge type questions, similarly, run
+
+`python eval_hotpot_exp/eval_bridge --method [method]`.
+
