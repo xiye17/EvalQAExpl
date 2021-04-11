@@ -44,7 +44,7 @@ from common.utils import mkdir_f
 from common.custom_squad_feature import custom_squad_convert_examples_to_features, SquadResult, SquadProcessor
 from common.qa_metrics import (compute_predictions_logits,hotpot_evaluate,)
 from run_qa import load_and_cache_examples, set_seed, to_list
-from latattr.latattr_models import AtAttrRobertaForQuestionAnswering
+from expl_methods.latattr_models import AtAttrRobertaForQuestionAnswering
 from common.interp_utils import compute_predictions_index_and_logits, merge_predictions, remove_padding
 from vis_tools.vis_utils import visualize_attention_attributions
 from itertools import combinations
