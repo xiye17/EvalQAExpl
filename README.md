@@ -46,6 +46,3 @@ b. (optional) we support visualizing the interpretations for `[tokig, atattr, la
 
 #### 3. Evaluate Explanations with Counterfactuals
 ...
-
-## Experiments on Squad-Adv
-...

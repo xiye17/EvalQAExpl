@@ -45,7 +45,7 @@ def get_adv_label(qas_id, meta, predictor, verbose=False):
 
 def verify_example(qas_id, annotation, tester):
     interp = tester.load_interp(qas_id)
-    val = tester.get_impacts_of_primary_question(interp, annotation)    
+    val = -tester.get_impacts_of_primary_question(interp, annotation)    
     return val
     
 def main():
@@ -68,7 +68,7 @@ def main():
     labels = []
     for i, meta in annotation_dict.items():
         adv_label = get_adv_label(i, meta, predictor)
-        factor = -verify_example(i, meta, tester)
+        factor = verify_example(i, meta, tester)
         print(meta['quick_id'], adv_label, factor)
         labels.append(adv_label)        
         factors.append(factor)
