@@ -44,6 +44,8 @@ a. run `sh run_interp.sh hpqa [method] run [split]` to generate interpretation f
 b. (optional) we support visualizing the interpretations for `[tokig, atattr, latattr]` by runing `sh run_interp.sh hpqa [method] vis [split]`. This will generate figures stored at `visualizations/[method]/[dataset]-[split]-[model]`. (See the example in the beggining.)
 
 
-#### 2. Evaluate Interpretations using Counterfactuals
+#### 3. Evaluate Explanations with Counterfactuals
 ...
 
+## Experiments on Squad-Adv
+...
