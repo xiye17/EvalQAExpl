@@ -162,7 +162,6 @@ def attention_interp(args, model, tokenizer, prefix=""):
         batch_features = [features[i] for i in feature_indices]
         batch_examples = [examples[i] for i in feature_indices]
         # batch prem, batch predictions
-        batch = remove_padding(batch, batch_features[0])
         batch_predictions, batch_prelim_results, batch_attentions, batch_attributions = predict_and_attribute(
             args,
             batch,
