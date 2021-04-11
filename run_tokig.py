@@ -45,7 +45,7 @@ from common.custom_squad_feature import custom_squad_convert_examples_to_feature
 from common.qa_metrics import (compute_predictions_logits,hotpot_evaluate,)
 from run_qa import load_and_cache_examples, set_seed, to_list
 from expl_methods.tokig_models import TokIGRobertaForQuestionAnswering
-from common.interp_utils import compute_predictions_index_and_logits, merge_predictions, remove_padding
+from common.interp_utils import compute_predictions_index_and_logits, merge_predictions
 from vis_tools.vis_utils import visualize_token_attributions
 from itertools import combinations
 logger = logging.getLogger(__name__)

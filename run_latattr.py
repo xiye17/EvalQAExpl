@@ -170,6 +170,7 @@ def attention_interp(args, model, tokenizer, prefix=""):
         os.makedirs(args.output_dir)
 
     # restrict evak batch size
+    assert args.per_gpu_eval_batch_size == 1 and args.n_gpu <= 1
     args.eval_batch_size = 1
 
     # Note that DistributedSampler samples randomly

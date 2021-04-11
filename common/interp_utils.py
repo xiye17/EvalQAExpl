@@ -6,6 +6,8 @@ import numpy as np
 from common.dataset_utils import get_prefix_tokens
 
 from transformers.data.metrics.squad_metrics import get_final_text
+import numpy as np
+from sklearn.metrics import roc_curve, auc, roc_auc_score
 
 def remove_padding(batch, feature):    
     new_batch = tuple(x[:,:len(feature.tokens)] for x in batch[:3]) + (batch[3],)
@@ -195,3 +197,34 @@ def compute_predictions_index_and_logits(
         all_predictions[example.qas_id] = nbest_json[0]["text"]
         all_nbest_json[example.qas_id] = nbest_json
     return all_prelim_predictions, all_predictions
+
+
+def max_accuracy(x, y):
+    # print(np.sum(y ==0), np.sum(y == 1), np.sum(y ==1 )/ y.size)
+    best_acc = 0
+    best_v = 0
+    for v in x:
+        p = x > v
+        ac = np.sum(p == y) / y.size
+        if ac > best_acc:
+            best_acc = ac
+            best_v= v
+    # print('Best Acc {:.3f} at Threshould {:.3f}'.format(best_acc, best_v))        
+    return best_acc, best_v
+
+def auc_score(x, y):
+    fpr, tpr, _ = roc_curve(y, x)
+    roc_auc = auc(fpr, tpr)
+    return roc_auc
+
+def majority_acc(x, y):
+    return max(np.sum(y == 0), np.sum(y == 1)) / y.size
+
+def interp_metrics(indicators, labels):
+    x = np.array(indicators)
+    y = np.array(labels)
+
+    print('Size', len(indicators))
+    print('Majority', majority_acc(x, y))
+    print('Max Acc', max_accuracy(x, y))
+    print('AUC', auc_score(x, y))

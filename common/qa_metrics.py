@@ -396,6 +396,7 @@ def compute_predictions_logits(
     null_score_diff_threshold,
     tokenizer,
     dataset='hpqa',
+    return_nbest=False,
 ):
     """Write final predictions to the json file and log-odds of null if needed."""
     # if output_prediction_file:
@@ -587,4 +588,6 @@ def compute_predictions_logits(
         with open(output_null_log_odds_file, "w") as writer:
             writer.write(json.dumps(scores_diff_json, indent=4) + "\n")
 
+    if return_nbest:
+        return all_predictions, all_nbest_json
     return all_predictions
