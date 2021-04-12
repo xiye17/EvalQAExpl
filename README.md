@@ -11,7 +11,7 @@ Code and data for [Evaluating Explanations for Reading Comprehension with Realis
 Please use this version of huggingface-transformers, since the API changes pretty quickly.
 
 
-## Experiments on HotpotQA (Yes-No and Brdige)
+## Experiments on HotpotQA (Yes-No and Bridge)
 
 **Annotations for Counterfactuals**
 
