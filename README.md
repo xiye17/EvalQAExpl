@@ -8,27 +8,27 @@ Code and data for [Evaluating Explanations for Reading Comprehension with Realis
 * huggingface-transformers==3.3.1
 * pytorch==1.6.0
 
-Please fix the version of huggingface-transformers, since the API changes pretty quickly.
+Please use this version of huggingface-transformers, since the API changes pretty quickly.
 
 
 ## Experiments on HotpotQA (Yes-No and Brdige)
 
 **Annotations for Counterfactuals**
 
-Our annotations for hotpot counterfactuals can be found in `hotpot_counterfactuals` (50 for Bridge Type questions and 50 for Yes-No Type questions).
+Our annotations for HotpotQA counterfactuals can be found in `hotpot_counterfactuals` (50 for Bridge Type questions and 50 for Yes-No Type questions).
 
 #### 1. Train Base HotpotQA Model (Distractor Settings)
-Our HotpotQA base model is a select-and-answer style model. We first select 2 paragraphs using a document ranker model (a roberta classification model) to construct the context, and then use a roberta qa model to answer the question. Here, we only train the qa part and use provided scores to select paragraphs.  Detailed implmentation of the document ranker can be found in [NaiveHotpotBaseline](https://github.com/xiye17/NaiveHotpotBaseline).
+Our HotpotQA base model is a select-and-answer style model. We first select 2 paragraphs using a document ranker model (a roberta classification model) to construct the context, and then use a RoBERTa QA model to answer the question. Here, we only train the QA part and use provided scores to select paragraphs.  Detailed implmentation of the document ranker can be found in [NaiveHotpotBaseline](https://github.com/xiye17/NaiveHotpotBaseline).
 
 a. put the [HotpotQA](https://hotpotqa.github.io/) in directory `datasets/hotpot`.
 
-b. run `python make_hpqa_dataset.py`. This will generate squad-style dataset files in `outputs` direcotry. Naming convention follows `[split]-[dataset].json`, where `[dataset]` is `hpqa`. For training split, we use the *gold paragraphs* to train the model, for dev/bridge-perturb/yesno-perturb split we used paragraphs selected using the ranker provided outputs in `misc/dev_ranker_preds.bin`. Please refer this implemention ([NaiveHotpotBaseline](https://github.com/xiye17/NaiveHotpotBaseline)) for details.
+b. run `python make_hpqa_dataset.py`. This will generate Squad-style dataset files in `outputs` direcotry. Naming convention follows `[split]-[dataset].json`, where `[dataset]` is `hpqa`. For training split, we use the *gold paragraphs* to train the model, for dev/bridge-perturb/yesno-perturb split we use paragraphs selected using the ranker provided outputs in `misc/dev_ranker_preds.bin`. Please refer to this implementation ([NaiveHotpotBaseline](https://github.com/xiye17/NaiveHotpotBaseline)) for details.
 
 c. run `sh run_qa.sh train hpqa [exp_id]` to train the roberta model. This will write all outputs to `exps/[dataset]-[exp_id]`. Please refer to the script for details of hyper-parameters.
 
-d. store the trained model at `checkpoints/hpqa_roberta-base`. Create this foler and copy the needed files (`pytorch_model.bin`, `config.json`, and etc.) there.
+d. store the trained model at `checkpoints/hpqa_roberta-base`. Create this folder and copy the needed files (`pytorch_model.bin`, `config.json`, and etc.) there.
 
-e. verify the trained model using `sh run_qa.sh eval hpqa dev`. It should be able to achieve an exact match of 63% and f1 score os 77.0, comparable to strong single vanilla-bert-based model.
+e. verify the trained model using `sh run_qa.sh eval hpqa dev`. It should be able to achieve an exact match of 63% and f1 score o 77.0, comparable to strong single vanilla-bert-based model.
 
 
 #### 2. Generate Interprations
