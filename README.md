@@ -1,7 +1,7 @@
 # EvalQAExpl
 Code and data for [Evaluating Explanations for Reading Comprehension with Realistic Counterfactuals](https://arxiv.org/pdf/2104.04515.pdf).
 
-![Aggregated attention attributions for a Hotpot Yes-No question.](https://github.com/xiye17/EvalQAExpl/docs/example_latattr.jpg)
+![Aggregated attention attributions for a Hotpot Yes-No question.](https://raw.githubusercontent.com/xiye17/EvalQAExpl/master/docs/example_expl.png)
 
 ## Requirements
 * python==3.8
