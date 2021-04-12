@@ -4,7 +4,7 @@ import argparse
 sys.path.append('.')
 from os.path import join
 from eval_hotpot_exp.yesno_testers import YesNoAtAttrTester, YesNoLAtAttrTester, YesNoTokIGTester
-from eval_hotpot_exp.utils import HotpotPredictor, get_oringinal_prediction, make_qa_data
+from eval_hotpot_exp.utils import HotpotPredictor, get_oringinal_prediction, make_qa_data, get_prediction_confidence
 from common.interp_utils import interp_metrics
 from common.dataset_utils import read_hotpot_perturbations
 
@@ -71,7 +71,10 @@ def main():
     labels = []
     for qid, meta in annotation_dict.items():
         prop_label = get_property_label(qid, meta, predictor)
-        factor = verify_example(qid, meta, tester)
+        if args.method == 'conf':
+            factor = get_prediction_confidence(meta, predictor)
+        else:
+            factor = verify_example(qid, meta, tester)
         print(qid, prop_label, factor)
         labels.append(prop_label)
         factors.append(factor)

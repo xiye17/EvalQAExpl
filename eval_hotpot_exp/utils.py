@@ -210,7 +210,13 @@ def get_oringinal_prediction(meta, predictor):
     prediction = predictor.predict([data])
     return prediction['original']
 
+def get_prediction_confidence(meta, predictor):
+    data = meta['original']
+    data['id'] = 'original'
+    _, topk = predictor.predict([data], return_prob=True)
+    return topk['original'][0]['probability']
 
+    
 # --------------------------- utils for testers --------------------------
 class HotpotTesterBase:
     split_name = 'none'

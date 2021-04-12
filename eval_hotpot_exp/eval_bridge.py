@@ -6,7 +6,7 @@ from os.path import join
 import argparse
 
 from eval_hotpot_exp.bridge_testers import BridgeArchTester, BridgeTokIGTester, BridgeAtAttrTester, BridgeLAtAttrTester
-from eval_hotpot_exp.utils import HotpotPredictor, get_oringinal_prediction, make_qa_data
+from eval_hotpot_exp.utils import HotpotPredictor, get_oringinal_prediction, make_qa_data, get_prediction_confidence
 from common.interp_utils import interp_metrics
 from common.dataset_utils import read_hotpot_perturbations
 
@@ -66,10 +66,13 @@ def main():
     annotation_dict = read_hotpot_perturbations('bridge')
     factors = []
     labels = []
-    for i, meta in annotation_dict.items():
-        adv_label = get_adv_label(i, meta, predictor)
-        factor = verify_example(i, meta, tester)
-        print(meta['quick_id'], adv_label, factor)
+    for qid, meta in annotation_dict.items():
+        adv_label = get_adv_label(qid, meta, predictor)
+        if args.method == 'conf':
+            factor = get_prediction_confidence(meta, predictor)
+        else:
+            factor = verify_example(qid, meta, tester)
+        print(qid, adv_label, factor)
         labels.append(adv_label)        
         factors.append(factor)
     interp_metrics(factors, labels)
