@@ -53,6 +53,19 @@ if [ "$ACTION" = "run" ]; then
       --max_seq_length ${MAX_SEQ_LENGTH} \
       --output_dir  predictions/${DATASET} \
       --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
+  elif [ "$METHOD" = "lime" -o "$METHOD" = "shap" ]; then
+    echo "Run perturb based method"
+    CUDA_VISIBLE_DEVICES=$DEVICES \
+    python -u run_perturb.py \
+      --variant ${METHOD} \
+      --model_type roberta \
+      --model_name_or_path checkpoints/${DATASET}_roberta-base \
+      --dataset ${DATASET} \
+      --predict_file $SQUAD_DIR/${SPLIT}_${DATASET}.json \
+      --overwrite_output_dir \
+      --max_seq_length ${MAX_SEQ_LENGTH} \
+      --output_dir  predictions/${DATASET} \
+      --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
   else
     echo "No such method" $METHOD
   fi
@@ -61,6 +74,19 @@ elif [ "$ACTION" = "vis" ]; then
     echo "Vis "${METHOD}
     CUDA_VISIBLE_DEVICES=$DEVICES \
     python -u run_${METHOD}.py \
+      --model_type roberta \
+      --tokenizer_name $MODEL_TYPE \
+      --model_name_or_path $MODEL_TYPE \
+      --dataset ${DATASET} \
+      --do_vis \
+      --output_dir  predictions/${DATASET} \
+      --predict_file $SQUAD_DIR/${SPLIT}_${DATASET}.json \
+      --interp_dir interpretations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE} \
+      --visual_dir visualizations/${METHOD}/${DATASET}_${SPLIT}_${MODEL_TYPE}
+  elif [ "$METHOD" = "lime" -o "$METHOD" = "shap" ]; then
+    echo "Vis "${METHOD}
+    CUDA_VISIBLE_DEVICES=$DEVICES \
+    python -u run_perturb.py \
       --model_type roberta \
       --tokenizer_name $MODEL_TYPE \
       --model_name_or_path $MODEL_TYPE \
