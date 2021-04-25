@@ -137,6 +137,12 @@ class BridgeTokIGTester(BridgeTesterBase):
         primary_question = [annotation['original']['primary_question']]
         return aggregated_token_attribution_in_question(self.tokenizer, interp_info, primary_question)
 
+class BridgeShapTester(BridgeTokIGTester):
+    method_name = 'shap'
+
+class BridgeLimeTester(BridgeTokIGTester):
+    method_name = 'lime'
+
 class BridgeArchTester(BridgeTesterBase):
     method_name = 'arch'
     def __init__(self):

@@ -106,6 +106,12 @@ class YesNoTokIGTester(YesNoTesterBase):
         properties = list(set(properties))
         return aggregated_token_attribution_in_context(self.tokenizer, interp_info, properties)
 
+class YesNoShapTester(YesNoTokIGTester):
+    method_name = 'shap'
+
+class YesNoLimeTester(YesNoTokIGTester):
+    method_name = 'lime'
+
 class YesNoArchTester(YesNoTesterBase):
     method_name = 'arch'
     def __init__(self):

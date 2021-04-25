@@ -3,7 +3,7 @@ import sys
 import argparse
 sys.path.append('.')
 from os.path import join
-from eval_hotpot_exp.yesno_testers import YesNoAtAttrTester, YesNoLAtAttrTester, YesNoTokIGTester, YesNoArchTester
+from eval_hotpot_exp.yesno_testers import YesNoAtAttrTester, YesNoLAtAttrTester, YesNoTokIGTester, YesNoArchTester, YesNoShapTester, YesNoLimeTester
 from eval_hotpot_exp.utils import HotpotPredictor, get_oringinal_prediction, make_qa_data, get_prediction_confidence
 from common.interp_utils import interp_metrics
 from common.dataset_utils import read_hotpot_perturbations
@@ -64,6 +64,10 @@ def main():
         tester = YesNoAtAttrTester()
     elif args.method == 'arch':
         tester = YesNoArchTester()
+    elif args.method == 'shap':
+        tester = YesNoShapTester()
+    elif args.method == 'lime':
+        tester = YesNoLimeTester()
     else:
         raise RuntimeError('No such interp method')
     annotation_dict = read_hotpot_perturbations('yesno')
