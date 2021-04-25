@@ -4,6 +4,7 @@ import logging
 import os
 import random
 import timeit
+import string
 from os.path import join
 
 import numpy as np
@@ -289,4 +290,80 @@ def aggregate_token_attribution_from_link(interp):
     dispatch_weight = np.sum(aggregated_attribution, axis=0)
     agg_weight = (gather_weight + dispatch_weight)
     
+    return agg_weight
+
+
+
+def _tokenize_to_match_the_style(tokenizer, target):
+    tokens =tokenizer.tokenize(target)
+    decoded_each_tok = [
+        bytearray([tokenizer.byte_decoder[c] for c in t]).decode("utf-8", errors=tokenizer.errors) for t in tokens
+    ]
+
+    end_points = [0]
+    force_break = False
+    for i, t in enumerate(decoded_each_tok):
+        # special token
+        if t in tokenizer.all_special_tokens:
+            end_points.append(i)
+            force_break = True
+            continue
+
+        if t in string.punctuation:
+            end_points.append(i)
+            force_break = True
+            continue
+
+        if force_break:
+            end_points.append(i)
+            force_break = False
+            continue
+
+        # if in question segment
+        if t[0] == ' ':
+            decoded_each_tok[i] = t[1:]
+            end_points.append(i)
+    end_points.append(len(decoded_each_tok))
+
+    # if in context segment
+    segments = []
+    for i in range(1, len(end_points)):
+        if end_points[i - 1] == end_points[i]:
+            continue
+        segments.append((end_points[i - 1], end_points[i]))
+    
+    merged_tokens = []
+    for s0, s1 in segments:
+        merged_tokens.append(''.join(decoded_each_tok[s0:s1]))
+    merged_tokens = [x.lstrip() for x in merged_tokens]
+    return merged_tokens
+
+def extract_segments_from_merged_tokens(tokenizer, target, merged_tokens, include_question=True, include_context=True):    
+    sub_tokens = _tokenize_to_match_the_style(tokenizer, target)
+    context_start = merged_tokens.index(tokenizer.eos_token)
+    range_left = 0 if include_question else context_start
+    range_right = len(merged_tokens) if include_context else context_start
+    len_sub_tokens = len(sub_tokens)
+    # print(merged_tokens)        
+    # match_func = lambda x: ' '.join(merged_tokens[x: (x + len_sub_tokens)]) == target
+    def match_func(x):
+        sent = merged_tokens[x: (x + len_sub_tokens)]
+        # sent = sent.replace(' ,', ',')
+        # print(target, '--Match--', '[' + sent + ']', x, x + len_sub_tokens)
+        return sent == sub_tokens
+    start_positions = [i for i in range(range_left, range_right) if match_func(i)]
+    segments = [(s, s + len(sub_tokens)) for s in start_positions]    
+    return segments
+
+def aggregate_token_attribution_from_arch(interp, merged_tokens):
+    importance = interp['importance']
+
+    attribution = np.zeros((len(merged_tokens), len(merged_tokens)))
+    for (i, j, imp, report) in importance:
+        attribution[i, j] = report['keep_i_j'] - report['zero']
+    aggregated_attribution = attribution
+    aggregated_attribution[aggregated_attribution < 0] = 0
+    gather_weight = np.sum(aggregated_attribution, axis=1)
+    dispatch_weight = np.sum(aggregated_attribution, axis=0)
+    agg_weight = (gather_weight + dispatch_weight)    
     return agg_weight

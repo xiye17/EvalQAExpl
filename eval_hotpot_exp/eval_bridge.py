@@ -5,7 +5,7 @@ sys.path.append('.')
 from os.path import join
 import argparse
 
-from eval_hotpot_exp.bridge_testers import BridgeArchTester, BridgeTokIGTester, BridgeAtAttrTester, BridgeLAtAttrTester
+from eval_hotpot_exp.bridge_testers import BridgeArchTester, BridgeTokIGTester, BridgeAtAttrTester, BridgeLAtAttrTester, BridgeArchTester
 from eval_hotpot_exp.utils import HotpotPredictor, get_oringinal_prediction, make_qa_data, get_prediction_confidence
 from common.interp_utils import interp_metrics
 from common.dataset_utils import read_hotpot_perturbations
@@ -60,7 +60,7 @@ def main():
     elif args.method == 'atattr':
         tester = BridgeAtAttrTester()
     elif args.method == 'arch':
-        pass
+        tester = BridgeArchTester()
     else:
         raise RuntimeError('No such interp method')
     annotation_dict = read_hotpot_perturbations('bridge')
